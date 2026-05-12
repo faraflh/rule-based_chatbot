@@ -1,0 +1,153 @@
+{
+  "intents": [
+    {
+      "intent": "after_sidang_sitei_overview",
+      "keywords": [
+        "after sidang sitei",
+        "alur nilai sitei",
+        "keluar nilai sidang",
+        "langkah after sidang",
+        "status lulus sitei"
+      ],
+      "response": "Alur after sidang untuk keluarnya nilai di SITEI meliputi pengurusan bebas lab, revisi skripsi dan STI-16, bebas pustaka UNRI, cetak pas foto dan materai, cetak skripsi serta STI-17, minta tanda tangan, minta cap dokumen, siapkan folder skripsi, serahkan ke perpustakaan teknik, serahkan ke perpustakaan UNRI, lalu upload dokumen akhir ke SITEI agar status lulus dan keterangan nilai keluar."
+    },
+    {
+      "intent": "bebas_lab_sitei",
+      "keywords": [
+        "bebas lab",
+        "surat bebas lab",
+        "ttd plp",
+        "pak jatwoko",
+        "pak ramdani",
+        "pak dedi fermana",
+        "pak anhar"
+      ],
+      "response": "Untuk mengurus surat keterangan bebas lab, minta tanda tangan PLP 3 orang yaitu Pak Jatwoko dari Lab Jarkom, Pak Ramdani dari Lab Dasar TE, dan Pak Dedi Fermana dari Lab Telkom. Setelah itu minta tanda tangan dan cap Pak Anhar. Formulir wisuda yang sudah diisi lengkap juga bisa dibawa sekalian untuk ditandatangani Pak Anhar. Kontak yang tercantum adalah Pak Jatwoko 082112864224 dan Pak Ramdani 085265209642."
+    },
+    {
+      "intent": "revisi_skripsi_sitei",
+      "keywords": [
+        "revisi skripsi",
+        "sti 16",
+        "sitei",
+        "pak nanda",
+        "turnitin",
+        "lembar kontrol perbaikan"
+      ],
+      "response": "Untuk revisi skripsi, unduh lembar perbaikan STI-16 di SITEI. Jika sampai satu hari setelah sidang belum tersedia, hubungi Pak Nanda agar diproses. Lakukan revisi sesuai lembar perbaikan, konsultasikan ke dosen pembimbing, lalu minta dosen pembimbing menandatangani lembar perbaikan setelah revisi disetujui. Simpan lembar kontrol perbaikan untuk map biru berita acara dan pastikan hasil Turnitin maksimal 20 persen."
+    },
+    {
+      "intent": "bebas_pustaka_sitei",
+      "keywords": [
+        "bebas pustaka",
+        "surat bebas pustaka",
+        "perpustakaan unri",
+        "e-form",
+        "lib unri"
+      ],
+      "response": "Untuk surat keterangan bebas pustaka, buka https://lib.unri.ac.id/e-form/, pilih Surat Keterangan Bebas Pustaka, lalu ikuti petunjuk pada halaman tersebut. Setelah submit, tunggu kurang lebih 1x24 jam dan cek email secara berkala."
+    },
+    {
+      "intent": "pas_foto_materai_sitei",
+      "keywords": [
+        "pas foto",
+        "foto 3x4",
+        "background merah",
+        "materai",
+        "syarat foto"
+      ],
+      "response": "Siapkan pas foto ukuran 3x4 dengan background merah, kualitas HD, dan tanpa garis putih di pinggir. Disarankan menyiapkan minimal 6 lembar untuk cadangan. Selain itu, beli 1 lembar materai."
+    },
+    {
+      "intent": "cetak_skripsi_sti17_sitei",
+      "keywords": [
+        "cetak skripsi",
+        "sti 17",
+        "hardcover merah",
+        "berapa rangkap",
+        "halaman pengesahan"
+      ],
+      "response": "Cetak skripsi hardcover merah sebanyak 2 sampai 4 rangkap sesuai kebutuhan. Biasanya untuk dosen pembimbing, prodi ke Kak Aisyah, dan opsional untuk perpustakaan fakultas teknik beserta CD. Untuk perpustakaan UNRI, skripsi fisik tidak wajib karena penyerahannya dilakukan online. Lebihkan cetak halaman pengesahan sebanyak 2 lembar untuk map merah dan pengambilan berita acara, lalu cetak STI-17. Disarankan membuat CD setelah lembar pengesahan sudah ditandatangani dan dicap Pak Feri."
+    },
+    {
+      "intent": "minta_ttd_sitei",
+      "keywords": [
+        "minta ttd",
+        "ttd skripsi",
+        "pak feri",
+        "dosen pembimbing",
+        "sti 24",
+        "tutup teori"
+      ],
+      "response": "Pada tahap minta tanda tangan, dokumen yang perlu ditandatangani adalah skripsi dan 2 lembar halaman pengesahan tambahan. Tanda tangan diminta ke dosen pembimbing dan Pak Feri. Anda juga bisa sekalian mengurus Surat Keterangan Tutup Teori STI-24 ke Pak Feri dan nanti meminta cap-nya ke Kak Aisyah."
+    },
+    {
+      "intent": "minta_cap_sitei",
+      "keywords": [
+        "minta cap",
+        "cap skripsi",
+        "kak aisyah",
+        "sti-17 perpustakaan jurusan",
+        "scan dokumen"
+      ],
+      "response": "Setelah dokumen dari poin tanda tangan dan bebas lab sudah ditandatangani, minta cap untuk semua dokumen tersebut. Minta juga Kak Aisyah menandatangani STI-17 pada bagian Perpustakaan Jurusan. Setelah selesai, scan semua dokumen yang sudah dicap lalu masukkan ke dalam naskah skripsi."
+    },
+    {
+      "intent": "folder_skripsi_sitei",
+      "keywords": [
+        "folder skripsi",
+        "format folder skripsi",
+        "word pdf",
+        "nama file skripsi",
+        "format cd"
+      ],
+      "response": "Siapkan 1 folder utama yang berisi 2 subfolder yaitu Word dan PDF. Masing-masing subfolder berisi 10 file: 1_Cover_NIM_Nama, 2_Daftar Isi_NIM_Nama, 3_Abstrak_NIM_Nama, 4_BAB 1_NIM_Nama, 5_BAB 2_NIM_Nama, 6_BAB 3_NIM_Nama, 7_BAB 4_NIM_Nama, 8_BAB 5_NIM_Nama, 9_Daftar Pustaka_NIM_Nama, dan 10_Lampiran_NIM_Nama. Semua halaman harus urut sesuai buku skripsi dan semua halaman yang membutuhkan tanda tangan harus sudah lengkap."
+    },
+    {
+      "intent": "perpustakaan_teknik_sitei",
+      "keywords": [
+        "perpustakaan teknik",
+        "admin perpus teknik",
+        "serah cd skripsi",
+        "blanko perpus",
+        "sti-17 perpustakaan fakultas"
+      ],
+      "response": "Untuk penyerahan ke Perpustakaan Teknik, buat CD yang berisi folder skripsi dan siapkan 1 pas foto. Serahkan CD yang wajib dan buku skripsi yang opsional ke admin perpustakaan teknik. Setelah CD diperiksa, admin akan memberikan 4 lembar blanko untuk diisi. Serahkan kembali blanko yang sudah diisi beserta 1 pas foto, lalu minta admin menandatangani dan mencap STI-17 pada bagian Perpustakaan Fakultas."
+    },
+    {
+      "intent": "perpustakaan_unri_sitei",
+      "keywords": [
+        "perpustakaan unri",
+        "e-form tugas akhir",
+        "zip rar",
+        "tanda terima",
+        "ktp ktm"
+      ],
+      "response": "Untuk penyerahan ke Perpustakaan UNRI, siapkan file Word dan PDF dari folder skripsi lalu kompres masing-masing ke format ZIP atau RAR. Siapkan juga surat bebas pustaka UNRI dari email balasan perpustakaan, serta KTP dan KTM. Buka e-form tugas akhir di https://lib.unri.ac.id/e-form/, isi sesuai petunjuk, lalu tunggu email balasan berupa surat Tanda Terima dengan estimasi maksimal 1x24 jam kerja."
+    },
+    {
+      "intent": "upload_sitei_final",
+      "keywords": [
+        "upload sitei",
+        "merge sti-17",
+        "tanda terima",
+        "naskah skripsi pdf",
+        "nilai keluar sitei"
+      ],
+      "response": "Sebelum upload ke SITEI, gabungkan scan STI-17 dengan surat Tanda Terima dari Perpustakaan UNRI menjadi 1 file. Siapkan juga naskah skripsi lengkap dalam 1 file PDF beserta scan halaman yang perlu cap dan tanda tangan. Setelah itu buka SITEI dan selesaikan tahap akhir mengenai bukti penyerahan buku skripsi agar status lulus dan keterangan nilai bisa keluar."
+    },
+    {
+      "intent": "kontak_dan_pihak_terkait_sitei",
+      "keywords": [
+        "siapa yang dihubungi",
+        "kontak after sidang",
+        "staff after sidang",
+        "pak jatwoko nomor",
+        "pak ramdani nomor",
+        "pak feri",
+        "kak aisyah"
+      ],
+      "response": "Pihak yang terlibat dalam alur after sidang ini antara lain Pak Jatwoko, Pak Ramdani, Pak Dedi Fermana, Pak Anhar, dosen pembimbing, Pak Feri, Kak Aisyah, admin Perpustakaan Teknik atau Fakultas, dan Perpustakaan UNRI. Nomor yang tercantum dalam dokumen adalah Pak Jatwoko 082112864224 dan Pak Ramdani 085265209642."
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "intents": [
+    {
+      "intent": "map_biru_overview",
+      "keywords": [
+        "map biru",
+        "isi map biru",
+        "dokumen map biru",
+        "berkas map biru",
+        "after sidang map biru"
+      ],
+      "response": "Isi map biru after sidang Informatika mencakup dokumen administrasi utama seperti STI-20 bebas administrasi prodi, STI-16 lembar kontrol perbaikan, STI-18 biodata alumni, STI-17 bukti penyerahan buku skripsi, STI-24 suket tutup teori, transkrip nilai, halaman pengesahan skripsi, surat bebas lab, formulir wisuda, dan hasil Turnitin maksimal 20 persen."
+    },
+    {
+      "intent": "sti20_bebas_administrasi_prodi",
+      "keywords": [
+        "sti 20",
+        "sti-20",
+        "bebas administrasi prodi",
+        "surat keterangan bebas administrasi prodi"
+      ],
+      "response": "Untuk STI-20 Surat Keterangan Bebas Administrasi Prodi, langkahnya adalah minta paraf Kak Aisyah, lalu minta tanda tangan Pak Feri, kemudian minta cap tanda tangan Pak Feri dengan kembali lagi ke Kak Aisyah."
+    },
+    {
+      "intent": "sti16_lembar_kontrol_perbaikan",
+      "keywords": [
+        "sti 16",
+        "sti-16",
+        "lembar kontrol perbaikan",
+        "lembar perbaikan",
+        "ttd dosen pembimbing"
+      ],
+      "response": "STI-16 Lembar Kontrol Perbaikan perlu ditandatangani oleh dosen pembimbing. Dokumen ini termasuk salah satu isi map biru."
+    },
+    {
+      "intent": "sti18_biodata_alumni",
+      "keywords": [
+        "sti 18",
+        "sti-18",
+        "biodata alumni",
+        "form biodata alumni",
+        "pas foto alumni"
+      ],
+      "response": "Untuk STI-18 Biodata Alumni, isi form biodata alumni, tempel pas foto, lalu tanda tangani sebagai mahasiswa. Dokumen ini masuk ke map biru."
+    },
+    {
+      "intent": "sti17_bukti_penyerahan_buku_skripsi",
+      "keywords": [
+        "sti 17",
+        "sti-17",
+        "bukti penyerahan buku skripsi",
+        "form penyerahan skripsi"
+      ],
+      "response": "STI-17 Form Bukti Penyerahan Buku Skripsi adalah dokumen yang sudah disiapkan di sheet after sidang. Dokumen ini memerlukan tanda tangan dosen pembimbing, admin perpustakaan teknik atau fakultas, dan admin perpustakaan jurusan yaitu Kak Aisyah."
+    },
+    {
+      "intent": "sti24_tutup_teori",
+      "keywords": [
+        "sti 24",
+        "sti-24",
+        "tutup teori",
+        "suket tutup teori",
+        "surat bebas teori"
+      ],
+      "response": "STI-24 Surat Keterangan Tutup Teori perlu ditandatangani oleh Pak Feri dan pembimbing akademik. Dokumen ini termasuk isi map biru."
+    },
+    {
+      "intent": "transkrip_nilai",
+      "keywords": [
+        "transkrip nilai",
+        "ambil transkrip",
+        "minta transkrip",
+        "tu"
+      ],
+      "response": "Transkrip nilai diminta di TU. Dokumen ini termasuk salah satu berkas yang perlu dimasukkan ke map biru."
+    },
+    {
+      "intent": "halaman_pengesahan_skripsi",
+      "keywords": [
+        "halaman pengesahan",
+        "lembar pengesahan tugas akhir",
+        "ttd pengesahan skripsi",
+        "pengesahan skripsi"
+      ],
+      "response": "Halaman Pengesahan Skripsi termasuk dokumen map biru dan perlu tanda tangan dosen pembimbing serta Pak Feri."
+    },
+    {
+      "intent": "surat_bebas_lab",
+      "keywords": [
+        "surat bebas lab",
+        "bebas laboratorium",
+        "surat keterangan bebas lab",
+        "bebas lab"
+      ],
+      "response": "Surat Keterangan Bebas Lab termasuk dokumen yang masuk ke map biru. Dokumen ini juga biasanya menjadi bagian yang perlu dilengkapi dalam alur after sidang."
+    },
+    {
+      "intent": "formulir_wisuda",
+      "keywords": [
+        "formulir wisuda",
+        "ttd pak anhar",
+        "berkas wisuda"
+      ],
+      "response": "Formulir Wisuda termasuk isi map biru dan memerlukan tanda tangan Pak Anhar."
+    },
+    {
+      "intent": "hasil_turnitin",
+      "keywords": [
+        "turnitin",
+        "hasil turnitin",
+        "maksimal 20 persen",
+        "print turnitin"
+      ],
+      "response": "Hasil Turnitin dengan batas maksimal 20 persen perlu disiapkan dan dicetak sendiri. Dokumen ini termasuk isi map biru."
+    },
+    {
+      "intent": "map_merah_overview",
+      "keywords": [
+        "map merah",
+        "isi map merah",
+        "dokumen map merah",
+        "berkas map merah"
+      ],
+      "response": "Isi map merah mencakup formulir pendaftaran wisuda, pas foto latar merah, fotocopy KTM, KTP, KK, surat bebas pustaka UNRI, bukti penyerahan skripsi dari pustaka UNRI dan Fakultas Teknik, fotocopy ijazah SLTA, SK yudisium atau berita acara ujian, surat bebas laboratorium, surat pernyataan, sertifikat TOEFL, surat bebas teori, lembar pengesahan tugas akhir, dan map biasa warna merah."
+    },
+    {
+      "intent": "persyaratan_foto_dan_fotokopi_map_merah",
+      "keywords": [
+        "pas foto map merah",
+        "fotocopy ktp",
+        "fotocopy ktm",
+        "fotocopy kk",
+        "fotocopy ijazah",
+        "berkas fotokopi wisuda"
+      ],
+      "response": "Dalam map merah perlu disiapkan foto berwarna latar belakang merah ukuran 3x4 sebanyak 2 lembar tanpa bingkai putih, fotocopy KTM dalam satu lembar kertas, fotocopy KTP rangkap 3, fotocopy KK rangkap 2, dan fotocopy ijazah SLTA atau SARMUD rangkap 2."
+    },
+    {
+      "intent": "berkas_perpustakaan_unri_map_merah",
+      "keywords": [
+        "surat bebas pustaka unri",
+        "bukti penyerahan skripsi unri",
+        "web pustaka unri",
+        "berkas perpustakaan unri"
+      ],
+      "response": "Di map merah perlu ada surat keterangan bebas pustaka UNRI dan bukti penyerahan skripsi dari pustaka UNRI. Keduanya berasal dari web pustaka UNRI."
+    },
+    {
+      "intent": "bukti_penyerahan_skripsi_fakultas",
+      "keywords": [
+        "bukti penyerahan skripsi fakultas teknik",
+        "perpus teknik",
+        "bukti pustaka fakultas"
+      ],
+      "response": "Bukti Penyerahan Skripsi dari Pustaka Fakultas Teknik dimasukkan ke map merah. Dokumen ini didapat saat menyerahkan skripsi ke perpustakaan teknik."
+    },
+    {
+      "intent": "sk_yudisium_berita_acara",
+      "keywords": [
+        "sk yudisium",
+        "berita acara ujian",
+        "fotocopy berita acara",
+        "dari kak aisyah"
+      ],
+      "response": "Fotocopy SK Yudisium atau Berita Acara Ujian rangkap 2 termasuk isi map merah. Pada catatan sumber, dokumen ini diperoleh dari Kak Aisyah."
+    },
+    {
+      "intent": "surat_pernyataan_toefl_bebas_teori",
+      "keywords": [
+        "surat pernyataan",
+        "sertifikat toefl",
+        "surat bebas teori",
+        "bebas teori prodi"
+      ],
+      "response": "Map merah juga perlu memuat surat pernyataan, fotocopy sertifikat TOEFL, surat keterangan bebas teori dari program studi, dan lembar pengesahan tugas akhir."
+    },
+    {
+      "intent": "struktur_map_awal_dan_final",
+      "keywords": [
+        "map biru awal",
+        "map merah awal",
+        "map biru final",
+        "map merah final",
+        "struktur map"
+      ],
+      "response": "Struktur map dibagi menjadi empat bagian. Map biru awal adalah map biru sebelum berita acara terbit. Map merah awal adalah fotocopy map merah yang akan digabung ke map biru final. Map biru final adalah gabungan fotocopy map biru awal dan map merah awal masing-masing 1 rangkap. Map merah final adalah semua map merah asli yang nantinya diberikan ke TU lantai 1."
+    },
+    {
+      "intent": "alur_day1",
+      "keywords": [
+        "day 1",
+        "alur day-1",
+        "langkah hari pertama",
+        "nomor surat",
+        "berita acara"
+      ],
+      "response": "Pada Day-1, siapkan semua map biru dan map merah, lalu buka portal mahasiswa pada menu Kelulusan ke Tugas Akhir untuk input topik dan judul tugas akhir. Bawa semua isi map biru awal ke Kak Aisyah untuk meminta nomor surat pada poin 1, 5, dan 8, sekaligus meminta berita acara. Berita acara itu dimasukkan ke map merah awal. Setelah diberi nomor, fotocopy semua isi map biru dan map merah masing-masing 1 rangkap untuk Kak Aisyah, masukkan gabungannya ke map biru final, lalu minta cap ke Kak Aisyah pada 3 surat yang diberi nomor dan serahkan map biru final."
+    },
+    {
+      "intent": "portal_skl_skpi_wisuda",
+      "keywords": [
+        "skl",
+        "portal mahasiswa",
+        "skpi",
+        "dokumen persyaratan ijazah",
+        "pak yendra",
+        "pilihan wisuda"
+      ],
+      "response": "Setelah mendapatkan SKL, buka portal mahasiswa UNRI. Pada menu Kelulusan ke Tugas Akhir, isi dokumen persyaratan tugas akhir seperti rekap pembayaran SPP, surat bebas pustaka, sertifikat TOEFL, dan LOA publikasi jurnal. Lalu buka menu Kelulusan ke SKPI untuk mengisi datanya. Setelah itu buka menu Kelulusan ke Dokumen Persyaratan Ijazah untuk upload dokumen seperti scan ijazah akhir, SKL, KTP, dan KK. Setelah semua terisi, minta Pak Yendra menyetujui dokumen yang diunggah. Jika sudah disetujui, pilih jadwal wisuda di menu Kelulusan ke Wisuda."
+    },
+    {
+      "intent": "alur_day2",
+      "keywords": [
+        "day 2",
+        "alur day-2",
+        "tu dekanat lantai 1",
+        "checklist ijazah",
+        "map merah final"
+      ],
+      "response": "Pada Day-2, siapkan map merah final dan print checklist ijazah. Fotocopy surat pernyataan 1 rangkap, surat bebas lab 1 rangkap, dan berita acara 3 rangkap lalu simpan sampai diminta. Susun isi map merah final berupa surat asli sesuai urutan checklist ijazah, lalu tulis nama diri dan asal prodi di bagian luar map merah dengan teliti. Serahkan map tersebut ke pegawai TU dekanat lantai 1. Tunggu sampai berkas diperiksa, perbaiki jika ada yang kurang, lalu berikan fotocopy berita acara ke Pak Yendra dan scan link permintaan SKL."
+    },
+    {
+      "intent": "wisuda_setelah_semua_selesai",
+      "keywords": [
+        "setelah selesai",
+        "tunggu wisuda",
+        "jadwal wisuda",
+        "selesai after sidang"
+      ],
+      "response": "Setelah semua tahapan administrasi selesai dan dokumen portal sudah disetujui, tahap berikutnya adalah menunggu jadwal wisuda sesuai pilihan wisuda yang sudah disetujui di portal."
+    }
+  ]
+}

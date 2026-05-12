@@ -1,0 +1,102 @@
+[
+  {
+    "intent": "info_dosen_irsan_taufik_ali",
+    "keywords": ["irsan", "irsan taufik", "irsan ali"],
+    "response": "Nama: Dr. Irsan Taufik Ali, S.T., M.T.\nNIP: 198005102005011003\nJabatan: Lektor Kepala\nBidang Ilmu: Teknik Elektro\nEmail: irsan.ali@lecturer.unri.ac.id"
+  },
+  {
+    "intent": "info_dosen_dahliyusmanto",
+    "keywords": ["dahliyusmanto", "dahli"],
+    "response": "Nama: Dr. Dahliyusmanto, S.Kom., M.Sc\nNIP: 197204222006041001\nJabatan: Lektor Kepala\nBidang Ilmu: Computer Science\nEmail: dahliyusmanto@lecturer.unri.ac.id"
+  },
+  {
+    "intent": "info_dosen_noveri_marpaung",
+    "keywords": ["noveri", "lysbetti", "marpaung"],
+    "response": "Nama: Noveri Lysbetti Marpaung, S.T., M.Sc\nNIP: 197311271999032002\nJabatan: Lektor Kepala\nBidang Ilmu: Elektro\nEmail: noveri.marpaung@eng.unri.ac.id"
+  },
+  {
+    "intent": "info_dosen_feri_candra",
+    "keywords": ["feri", "feri candra"],
+    "response": "Nama: Dr. Feri Candra, S.T., M.T.\nNIP: 197404282002121003\nJabatan: Lektor\nBidang Ilmu: Electronics and Computer Engineering\nEmail: feri@eng.unri.ac.id"
+  },
+  {
+    "intent": "info_dosen_linna_oktaviana",
+    "keywords": ["linna", "linna oktaviana"],
+    "response": "Nama: Linna Oktaviana Sari, S.T., M.T.\nNIP: 197910152006042002\nJabatan: Lektor\nBidang Ilmu: Teknik Elektro\nEmail: linnaoasari@lecturer.unri.ac.id"
+  },
+  {
+    "intent": "info_dosen_rahyul_amri",
+    "keywords": ["rahyul", "rahyul amri"],
+    "response": "Nama: Rahyul Amri, S.T., M.T.\nNIP: 196707231999031001\nJabatan: Lektor\nBidang Ilmu: Teknik Elektro - Jaringan Cerdas Multimedia\nEmail: rahyulamri@lecturer.unri.ac.id"
+  },
+  {
+    "intent": "info_dosen_salhazan_nasution",
+    "keywords": ["salhazan", "nasution"],
+    "response": "Nama: Salhazan Nasution, S.Kom., MIT.\nNIP: 198611112009121006\nJabatan: Lektor\nBidang Ilmu: Management Information System\nEmail: salhazan@lecturer.unri.ac.id"
+  },
+  {
+    "intent": "info_dosen_yudi_hadiwandra",
+    "keywords": ["yudi", "hadiwandra", "t yudi"],
+    "response": "Nama: T. Yudi Hadiwandra, S.Kom., M.Kom\nNIP: 197207122000121002\nJabatan: Lektor\nBidang Ilmu: Ilmu Komputer\nEmail: tyudihw@lecturer.unri.ac.id\nKeterangan: Kaprodi (Kepala Program Studi) / Koordinator Prodi Teknik Informatika"
+  },
+  {
+    "intent": "info_dosen_edi_susilo",
+    "keywords": ["edi", "edi susilo"],
+    "response": "Nama: Edi Susilo, S.Pd., M.Kom., M.Eng\nNIP: 199110292019031010\nJabatan: Lektor\nBidang Ilmu: Teknik Informatika\nEmail: edi.susilo@lecturer.unri.ac.id"
+  },
+  {
+    "intent": "info_dosen_rahmat_rizal",
+    "keywords": ["rahmat", "rizal"],
+    "response": "Nama: Rahmat Rizal Andhi, S.T., M.T.\nNIP: 198312032019031006\nJabatan: Lektor\nBidang Ilmu: Teknik Elektro\nEmail: rahmat.rizal@lecturer.unri.ac.id"
+  },
+  {
+    "intent": "info_dosen_dian_ramadhani",
+    "keywords": ["dian", "ramadhani"],
+    "response": "Nama: Dian Ramadhani, S.T., M.T.\nNIP: 198805052020122012\nJabatan: Asisten Ahli\nBidang Ilmu: Informatika\nEmail: dianramadhani@lecturer.unri.ac.id"
+  },
+  {
+    "intent": "info_dosen_aisha_gemala",
+    "keywords": ["aisha", "gemala"],
+    "response": "Nama: Aisha Gemala Jondya, S.Kom., M.T.I.\nNIP: 199205162024062002\nJabatan: -\nBidang Ilmu: Computational Intelligence\nEmail: aisha.gemala@lecturer.unri.ac.id"
+  },
+  {
+    "intent": "info_dosen_khairul_umam",
+    "keywords": ["khairul", "umam"],
+    "response": "Nama: Khairul Umam Syaliman, S.T., M.Kom.\nNIP: 199206212024061001\nJabatan: -\nBidang Ilmu: Teknik Informatika\nEmail: khairul.umam@lecturer.unri.ac.id"
+  },
+  {
+    "intent": "info_dosen_nanda_dwi",
+    "keywords": ["nanda", "dwi putra"],
+    "response": "Nama: Nanda Dwi Putra, S.Kom., M.Kom.\nNIP: 199201262024061004\nJabatan: -\nBidang Ilmu: Sistem Informasi Enterprise\nEmail: nanda.dwi@lecturer.unri.ac.id"
+  },
+  {
+    "intent": "info_dosen_reny_fitri",
+    "keywords": ["reny", "fitri yani"],
+    "response": "Nama: Reny Fitri Yani, S.T., M.T.\nNIP: 199012282024062001\nJabatan: -\nBidang Ilmu: Rekayasa Perangkat Lunak\nEmail: reny.fitriyani1228@lecturer.unri.ac.id"
+  },
+  {
+    "intent": "info_dosen_radinal_dwiki",
+    "keywords": ["radinal", "dwiki"],
+    "response": "Nama: Radinal Dwiki Novendra, S.T., M.T.\nNIP: 199611292025061004\nJabatan: -\nBidang Ilmu: Teknik Informatika\nEmail: radinal.dwiki@lecturer.unri.ac.id"
+  },
+  {
+    "intent": "info_dosen_ririn_violina",
+    "keywords": ["ririn", "violina"],
+    "response": "Nama: Ririn Violina, M.Kom\nNIP: 200009222025062005\nJabatan: -\nBidang Ilmu: Teknik Informatika\nEmail: ririn.violina@lecturer.unri.ac.id"
+  },
+  {
+    "intent": "info_koordinator_prodi_ti",
+    "keywords": ["kaprodi", "kepala prodi", "kepala program studi", "kaprodi ti", "kaprodi teknik informatika", "koordinator prodi", "koprodi", "koordinator program studi", "koprodi ti", "koordinator teknik informatika"],
+    "response": "Koordinator Program Studi Teknik Informatika:\n\n1. T. Yudi Hadiwandra, S.Kom., M.Kom\n   NIP: 197207122000121002\n   Email: tyudihw@lecturer.unri.ac.id"
+  },
+  {
+    "intent": "info_jumlah_dosen_ti",
+    "keywords": ["jumlah dosen", "berapa dosen", "total dosen", "jumlah dosen ti", "berapa dosen ti", "total dosen teknik informatika", "dosen teknik informatika berapa", "ada berapa dosen"],
+    "response": "Jumlah Dosen Program Studi Teknik Informatika:\n\nTotal: 17 orang dosen\n\nKomposisi berdasarkan jabatan:\n• Lektor Kepala: 3 orang\n• Lektor: 8 orang\n• Asisten Ahli: 1 orang\n• Dosen (tanpa jabatan): 5 orang\n\nCatatan: Data ini mencakup semua dosen yang terdaftar dalam sistem Program Studi Teknik Informatika."
+  },
+  {
+    "intent": "daftar_nama_dosen_ti",
+    "keywords": ["siapa aja dosen", "siapa saja dosen", "daftar dosen", "nama dosen", "dosen ti siapa aja", "dosen teknik informatika siapa saja", "list dosen", "semua dosen", "nama-nama dosen"],
+    "response": "Daftar Nama Dosen Program Studi Teknik Informatika:\n\n1. Dr. Irsan Taufik Ali, S.T., M.T.\n2. Dr. Dahliyusmanto, S.Kom., M.Sc\n3. Noveri Lysbetti Marpaung, S.T., M.Sc\n4. Dr. Feri Candra, S.T., M.T.\n5. Linna Oktaviana Sari, S.T., M.T.\n6. Rahyul Amri, S.T., M.T.\n7. Salhazan Nasution, S.Kom., MIT.\n8. T. Yudi Hadiwandra, S.Kom., M.Kom\n9. Edi Susilo, S.Pd., M.Kom., M.Eng\n10. Rahmat Rizal Andhi, S.T., M.T.\n11. Dian Ramadhani, S.T., M.T.\n12. Aisha Gemala Jondya, S.Kom., M.T.I.\n13. Khairul Umam Syaliman, S.T., M.Kom.\n14. Nanda Dwi Putra, S.Kom., M.Kom.\n15. Reny Fitri Yani, S.T., M.T.\n16. Radinal Dwiki Novendra, S.T., M.T.\n17. Ririn Violina, M.Kom\n\nTotal: 17 dosen"
+  }
+]

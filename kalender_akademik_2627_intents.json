@@ -1,0 +1,1417 @@
+[
+  {
+    "intent": "pendaftaran_pascasarjana_gel1_genap",
+    "keywords": [
+      "daftar s2 gelombang 1",
+      "pendaftaran s2 gelombang 1",
+      "pendaftaran pascasarjana gelombang 1 genap",
+      "registrasi s2 gel 1",
+      "jadwal pendaftaran s2 gelombang 1",
+      "pmb pascasarjana gelombang 1"
+    ],
+    "response": "Pendaftaran PMB Pascasarjana Gelombang 1 (Semester Genap) dilaksanakan secara online pada 1 Agustus 2026 sampai 25 September 2026."
+  },
+  {
+    "intent": "pembayaran_spp_ganjil",
+    "keywords": [
+      "bayar spp ganjil",
+      "pembayaran ukt ganjil",
+      "masa pembayaran spp",
+      "kapan bayar spp semester ganjil",
+      "jadwal bayar ukt ganjil",
+      "batas pembayaran spp ganjil"
+    ],
+    "response": "Masa Pembayaran SPP/UKT Semester Ganjil dilaksanakan pada 1 Juli 2026 sampai 18 Juli 2026."
+  },
+  {
+    "intent": "cuti_akademik_ganjil",
+    "keywords": [
+      "cuti akademik",
+      "pengajuan cuti ganjil",
+      "permohonan cuti akademik",
+      "kapan bisa ajukan cuti",
+      "batas cuti akademik ganjil",
+      "jadwal cuti akademik"
+    ],
+    "response": "Masa Pengajuan Permohonan Cuti Akademik Semester Ganjil dilaksanakan pada 1 Juli 2026 sampai 24 Agustus 2026."
+  },
+  {
+    "intent": "daftar_ulang_snbt",
+    "keywords": [
+      "daftar ulang snbt",
+      "pendaftaran ulang utbk snbt",
+      "registrasi ulang snbt",
+      "jadwal daftar ulang snbt",
+      "kapan daftar ulang snbt"
+    ],
+    "response": "Pendaftaran Ulang Jalur Penerimaan UTBK-SNBT dilaksanakan pada 1 Juni 2026 sampai 13 Juni 2026."
+  },
+  {
+    "intent": "update_biodata_snbt",
+    "keywords": [
+      "update biodata snbt",
+      "upload dokumen snbt",
+      "biodata snbt",
+      "kapan upload dokumen snbt"
+    ],
+    "response": "Update biodata dan Upload Dokumen Jalur Penerimaan UTBK-SNBT dilaksanakan pada 1 Juni 2026 sampai 5 Juni 2026."
+  },
+  {
+    "intent": "verifikasi_dokumen_snbt",
+    "keywords": [
+      "verifikasi dokumen snbt",
+      "verifikasi akademik snbt",
+      "verifikasi ukt snbt",
+      "jadwal verifikasi snbt"
+    ],
+    "response": "Verifikasi Dokumen Akademik dan UKT Jalur Penerimaan UTBK-SNBT dilaksanakan pada 1 Juni 2026 sampai 5 Juni 2026."
+  },
+  {
+    "intent": "dies_natalis",
+    "keywords": [
+      "dies natalis",
+      "ulang tahun kampus",
+      "hari jadi universitas",
+      "kapan dies natalis"
+    ],
+    "response": "Dies Natalis dilaksanakan pada 1 Oktober 2026."
+  },
+  {
+    "intent": "utbk_pascasarjana_gel1_genap",
+    "keywords": [
+      "utbk pascasarjana gelombang 1",
+      "tes utbk s2 gelombang 1",
+      "ujian tulis pascasarjana gel 1 genap",
+      "kapan utbk s2 gel 1"
+    ],
+    "response": "Pelaksanaan UTBK Pascasarjana Gelombang 1 (Semester Genap) dilaksanakan pada 1 Oktober 2026."
+  },
+  {
+    "intent": "verifikasi_status_mahasiswa_ganjil",
+    "keywords": [
+      "verifikasi data mahasiswa ganjil",
+      "verifikasi status mahasiswa",
+      "kapan verifikasi data mahasiswa ganjil",
+      "jadwal verifikasi status"
+    ],
+    "response": "Verifikasi Data Status Mahasiswa Semester Ganjil dilaksanakan pada 1 September 2026 sampai 4 September 2026."
+  },
+  {
+    "intent": "pembatalan_krs_genap",
+    "keywords": [
+      "batal krs genap",
+      "pembatalan krs genap",
+      "batal matakuliah genap",
+      "kapan pembatalan krs genap",
+      "jadwal pembatalan krs semester genap"
+    ],
+    "response": "Pembatalan KRS Tanpa Penggantian Matakuliah Semester Genap dilaksanakan pada 2 Februari 2027 sampai 14 Februari 2027."
+  },
+  {
+    "intent": "daftar_ulang_smm",
+    "keywords": [
+      "daftar ulang smm",
+      "pendaftaran ulang smm ptn barat",
+      "registrasi ulang smm",
+      "jadwal daftar ulang smm"
+    ],
+    "response": "Pendaftaran Ulang Jalur SMM-PTN Barat dilaksanakan pada 2 Juli 2026 sampai 13 Juli 2026."
+  },
+  {
+    "intent": "update_biodata_smm",
+    "keywords": [
+      "update biodata smm",
+      "upload dokumen smm",
+      "biodata smm ptn barat",
+      "kapan upload dokumen smm"
+    ],
+    "response": "Update biodata dan Upload Dokumen Jalur SMM-PTN Barat dilaksanakan pada 2 Juli 2026 sampai 5 Juli 2026."
+  },
+  {
+    "intent": "verifikasi_dokumen_smm",
+    "keywords": [
+      "verifikasi dokumen smm",
+      "verifikasi akademik smm",
+      "verifikasi ukt smm ptn barat",
+      "jadwal verifikasi smm"
+    ],
+    "response": "Verifikasi Dokumen Akademik dan UKT Jalur SMM-PTN Barat dilaksanakan pada 2 Juli 2026 sampai 5 Juli 2026."
+  },
+  {
+    "intent": "wawancara_pascasarjana_gel1_genap",
+    "keywords": [
+      "wawancara pascasarjana gelombang 1",
+      "tes wawancara s2 gel 1 genap",
+      "interview pascasarjana gel 1",
+      "kapan wawancara s2 gelombang 1"
+    ],
+    "response": "Tes Wawancara PMB Pascasarjana Gelombang 1 (Semester Genap) dilaksanakan pada 2 Oktober 2026."
+  },
+  {
+    "intent": "periode_semester_ganjil",
+    "keywords": [
+      "periode semester ganjil",
+      "kapan semester ganjil",
+      "mulai semester ganjil",
+      "jadwal semester ganjil 2026",
+      "tahun akademik ganjil"
+    ],
+    "response": "Periode Semester Ganjil Tahun Akademik 2026/2027 berlangsung dari 3 Agustus 2026 sampai 22 Januari 2027."
+  },
+  {
+    "intent": "revisi_krs_ganjil",
+    "keywords": [
+      "revisi krs ganjil",
+      "ubah krs ganjil",
+      "ganti matakuliah ganjil",
+      "kapan revisi krs ganjil",
+      "jadwal revisi krs"
+    ],
+    "response": "Revisi KRS Mahasiswa Semester Ganjil dilaksanakan pada 3 Agustus 2026 sampai 8 Agustus 2026."
+  },
+  {
+    "intent": "perkuliahan_praktikum_ganjil",
+    "keywords": [
+      "perkuliahan ganjil",
+      "praktikum ganjil",
+      "jadwal kuliah ganjil",
+      "kapan mulai kuliah ganjil",
+      "pelaksanaan perkuliahan ganjil"
+    ],
+    "response": "Pelaksanaan Perkuliahan dan Praktikum Semester Ganjil berlangsung dari 3 Agustus 2026 sampai 28 November 2026."
+  },
+  {
+    "intent": "ujian_akhir_mahasiswa_ganjil",
+    "keywords": [
+      "ujian akhir mahasiswa ganjil",
+      "pelaksanaan ujian akhir ganjil",
+      "jadwal ujian akhir mahasiswa",
+      "kapan ujian akhir semester ganjil"
+    ],
+    "response": "Pelaksanaan Ujian Akhir Mahasiswa Semester Ganjil berlangsung dari 3 Agustus 2026 sampai 31 Desember 2026."
+  },
+  {
+    "intent": "daftar_ulang_snbp",
+    "keywords": [
+      "daftar ulang snbp",
+      "pendaftaran ulang snbp",
+      "registrasi ulang snbp",
+      "jadwal daftar ulang snbp"
+    ],
+    "response": "Pendaftaran Ulang Jalur Penerimaan SNBP dilaksanakan pada 3 April 2026 sampai 10 April 2026."
+  },
+  {
+    "intent": "update_biodata_snbp",
+    "keywords": [
+      "update biodata snbp",
+      "upload dokumen snbp",
+      "biodata snbp",
+      "kapan upload dokumen snbp"
+    ],
+    "response": "Update biodata dan Upload Dokumen Jalur Penerimaan SNBP dilaksanakan pada 3 April 2026 sampai 10 April 2026."
+  },
+  {
+    "intent": "pendaftaran_snbp",
+    "keywords": [
+      "daftar snbp",
+      "pendaftaran snbp",
+      "registrasi snbp",
+      "jadwal pendaftaran snbp",
+      "kapan daftar snbp"
+    ],
+    "response": "Pendaftaran Jalur Penerimaan SNBP dilaksanakan pada 3 Februari 2026 sampai 18 Februari 2026."
+  },
+  {
+    "intent": "wisuda_129",
+    "keywords": [
+      "wisuda 129",
+      "wisuda ke-129",
+      "wisuda ke 129",
+      "jadwal wisuda semester genap",
+      "wisuda februari 2027"
+    ],
+    "response": "Wisuda ke-129 dilaksanakan pada 3 Februari 2027 sampai 4 Februari 2027."
+  },
+  {
+    "intent": "wisuda_128",
+    "keywords": [
+      "wisuda 128",
+      "wisuda ke-128",
+      "wisuda ke 128",
+      "wisuda november 2026",
+      "jadwal wisuda ganjil"
+    ],
+    "response": "Wisuda ke-128 dilaksanakan pada 3 November 2026 sampai 4 November 2026."
+  },
+  {
+    "intent": "pendaftaran_smm",
+    "keywords": [
+      "daftar smm",
+      "pendaftaran smm ptn barat",
+      "registrasi smm",
+      "jadwal pendaftaran smm",
+      "kapan daftar smm ptn barat"
+    ],
+    "response": "Pendaftaran Jalur SMM-PTN Barat dilaksanakan pada 4 Mei 2026 sampai 11 Juni 2026."
+  },
+  {
+    "intent": "pendaftaran_smbt",
+    "keywords": [
+      "daftar smbt",
+      "pendaftaran smbt unri",
+      "pendaftaran phm",
+      "pendaftaran kerjasama",
+      "jadwal pendaftaran smbt",
+      "kapan daftar smbt"
+    ],
+    "response": "Pendaftaran Jalur SMBT UNRI, PHM & Kerjasama dilaksanakan pada 4 Mei 2026 sampai 4 Juli 2026."
+  },
+  {
+    "intent": "seleksi_administrasi_mhs_asing",
+    "keywords": [
+      "seleksi administrasi mahasiswa asing",
+      "seleksi mhs asing",
+      "jadwal seleksi mahasiswa asing"
+    ],
+    "response": "Seleksi Administrasi Mahasiswa Asing Program Sarjana dilaksanakan pada 5 Mei 2027."
+  },
+  {
+    "intent": "pendaftaran_pascasarjana_gel2_genap",
+    "keywords": [
+      "daftar s2 gelombang 2",
+      "pendaftaran s2 gelombang 2 genap",
+      "pendaftaran pascasarjana gelombang 2",
+      "registrasi s2 gel 2",
+      "jadwal pendaftaran s2 gelombang 2",
+      "pmb pascasarjana gelombang 2 genap"
+    ],
+    "response": "Pendaftaran PMB Pascasarjana Gelombang 2 (Semester Genap) dilaksanakan pada 5 Oktober 2026 sampai 30 November 2026."
+  },
+  {
+    "intent": "pendaftaran_profesi_genap",
+    "keywords": [
+      "daftar profesi",
+      "pendaftaran profesi genap",
+      "registrasi profesi",
+      "jadwal pendaftaran profesi genap",
+      "pmb profesi genap"
+    ],
+    "response": "Pendaftaran PMB Profesi (Semester Genap) dilaksanakan pada 5 Oktober 2026 sampai 20 Desember 2026."
+  },
+  {
+    "intent": "pendaftaran_mhs_asing",
+    "keywords": [
+      "daftar mahasiswa asing",
+      "pendaftaran mahasiswa asing",
+      "pendaftaran mhs asing sarjana",
+      "jadwal daftar mhs asing"
+    ],
+    "response": "Pendaftaran Mahasiswa Asing Program Sarjana dilaksanakan pada 6 April 2027 sampai 30 April 2027."
+  },
+  {
+    "intent": "pengumuman_kelulusan_pascasarjana_gel2_ganjil",
+    "keywords": [
+      "pengumuman s2 gelombang 2 ganjil",
+      "kelulusan pascasarjana gel 2",
+      "hasil seleksi s2 gelombang 2 ganjil",
+      "kapan pengumuman s2 gel 2"
+    ],
+    "response": "Pengumuman Kelulusan PMB Pascasarjana Gelombang 2 (Semester Ganjil) pada 6 Juli 2026."
+  },
+  {
+    "intent": "registrasi_ulang_pascasarjana_gel2_ganjil",
+    "keywords": [
+      "registrasi ulang s2 gel 2 ganjil",
+      "daftar ulang pascasarjana gel 2",
+      "pembayaran spp pertama s2 gel 2 ganjil"
+    ],
+    "response": "Registrasi Ulang & Pembayaran SPP Pertama PMB Pascasarjana Gelombang 2 (Semester Ganjil) dilaksanakan pada 6 Juli 2026 sampai 18 Juli 2026."
+  },
+  {
+    "intent": "pengumuman_kelulusan_profesi_ganjil",
+    "keywords": [
+      "pengumuman profesi ganjil",
+      "kelulusan profesi ganjil",
+      "hasil seleksi profesi ganjil",
+      "kapan pengumuman profesi"
+    ],
+    "response": "Pengumuman Kelulusan PMB Profesi (Semester Ganjil) pada 6 Juli 2026."
+  },
+  {
+    "intent": "registrasi_ulang_profesi_ganjil",
+    "keywords": [
+      "registrasi ulang profesi ganjil",
+      "daftar ulang profesi ganjil",
+      "pembayaran spp pertama profesi ganjil"
+    ],
+    "response": "Registrasi Ulang & Pembayaran SPP Pertama PMB Profesi (Semester Ganjil) dilaksanakan pada 6 Juli 2026 sampai 18 Juli 2026."
+  },
+  {
+    "intent": "upload_skl_snbp",
+    "keywords": [
+      "upload skl snbp",
+      "dokumen skl snbp",
+      "kapan upload skl",
+      "jadwal upload skl snbp"
+    ],
+    "response": "Upload Dokumen SKL Jalur Penerimaan SNBP dilaksanakan pada 6 Mei 2026 sampai 8 Mei 2026."
+  },
+  {
+    "intent": "cetak_ektm_snbp",
+    "keywords": [
+      "cetak ektm snbp",
+      "cetak ktm snbp",
+      "ektm snbp",
+      "kapan cetak ektm snbp"
+    ],
+    "response": "Cetak e-KTM Jalur Penerimaan SNBP dilaksanakan pada 6 Mei 2026 sampai 10 Mei 2026."
+  },
+  {
+    "intent": "wawancara_mhs_asing",
+    "keywords": [
+      "wawancara mahasiswa asing",
+      "tes wawancara mhs asing",
+      "interview mahasiswa asing"
+    ],
+    "response": "Tes Wawancara Mahasiswa Asing Program Sarjana dilaksanakan pada 6 Mei 2027."
+  },
+  {
+    "intent": "rapat_kelulusan_mhs_asing",
+    "keywords": [
+      "rapat kelulusan mhs asing",
+      "rapat penentuan mahasiswa asing",
+      "kapan rapat kelulusan mhs asing"
+    ],
+    "response": "Rapat Penentuan Kelulusan Mahasiswa Asing Program Sarjana dilaksanakan pada 7 Mei 2027."
+  },
+  {
+    "intent": "utbk_pascasarjana_gel2_genap",
+    "keywords": [
+      "utbk pascasarjana gelombang 2 genap",
+      "tes utbk s2 gelombang 2",
+      "ujian tulis pascasarjana gel 2 genap"
+    ],
+    "response": "Pelaksanaan UTBK Pascasarjana Gelombang 2 (Semester Genap) dilaksanakan pada 8 Desember 2026."
+  },
+  {
+    "intent": "pengumuman_ukt_smm",
+    "keywords": [
+      "pengumuman ukt smm",
+      "ukt smm ptn barat",
+      "kapan pengumuman ukt smm",
+      "jadwal ukt smm"
+    ],
+    "response": "Pengumuman UKT Jalur SMM-PTN Barat pada 8 Juli 2026."
+  },
+  {
+    "intent": "sanggah_ukt_smm",
+    "keywords": [
+      "sanggah ukt smm",
+      "masa sanggah smm",
+      "keberatan ukt smm",
+      "kapan sanggah ukt smm"
+    ],
+    "response": "Masa Sanggah UKT Jalur SMM-PTN Barat dilaksanakan pada 8 Juli 2026 sampai 9 Juli 2026."
+  },
+  {
+    "intent": "pembayaran_ukt_smm",
+    "keywords": [
+      "bayar ukt smm",
+      "pembayaran ukt smm ptn barat",
+      "kapan bayar ukt smm",
+      "jadwal pembayaran ukt smm"
+    ],
+    "response": "Pembayaran UKT Jalur SMM-PTN Barat dilaksanakan pada 8 Juli 2026 sampai 13 Juli 2026."
+  },
+  {
+    "intent": "cetak_ektm_smm",
+    "keywords": [
+      "cetak ektm smm",
+      "cetak ktm smm",
+      "ektm smm ptn barat",
+      "kapan cetak ektm smm"
+    ],
+    "response": "Cetak e-KTM Jalur SMM-PTN Barat dilaksanakan pada 8 Juli 2026 sampai 13 Juli 2026."
+  },
+  {
+    "intent": "pengumuman_ukt_snbt",
+    "keywords": [
+      "pengumuman ukt snbt",
+      "ukt snbt",
+      "kapan pengumuman ukt snbt",
+      "jadwal ukt snbt"
+    ],
+    "response": "Pengumuman UKT Jalur Penerimaan UTBK-SNBT pada 8 Juni 2026."
+  },
+  {
+    "intent": "sanggah_ukt_snbt",
+    "keywords": [
+      "sanggah ukt snbt",
+      "masa sanggah snbt",
+      "keberatan ukt snbt",
+      "kapan sanggah ukt snbt"
+    ],
+    "response": "Masa Sanggah UKT Jalur Penerimaan UTBK-SNBT dilaksanakan pada 8 Juni 2026 sampai 10 Juni 2026."
+  },
+  {
+    "intent": "pembayaran_ukt_snbt",
+    "keywords": [
+      "bayar ukt snbt",
+      "pembayaran ukt snbt",
+      "kapan bayar ukt snbt",
+      "jadwal pembayaran ukt snbt"
+    ],
+    "response": "Pembayaran UKT Jalur Penerimaan UTBK-SNBT dilaksanakan pada 8 Juni 2026 sampai 12 Juni 2026."
+  },
+  {
+    "intent": "cetak_ektm_snbt",
+    "keywords": [
+      "cetak ektm snbt",
+      "cetak ktm snbt",
+      "ektm snbt",
+      "kapan cetak ektm snbt"
+    ],
+    "response": "Cetak e-KTM Jalur Penerimaan UTBK-SNBT dilaksanakan pada 8 Juni 2026 sampai 13 Juni 2026."
+  },
+  {
+    "intent": "rapat_kelulusan_pascasarjana_gel1_genap",
+    "keywords": [
+      "rapat kelulusan s2 gel 1 genap",
+      "rapat penentuan pascasarjana gelombang 1",
+      "kapan rapat kelulusan s2 gel 1"
+    ],
+    "response": "Rapat Penentuan Kelulusan PMB Pascasarjana Gelombang 1 (Semester Genap) dilaksanakan pada 8 Oktober 2026."
+  },
+  {
+    "intent": "utbk_pascasarjana_gel1_ganjil",
+    "keywords": [
+      "utbk pascasarjana gelombang 1 ganjil",
+      "tes utbk s2 gelombang 1 ganjil",
+      "ujian tulis pascasarjana gel 1 ganjil"
+    ],
+    "response": "Pelaksanaan UTBK Pascasarjana Gelombang 1 (Semester Ganjil) dilaksanakan pada 9 April 2026."
+  },
+  {
+    "intent": "wawancara_pascasarjana_gel2_genap",
+    "keywords": [
+      "wawancara pascasarjana gelombang 2 genap",
+      "tes wawancara s2 gel 2 genap",
+      "interview pascasarjana gel 2 genap"
+    ],
+    "response": "Tes Wawancara PMB Pascasarjana Gelombang 2 (Semester Genap) dilaksanakan pada 9 Desember 2026."
+  },
+  {
+    "intent": "ujian_tulis_smbt",
+    "keywords": [
+      "ujian tulis smbt",
+      "utbk smbt",
+      "ujian smbt unri",
+      "kapan ujian smbt",
+      "jadwal ujian smbt"
+    ],
+    "response": "Ujian Tulis Berbasis Komputer Jalur SMBT UNRI, PHM & Kerjasama dilaksanakan pada 9 Juli 2026 sampai 14 Juli 2026."
+  },
+  {
+    "intent": "pengumuman_kelulusan_mhs_asing",
+    "keywords": [
+      "pengumuman kelulusan mhs asing",
+      "pengumuman mahasiswa asing",
+      "hasil seleksi mhs asing"
+    ],
+    "response": "Pengumuman Kelulusan Mahasiswa Asing Program Sarjana pada 9 Mei 2027."
+  },
+  {
+    "intent": "pembatalan_krs_ganjil",
+    "keywords": [
+      "batal krs ganjil",
+      "pembatalan krs ganjil",
+      "batal matakuliah ganjil",
+      "kapan pembatalan krs ganjil",
+      "jadwal pembatalan krs semester ganjil"
+    ],
+    "response": "Pembatalan KRS Tanpa Penggantian Matakuliah Semester Ganjil dilaksanakan pada 10 Agustus 2026 sampai 29 Agustus 2026."
+  },
+  {
+    "intent": "verifikasi_dokumen_snbp",
+    "keywords": [
+      "verifikasi dokumen snbp",
+      "verifikasi akademik snbp",
+      "verifikasi ukt snbp",
+      "jadwal verifikasi snbp"
+    ],
+    "response": "Verifikasi Dokumen Akademik dan Dokumen UKT Jalur Penerimaan SNBP dilaksanakan pada 10 April 2026 sampai 15 April 2026."
+  },
+  {
+    "intent": "wawancara_pascasarjana_gel1_ganjil",
+    "keywords": [
+      "wawancara pascasarjana gelombang 1 ganjil",
+      "tes wawancara s2 gel 1 ganjil",
+      "interview pascasarjana gel 1 ganjil"
+    ],
+    "response": "Tes Wawancara PMB Pascasarjana Gelombang 1 (Semester Ganjil) dilaksanakan pada 10 April 2026."
+  },
+  {
+    "intent": "finalisasi_pddikti_ganjil",
+    "keywords": [
+      "finalisasi pddikti ganjil",
+      "pelaporan pddikti ganjil",
+      "data pddikti semester ganjil",
+      "kapan finalisasi pddikti"
+    ],
+    "response": "Finalisasi Pelaporan data PDDIKTI Semester Ganjil pada 10 April 2027."
+  },
+  {
+    "intent": "verifikasi_status_mahasiswa_genap",
+    "keywords": [
+      "verifikasi data mahasiswa genap",
+      "verifikasi status mahasiswa genap",
+      "kapan verifikasi data mahasiswa genap"
+    ],
+    "response": "Verifikasi Data Status Mahasiswa Semester Genap dilaksanakan pada 10 Februari 2027 sampai 14 Februari 2027."
+  },
+  {
+    "intent": "finalisasi_pddikti_genap",
+    "keywords": [
+      "finalisasi pddikti genap",
+      "pelaporan pddikti genap",
+      "data pddikti semester genap",
+      "kapan finalisasi pddikti genap"
+    ],
+    "response": "Finalisasi Pelaporan data PDDIKTI Semester Genap pada 10 Oktober 2027."
+  },
+  {
+    "intent": "penerbitan_status_mahasiswa_ganjil",
+    "keywords": [
+      "penerbitan status mahasiswa ganjil",
+      "status mahasiswa ganjil",
+      "kapan penerbitan status mahasiswa"
+    ],
+    "response": "Penerbitan Status Mahasiswa Semester Ganjil pada 10 September 2026."
+  },
+  {
+    "intent": "pengisian_krs_genap",
+    "keywords": [
+      "isi krs genap",
+      "pengisian krs genap",
+      "krs semester genap",
+      "kapan isi krs genap",
+      "jadwal krs genap"
+    ],
+    "response": "Pengisian Kartu Rencana Studi (KRS) Mahasiswa Semester Genap dilaksanakan pada 11 Januari 2027 sampai 22 Januari 2027."
+  },
+  {
+    "intent": "utbk_pascasarjana_gel2_ganjil",
+    "keywords": [
+      "utbk pascasarjana gelombang 2 ganjil",
+      "tes utbk s2 gelombang 2 ganjil",
+      "ujian tulis pascasarjana gel 2 ganjil"
+    ],
+    "response": "Pelaksanaan UTBK Pascasarjana Gelombang 2 (Semester Ganjil) dilaksanakan pada 11 Juni 2026."
+  },
+  {
+    "intent": "pra_evaluasi_mahasiswa",
+    "keywords": [
+      "pra evaluasi mahasiswa",
+      "evaluasi semester 4",
+      "evaluasi semester 8",
+      "evaluasi semester 14",
+      "kapan pra evaluasi"
+    ],
+    "response": "Pra Evaluasi Mahasiswa Semester 4, 8 dan 14 dilaksanakan pada 12 Januari 2026 sampai 20 Januari 2026."
+  },
+  {
+    "intent": "wawancara_pascasarjana_gel2_ganjil",
+    "keywords": [
+      "wawancara pascasarjana gelombang 2 ganjil",
+      "tes wawancara s2 gel 2 ganjil",
+      "interview pascasarjana gel 2 ganjil"
+    ],
+    "response": "Tes Wawancara PMB Pascasarjana Gelombang 2 (Semester Ganjil) dilaksanakan pada 12 Juni 2026."
+  },
+  {
+    "intent": "pendaftaran_pascasarjana_gel2_ganjil",
+    "keywords": [
+      "daftar s2 gelombang 2 ganjil",
+      "pendaftaran s2 gelombang 2 ganjil",
+      "pendaftaran pascasarjana gelombang 2 ganjil",
+      "registrasi s2 gel 2 ganjil",
+      "pmb pascasarjana gelombang 2 ganjil"
+    ],
+    "response": "Pendaftaran PMB Pascasarjana Gelombang 2 (Semester Ganjil) dilaksanakan pada 13 April 2026 sampai 5 Juni 2026."
+  },
+  {
+    "intent": "pendaftaran_profesi_ganjil",
+    "keywords": [
+      "daftar profesi ganjil",
+      "pendaftaran profesi ganjil",
+      "registrasi profesi ganjil",
+      "jadwal pendaftaran profesi ganjil",
+      "pmb profesi ganjil"
+    ],
+    "response": "Pendaftaran PMB Profesi (Semester Ganjil) dilaksanakan pada 13 April 2026 sampai 25 Juni 2026."
+  },
+  {
+    "intent": "daftar_ulang_mhs_asing",
+    "keywords": [
+      "daftar ulang mahasiswa asing",
+      "pendaftaran ulang mhs asing",
+      "administrasi masuk indonesia",
+      "jadwal daftar ulang mhs asing"
+    ],
+    "response": "Pendaftaran Ulang & Administrasi Masuk Indonesia Mahasiswa Asing Program Sarjana dilaksanakan pada 13 Mei 2027 sampai 28 Juli 2027."
+  },
+  {
+    "intent": "pembayaran_spp_mhs_asing",
+    "keywords": [
+      "pembayaran spp mhs asing",
+      "update biodata mhs asing",
+      "bayar spp mahasiswa asing"
+    ],
+    "response": "Update biodata dan Pembayaran SPP Mahasiswa Asing Program Sarjana dilaksanakan pada 13 Mei 2027 sampai 28 Juli 2027."
+  },
+  {
+    "intent": "pendaftaran_antar_semester",
+    "keywords": [
+      "daftar antar semester",
+      "pendaftaran semester pendek",
+      "daftar semester pendek",
+      "pembayaran antar semester",
+      "kapan daftar semester pendek"
+    ],
+    "response": "Pendaftaran dan Pembayaran Antar Semester dilaksanakan pada 14 Juni 2027 sampai 18 Juni 2027."
+  },
+  {
+    "intent": "pengumuman_kelulusan_pascasarjana_gel1_genap",
+    "keywords": [
+      "pengumuman s2 gelombang 1 genap",
+      "kelulusan pascasarjana gel 1 genap",
+      "hasil seleksi s2 gelombang 1 genap",
+      "kapan pengumuman s2 gel 1 genap"
+    ],
+    "response": "Pengumuman Kelulusan PMB Pascasarjana Gelombang 1 (Semester Genap) pada 14 Oktober 2026."
+  },
+  {
+    "intent": "rapat_kelulusan_pascasarjana_gel1_ganjil",
+    "keywords": [
+      "rapat kelulusan s2 gel 1 ganjil",
+      "rapat penentuan pascasarjana gelombang 1 ganjil",
+      "kapan rapat kelulusan s2 gel 1 ganjil"
+    ],
+    "response": "Rapat Penentuan Kelulusan PMB Pascasarjana Gelombang 1 (Semester Ganjil) pada 15 April 2026."
+  },
+  {
+    "intent": "registrasi_ulang_pascasarjana_gel1_genap",
+    "keywords": [
+      "registrasi ulang s2 gel 1 genap",
+      "daftar ulang pascasarjana gel 1 genap",
+      "pembayaran spp pertama s2 gel 1 genap"
+    ],
+    "response": "Registrasi Ulang & Pembayaran SPP Pertama PMB Pascasarjana Gelombang 1 (Semester Genap) dilaksanakan pada 15 Oktober 2026 sampai 21 Oktober 2026."
+  },
+  {
+    "intent": "klarifikasi_rapor_snbp",
+    "keywords": [
+      "klarifikasi rapor snbp",
+      "hasil verifikasi rapor",
+      "sanggah rapor snbp",
+      "kapan klarifikasi rapor"
+    ],
+    "response": "Klarifikasi Hasil Verifikasi Rapor Jalur Penerimaan SNBP dilaksanakan pada 16 April 2026 sampai 17 April 2026."
+  },
+  {
+    "intent": "minggu_tenang_ganjil",
+    "keywords": [
+      "minggu tenang ganjil",
+      "kapan minggu tenang ganjil",
+      "jadwal minggu tenang semester ganjil"
+    ],
+    "response": "Minggu Tenang Semester Ganjil dilaksanakan pada 16 November 2026 sampai 20 November 2026."
+  },
+  {
+    "intent": "ujian_tulis_smm",
+    "keywords": [
+      "ujian tulis smm",
+      "utbk smm ptn barat",
+      "ujian smm",
+      "kapan ujian smm",
+      "jadwal ujian smm ptn barat"
+    ],
+    "response": "Ujian Tulis Berbasis Komputer Jalur SMM-PTN Barat dilaksanakan pada 17 Juni 2026 sampai 24 Juni 2026."
+  },
+  {
+    "intent": "minggu_tenang_genap",
+    "keywords": [
+      "minggu tenang genap",
+      "kapan minggu tenang genap",
+      "jadwal minggu tenang semester genap"
+    ],
+    "response": "Minggu Tenang Semester Genap dilaksanakan pada 17 Mei 2027 sampai 21 Mei 2027."
+  },
+  {
+    "intent": "posttest_ept_toefl",
+    "keywords": [
+      "posttest ept",
+      "posttest toefl",
+      "tes toefl akhir",
+      "kapan posttest ept",
+      "jadwal posttest toefl"
+    ],
+    "response": "Posttest EPT-TOEFL dilaksanakan pada 17 November 2026 sampai 15 Desember 2026."
+  },
+  {
+    "intent": "pendaftaran_pascasarjana_gel1_ganjil",
+    "keywords": [
+      "daftar s2 gelombang 1 ganjil",
+      "pendaftaran s2 gelombang 1 ganjil",
+      "pendaftaran pascasarjana gelombang 1 ganjil",
+      "registrasi s2 gel 1 ganjil",
+      "pmb pascasarjana gelombang 1 ganjil"
+    ],
+    "response": "Pendaftaran PMB Pascasarjana Gelombang 1 (Semester Ganjil) dilaksanakan pada 18 Februari 2026 sampai 6 April 2026."
+  },
+  {
+    "intent": "penerbitan_status_mahasiswa_genap",
+    "keywords": [
+      "penerbitan status mahasiswa genap",
+      "status mahasiswa genap",
+      "kapan penerbitan status mahasiswa genap"
+    ],
+    "response": "Penerbitan Status Mahasiswa Semester Genap pada 18 Februari 2027."
+  },
+  {
+    "intent": "pengumuman_kelulusan_smbt",
+    "keywords": [
+      "pengumuman smbt",
+      "kelulusan smbt",
+      "hasil seleksi smbt unri",
+      "kapan pengumuman smbt",
+      "pengumuman smbt unri phm"
+    ],
+    "response": "Pengumuman Kelulusan Jalur SMBT UNRI, PHM & Kerjasama pada 18 Juli 2026."
+  },
+  {
+    "intent": "evaluasi_mahasiswa_genap",
+    "keywords": [
+      "evaluasi mahasiswa genap",
+      "evaluasi 4 semester",
+      "evaluasi 8 semester",
+      "evaluasi 14 semester",
+      "kapan evaluasi mahasiswa"
+    ],
+    "response": "Evaluasi Mahasiswa 4, 8 dan 14 Semester dilaksanakan pada 18 Juni 2027 sampai 30 Juni 2027."
+  },
+  {
+    "intent": "wisuda_130",
+    "keywords": [
+      "wisuda 130",
+      "wisuda ke-130",
+      "wisuda ke 130",
+      "wisuda mei 2027",
+      "jadwal wisuda 130"
+    ],
+    "response": "Wisuda ke-130 dilaksanakan pada 18 Mei 2027 sampai 19 Mei 2027."
+  },
+  {
+    "intent": "wisuda_127",
+    "keywords": [
+      "wisuda 127",
+      "wisuda ke-127",
+      "wisuda ke 127",
+      "wisuda agustus 2026",
+      "jadwal wisuda 127"
+    ],
+    "response": "Wisuda ke-127 dilaksanakan pada 19 Agustus 2026 sampai 20 Agustus 2026."
+  },
+  {
+    "intent": "pretest_ept_toefl",
+    "keywords": [
+      "pretest ept",
+      "pretest toefl",
+      "tes toefl awal",
+      "kapan pretest ept",
+      "jadwal pretest toefl"
+    ],
+    "response": "Pretest EPT TOEFL dilaksanakan pada 20 Agustus 2026 sampai 20 September 2026."
+  },
+  {
+    "intent": "pengumuman_kelulusan_pascasarjana_gel1_ganjil",
+    "keywords": [
+      "pengumuman s2 gelombang 1 ganjil",
+      "kelulusan pascasarjana gel 1 ganjil",
+      "hasil seleksi s2 gelombang 1 ganjil",
+      "kapan pengumuman s2 gel 1 ganjil"
+    ],
+    "response": "Pengumuman Kelulusan PMB Pascasarjana Gelombang 1 (Semester Ganjil) pada 20 April 2026."
+  },
+  {
+    "intent": "pengumuman_ukt_snbp",
+    "keywords": [
+      "pengumuman ukt snbp",
+      "ukt snbp",
+      "kapan pengumuman ukt snbp",
+      "jadwal ukt snbp"
+    ],
+    "response": "Pengumuman UKT Jalur Penerimaan SNBP pada 21 April 2026."
+  },
+  {
+    "intent": "sanggah_ukt_snbp",
+    "keywords": [
+      "sanggah ukt snbp",
+      "masa sanggah snbp",
+      "keberatan ukt snbp",
+      "kapan sanggah ukt snbp"
+    ],
+    "response": "Masa Sanggah UKT Jalur Penerimaan SNBP dilaksanakan pada 21 April 2026 sampai 23 April 2026."
+  },
+  {
+    "intent": "pembayaran_ukt_snbp",
+    "keywords": [
+      "bayar ukt snbp",
+      "pembayaran ukt snbp",
+      "kapan bayar ukt snbp",
+      "jadwal pembayaran ukt snbp"
+    ],
+    "response": "Pembayaran UKT Jalur Penerimaan SNBP dilaksanakan pada 21 April 2026 sampai 7 Mei 2026."
+  },
+  {
+    "intent": "pelaksanaan_utbk_snbt",
+    "keywords": [
+      "pelaksanaan utbk snbt",
+      "jadwal utbk snbt",
+      "kapan utbk snbt",
+      "ujian utbk snbt"
+    ],
+    "response": "Pelaksanaan UTBK-SNBT dilaksanakan pada 21 April 2026 sampai 30 April 2026."
+  },
+  {
+    "intent": "registrasi_ulang_pascasarjana_gel1_ganjil",
+    "keywords": [
+      "registrasi ulang s2 gel 1 ganjil",
+      "daftar ulang pascasarjana gel 1 ganjil",
+      "pembayaran spp pertama s2 gel 1 ganjil"
+    ],
+    "response": "Registrasi Ulang & Pembayaran SPP Pertama PMB Pascasarjana Gelombang 1 (Semester Ganjil) dilaksanakan pada 21 April 2026 sampai 27 April 2026."
+  },
+  {
+    "intent": "utbk_profesi_genap",
+    "keywords": [
+      "utbk profesi genap",
+      "tes utbk profesi",
+      "ujian profesi genap",
+      "kapan utbk profesi genap"
+    ],
+    "response": "Pelaksanaan UTBK Profesi (Semester Genap) dilaksanakan pada 21 Desember 2026."
+  },
+  {
+    "intent": "wawancara_profesi_genap",
+    "keywords": [
+      "wawancara profesi genap",
+      "tes wawancara profesi genap",
+      "interview profesi genap"
+    ],
+    "response": "Tes Wawancara PMB Profesi (Semester Genap) dilaksanakan pada 21 Desember 2026."
+  },
+  {
+    "intent": "pembayaran_spp_genap",
+    "keywords": [
+      "bayar spp genap",
+      "pembayaran ukt genap",
+      "masa pembayaran spp genap",
+      "kapan bayar spp semester genap",
+      "jadwal bayar ukt genap"
+    ],
+    "response": "Masa Pembayaran SPP/UKT Semester Genap dilaksanakan pada 21 Desember 2026 sampai 8 Januari 2027."
+  },
+  {
+    "intent": "cuti_akademik_genap",
+    "keywords": [
+      "cuti akademik genap",
+      "pengajuan cuti genap",
+      "permohonan cuti akademik genap",
+      "kapan ajukan cuti genap"
+    ],
+    "response": "Masa Pengajuan Permohonan Cuti Akademik Semester Genap dilaksanakan pada 21 Desember 2026 sampai 28 Februari 2027."
+  },
+  {
+    "intent": "daftar_ulang_smbt",
+    "keywords": [
+      "daftar ulang smbt",
+      "pendaftaran ulang smbt unri",
+      "registrasi ulang smbt",
+      "jadwal daftar ulang smbt"
+    ],
+    "response": "Pendaftaran Ulang Jalur SMBT UNRI, PHM & Kerjasama dilaksanakan pada 21 Juli 2026 sampai 27 Juli 2026."
+  },
+  {
+    "intent": "update_biodata_smbt",
+    "keywords": [
+      "update biodata smbt",
+      "upload dokumen smbt",
+      "biodata smbt unri",
+      "kapan upload dokumen smbt"
+    ],
+    "response": "Update biodata dan Upload Dokumen Jalur SMBT UNRI, PHM & Kerjasama dilaksanakan pada 21 Juli 2026 sampai 23 Juli 2026."
+  },
+  {
+    "intent": "verifikasi_dokumen_smbt",
+    "keywords": [
+      "verifikasi dokumen smbt",
+      "verifikasi akademik smbt",
+      "verifikasi ukt smbt",
+      "jadwal verifikasi smbt"
+    ],
+    "response": "Verifikasi Dokumen Akademik dan UKT Jalur SMBT UNRI, PHM & Kerjasama dilaksanakan pada 21 Juli 2026 sampai 23 Juli 2026."
+  },
+  {
+    "intent": "pengisian_krs_ganjil",
+    "keywords": [
+      "isi krs ganjil",
+      "pengisian krs ganjil",
+      "krs semester ganjil",
+      "kapan isi krs ganjil",
+      "jadwal krs ganjil",
+      "pendaftaran mbkm"
+    ],
+    "response": "Pengisian KRS dan Pendaftaran MBKM Semester Ganjil dilaksanakan pada 21 Juli 2026 sampai 1 Agustus 2026."
+  },
+  {
+    "intent": "periode_semester_pendek",
+    "keywords": [
+      "semester pendek",
+      "periode semester pendek",
+      "kapan semester pendek",
+      "antar semester",
+      "jadwal semester pendek"
+    ],
+    "response": "Periode Semester Pendek TA 2027/2027 berlangsung dari 21 Juni 2027 sampai 31 Juli 2027."
+  },
+  {
+    "intent": "perkuliahan_semester_pendek",
+    "keywords": [
+      "kuliah semester pendek",
+      "perkuliahan antar semester",
+      "jadwal kuliah semester pendek",
+      "kapan mulai kuliah semester pendek"
+    ],
+    "response": "Perkuliahan Antar Semester (Semester Pendek) dilaksanakan pada 21 Juni 2027 sampai 24 Juli 2027."
+  },
+  {
+    "intent": "rapat_kelulusan_pascasarjana_gel2_genap",
+    "keywords": [
+      "rapat kelulusan s2 gel 2 genap",
+      "rapat penentuan pascasarjana gelombang 2 genap",
+      "kapan rapat kelulusan s2 gel 2 genap"
+    ],
+    "response": "Rapat Penentuan Kelulusan PMB Pascasarjana Gelombang 2 (Semester Genap) pada 22 Desember 2026."
+  },
+  {
+    "intent": "rapat_kelulusan_profesi_genap",
+    "keywords": [
+      "rapat kelulusan profesi genap",
+      "rapat penentuan profesi genap",
+      "kapan rapat kelulusan profesi genap"
+    ],
+    "response": "Rapat Penentuan Kelulusan PMB Profesi (Semester Genap) pada 22 Desember 2026."
+  },
+  {
+    "intent": "uts_genap",
+    "keywords": [
+      "uts genap",
+      "ujian tengah semester genap",
+      "kapan uts genap",
+      "jadwal uts semester genap",
+      "mid semester genap"
+    ],
+    "response": "Ujian Tengah Semester (UTS) Semester Genap dilaksanakan pada 22 Maret 2027 sampai 27 Maret 2027."
+  },
+  {
+    "intent": "uas_ganjil",
+    "keywords": [
+      "uas ganjil",
+      "ujian akhir semester ganjil",
+      "kapan uas ganjil",
+      "jadwal uas semester ganjil",
+      "final semester ganjil"
+    ],
+    "response": "Ujian Akhir Semester (UAS) Semester Ganjil dilaksanakan pada 23 November 2026 sampai 27 Desember 2026."
+  },
+  {
+    "intent": "pengumuman_ukt_smbt",
+    "keywords": [
+      "pengumuman ukt smbt",
+      "ukt smbt unri",
+      "kapan pengumuman ukt smbt",
+      "jadwal ukt smbt"
+    ],
+    "response": "Pengumuman UKT Jalur SMBT UNRI, PHM & Kerjasama pada 24 Juli 2026."
+  },
+  {
+    "intent": "sanggah_ukt_smbt",
+    "keywords": [
+      "sanggah ukt smbt",
+      "masa sanggah smbt",
+      "keberatan ukt smbt",
+      "kapan sanggah ukt smbt"
+    ],
+    "response": "Masa Sanggah UKT Jalur SMBT UNRI, PHM & Kerjasama dilaksanakan pada 24 Juli 2026 sampai 25 Juli 2026."
+  },
+  {
+    "intent": "pembayaran_ukt_smbt",
+    "keywords": [
+      "bayar ukt smbt",
+      "pembayaran ukt smbt",
+      "kapan bayar ukt smbt",
+      "jadwal pembayaran ukt smbt"
+    ],
+    "response": "Pembayaran UKT Jalur SMBT UNRI, PHM & Kerjasama dilaksanakan pada 24 Juli 2026 sampai 27 Juli 2026."
+  },
+  {
+    "intent": "uas_genap",
+    "keywords": [
+      "uas genap",
+      "ujian akhir semester genap",
+      "kapan uas genap",
+      "jadwal uas semester genap",
+      "final semester genap"
+    ],
+    "response": "Ujian Akhir Semester (UAS) Semester Genap dilaksanakan pada 24 Mei 2027 sampai 28 Mei 2027."
+  },
+  {
+    "intent": "periode_semester_genap",
+    "keywords": [
+      "periode semester genap",
+      "kapan semester genap",
+      "mulai semester genap",
+      "jadwal semester genap 2027",
+      "tahun akademik genap"
+    ],
+    "response": "Periode Semester Genap Tahun Akademik 2026/2027 berlangsung dari 25 Januari 2027 sampai 15 Juni 2027."
+  },
+  {
+    "intent": "revisi_krs_genap",
+    "keywords": [
+      "revisi krs genap",
+      "ubah krs genap",
+      "ganti matakuliah genap",
+      "kapan revisi krs genap",
+      "jadwal revisi krs genap"
+    ],
+    "response": "Revisi KRS Mahasiswa Semester Genap dilaksanakan pada 25 Januari 2027 sampai 29 Januari 2027."
+  },
+  {
+    "intent": "perkuliahan_praktikum_genap",
+    "keywords": [
+      "perkuliahan genap",
+      "praktikum genap",
+      "jadwal kuliah genap",
+      "kapan mulai kuliah genap",
+      "pelaksanaan perkuliahan genap"
+    ],
+    "response": "Pelaksanaan Perkuliahan dan Praktikum Semester Genap berlangsung dari 25 Januari 2027 sampai 28 Mei 2027."
+  },
+  {
+    "intent": "ujian_akhir_mahasiswa_genap",
+    "keywords": [
+      "ujian akhir mahasiswa genap",
+      "pelaksanaan ujian akhir genap",
+      "jadwal ujian akhir mahasiswa genap"
+    ],
+    "response": "Pelaksanaan Ujian Akhir Mahasiswa Semester Genap berlangsung dari 25 Januari 2027 sampai 15 Juni 2027."
+  },
+  {
+    "intent": "pendaftaran_snbt",
+    "keywords": [
+      "daftar snbt",
+      "pendaftaran snbt",
+      "pendaftaran utbk snbt",
+      "registrasi snbt",
+      "jadwal pendaftaran snbt",
+      "kapan daftar snbt"
+    ],
+    "response": "Pendaftaran Jalur Penerimaan UTBK-SNBT dilaksanakan pada 25 Maret 2026 sampai 7 April 2026."
+  },
+  {
+    "intent": "pengumuman_kelulusan_snbt",
+    "keywords": [
+      "pengumuman snbt",
+      "kelulusan snbt",
+      "hasil seleksi snbt",
+      "kapan pengumuman snbt",
+      "pengumuman utbk snbt"
+    ],
+    "response": "Pengumuman Kelulusan Jalur Penerimaan UTBK-SNBT pada 25 Mei 2026."
+  },
+  {
+    "intent": "input_nilai_uas_genap",
+    "keywords": [
+      "input nilai uas genap",
+      "batas input nilai genap",
+      "kapan input nilai semester genap",
+      "jadwal input nilai uas genap"
+    ],
+    "response": "Input Nilai Ujian Akhir Semester (UAS) Semester Genap dilaksanakan pada 25 Mei 2027 sampai 11 Juni 2027."
+  },
+  {
+    "intent": "ujian_semester_pendek",
+    "keywords": [
+      "ujian semester pendek",
+      "ujian antar semester",
+      "kapan ujian semester pendek",
+      "jadwal ujian semester pendek"
+    ],
+    "response": "Ujian Antar Semester (Semester Pendek) dilaksanakan pada 26 Juli 2027 sampai 30 Juli 2027."
+  },
+  {
+    "intent": "utbk_profesi_ganjil",
+    "keywords": [
+      "utbk profesi ganjil",
+      "tes utbk profesi ganjil",
+      "ujian profesi ganjil",
+      "kapan utbk profesi ganjil"
+    ],
+    "response": "Pelaksanaan UTBK Profesi (Semester Ganjil) dilaksanakan pada 26 Juni 2026."
+  },
+  {
+    "intent": "cetak_ektm_smbt",
+    "keywords": [
+      "cetak ektm smbt",
+      "cetak ktm smbt",
+      "ektm smbt unri",
+      "kapan cetak ektm smbt"
+    ],
+    "response": "Cetak e-KTM Jalur SMBT UNRI, PHM & Kerjasama pada 27 Juli 2026."
+  },
+  {
+    "intent": "input_nilai_semester_pendek",
+    "keywords": [
+      "input nilai semester pendek",
+      "input nilai antar semester",
+      "kapan input nilai semester pendek"
+    ],
+    "response": "Input Nilai Ujian Antar Semester dilaksanakan pada 27 Juli 2027 sampai 31 Juli 2027."
+  },
+  {
+    "intent": "wawancara_profesi_ganjil",
+    "keywords": [
+      "wawancara profesi ganjil",
+      "tes wawancara profesi ganjil",
+      "interview profesi ganjil"
+    ],
+    "response": "Tes Wawancara PMB Profesi (Semester Ganjil) dilaksanakan pada 27 Juni 2026."
+  },
+  {
+    "intent": "pengumuman_kelulusan_pascasarjana_gel2_genap",
+    "keywords": [
+      "pengumuman s2 gelombang 2 genap",
+      "kelulusan pascasarjana gel 2 genap",
+      "hasil seleksi s2 gelombang 2 genap",
+      "kapan pengumuman s2 gel 2 genap"
+    ],
+    "response": "Pengumuman Kelulusan PMB Pascasarjana Gelombang 2 (Semester Genap) pada 28 Desember 2026."
+  },
+  {
+    "intent": "registrasi_ulang_pascasarjana_gel2_genap",
+    "keywords": [
+      "registrasi ulang s2 gel 2 genap",
+      "daftar ulang pascasarjana gel 2 genap",
+      "pembayaran spp pertama s2 gel 2 genap"
+    ],
+    "response": "Registrasi Ulang & Pembayaran SPP Pertama PMB Pascasarjana Gelombang 2 (Semester Genap) dilaksanakan pada 28 Desember 2026 sampai 15 Januari 2027."
+  },
+  {
+    "intent": "pengumuman_kelulusan_profesi_genap",
+    "keywords": [
+      "pengumuman profesi genap",
+      "kelulusan profesi genap",
+      "hasil seleksi profesi genap",
+      "kapan pengumuman profesi genap"
+    ],
+    "response": "Pengumuman Kelulusan PMB Profesi (Semester Genap) pada 28 Desember 2026."
+  },
+  {
+    "intent": "registrasi_ulang_profesi_genap",
+    "keywords": [
+      "registrasi ulang profesi genap",
+      "daftar ulang profesi genap",
+      "pembayaran spp pertama profesi genap"
+    ],
+    "response": "Registrasi Ulang & Pembayaran SPP Pertama PMB Profesi (Semester Genap) dilaksanakan pada 28 Desember 2026 sampai 15 Januari 2027."
+  },
+  {
+    "intent": "uts_ganjil",
+    "keywords": [
+      "uts ganjil",
+      "ujian tengah semester ganjil",
+      "kapan uts ganjil",
+      "jadwal uts semester ganjil",
+      "mid semester ganjil"
+    ],
+    "response": "Ujian Tengah Semester (UTS) Semester Ganjil dilaksanakan pada 28 September 2026 sampai 2 Oktober 2026."
+  },
+  {
+    "intent": "penyerahan_mahasiswa_baru",
+    "keywords": [
+      "penyerahan mahasiswa baru",
+      "serah terima maba",
+      "kapan penyerahan mahasiswa baru"
+    ],
+    "response": "Penyerahan Mahasiswa Baru dilaksanakan pada 29 Juli 2026."
+  },
+  {
+    "intent": "pkkmb",
+    "keywords": [
+      "pkkmb",
+      "pengenalan kampus",
+      "kuliah umum maba",
+      "ospek",
+      "kapan pkkmb",
+      "jadwal pkkmb"
+    ],
+    "response": "PKKMB dan Kuliah Umum dilaksanakan pada 29 Juli 2026 sampai 31 Juli 2026."
+  },
+  {
+    "intent": "rapat_kelulusan_pascasarjana_gel2_ganjil",
+    "keywords": [
+      "rapat kelulusan s2 gel 2 ganjil",
+      "rapat penentuan pascasarjana gelombang 2 ganjil",
+      "kapan rapat kelulusan s2 gel 2 ganjil"
+    ],
+    "response": "Rapat Penentuan Kelulusan PMB Pascasarjana Gelombang 2 (Semester Ganjil) pada 29 Juni 2026."
+  },
+  {
+    "intent": "rapat_kelulusan_profesi_ganjil",
+    "keywords": [
+      "rapat kelulusan profesi ganjil",
+      "rapat penentuan profesi ganjil",
+      "kapan rapat kelulusan profesi ganjil"
+    ],
+    "response": "Rapat Penentuan Kelulusan PMB Profesi (Semester Ganjil) pada 29 Juni 2026."
+  },
+  {
+    "intent": "pengumuman_kelulusan_smm",
+    "keywords": [
+      "pengumuman smm",
+      "kelulusan smm",
+      "hasil seleksi smm ptn barat",
+      "kapan pengumuman smm",
+      "pengumuman smm ptn barat"
+    ],
+    "response": "Pengumuman Kelulusan Jalur SMM-PTN Barat pada 30 Juni 2026."
+  },
+  {
+    "intent": "input_nilai_uas_ganjil",
+    "keywords": [
+      "input nilai uas ganjil",
+      "batas input nilai ganjil",
+      "kapan input nilai semester ganjil",
+      "jadwal input nilai uas ganjil"
+    ],
+    "response": "Input Nilai Ujian Akhir Semester (UAS) Semester Ganjil dilaksanakan pada 30 November 2026 sampai 10 Desember 2026."
+  },
+  {
+    "intent": "pengumuman_kelulusan_snbp",
+    "keywords": [
+      "pengumuman snbp",
+      "kelulusan snbp",
+      "hasil seleksi snbp",
+      "kapan pengumuman snbp",
+      "pengumuman jalur snbp"
+    ],
+    "response": "Pengumuman Kelulusan Jalur Penerimaan SNBP pada 31 Maret 2026."
+  },
+  {
+    "intent": "pendaftaran_wisuda_umum",
+    "keywords": [
+      "daftar wisuda",
+      "pendaftaran wisuda",
+      "registrasi wisuda",
+      "kapan daftar wisuda",
+      "jadwal pendaftaran wisuda"
+    ],
+    "response": "Pendaftaran Wisuda dibuka dari Januari 2027 sampai Desember 2027."
+  },
+  {
+    "intent": "jadwal_wisuda_semua",
+    "keywords": [
+      "kapan wisuda",
+      "jadwal wisuda",
+      "wisuda kapan",
+      "semua jadwal wisuda",
+      "jadwal wisuda 2026 2027",
+      "wisuda tahun ini"
+    ],
+    "response": "Jadwal Wisuda:\n\n🎓 Wisuda ke-125: 24-25 Februari 2026 (TA 2025/2026)\n🎓 Wisuda ke-126: 19-20 Mei 2026 (TA 2025/2026)\n🎓 Wisuda ke-127: 19-20 Agustus 2026 (TA 2026/2027)\n🎓 Wisuda ke-128: 3-4 November 2026 (TA 2026/2027)\n🎓 Wisuda ke-129: 3-4 Februari 2027 (TA 2026/2027)\n🎓 Wisuda ke-130: 18-19 Mei 2027 (TA 2026/2027)\n\nUntuk informasi lebih spesifik, tanyakan dengan menyebutkan nomor wisuda (contoh: 'wisuda 125' atau 'wisuda ke-128')."
+  },
+  {
+    "intent": "pendaftaran_wisuda_127",
+    "keywords": [
+      "daftar wisuda 127",
+      "pendaftaran wisuda 127",
+      "daftar wisuda agustus",
+      "pendaftaran wisuda agustus 2026"
+    ],
+    "response": "Pendaftaran Wisuda ke-127 (Agustus 2026) biasanya dibuka sekitar bulan Juni-Juli 2026. Untuk informasi lebih detail, silakan hubungi bagian akademik fakultas masing-masing."
+  },
+  {
+    "intent": "pendaftaran_wisuda_128",
+    "keywords": [
+      "daftar wisuda 128",
+      "pendaftaran wisuda 128",
+      "daftar wisuda november",
+      "pendaftaran wisuda november 2026"
+    ],
+    "response": "Pendaftaran Wisuda ke-128 (November 2026) biasanya dibuka sekitar bulan September-Oktober 2026. Untuk informasi lebih detail, silakan hubungi bagian akademik fakultas masing-masing."
+  },
+  {
+    "intent": "pendaftaran_wisuda_129",
+    "keywords": [
+      "daftar wisuda 129",
+      "pendaftaran wisuda 129",
+      "daftar wisuda februari",
+      "pendaftaran wisuda februari 2027"
+    ],
+    "response": "Pendaftaran Wisuda ke-129 (Februari 2027) biasanya dibuka sekitar bulan Desember 2026-Januari 2027. Untuk informasi lebih detail, silakan hubungi bagian akademik fakultas masing-masing."
+  },
+  {
+    "intent": "pendaftaran_wisuda_130",
+    "keywords": [
+      "daftar wisuda 130",
+      "pendaftaran wisuda 130",
+      "daftar wisuda mei",
+      "pendaftaran wisuda mei 2027"
+    ],
+    "response": "Pendaftaran Wisuda ke-130 (Mei 2027) biasanya dibuka sekitar bulan Maret-April 2027. Untuk informasi lebih detail, silakan hubungi bagian akademik fakultas masing-masing."
+  },
+  {
+    "intent": "pengukuhan_guru_besar",
+    "keywords": [
+      "pengukuhan guru besar",
+      "profesor",
+      "kapan pengukuhan guru besar",
+      "jadwal guru besar"
+    ],
+    "response": "Pengukuhan Guru Besar dilaksanakan pada Januari 2027 sampai Desember 2027."
+  },
+  {
+    "intent": "sk_rektor_evaluasi",
+    "keywords": [
+      "sk rektor evaluasi",
+      "penerbitan sk evaluasi",
+      "sk evaluasi mahasiswa",
+      "kapan sk rektor evaluasi"
+    ],
+    "response": "Penerbitan SK Rektor tentang Evaluasi Mahasiswa pada Juli 2027."
+  },
+  {
+    "intent": "kukerta",
+    "keywords": [
+      "kukerta",
+      "kuliah kerja nyata",
+      "kkn",
+      "kapan kukerta",
+      "jadwal kukerta",
+      "jadwal kkn"
+    ],
+    "response": "Pelaksanaan Kuliah Kerja Nyata (KUKERTA) dilaksanakan pada Juni 2026 sampai Juli 2026 (Semester Ganjil) dan Juni 2027 sampai Juli 2027 (Semester Genap)."
+  }
+]

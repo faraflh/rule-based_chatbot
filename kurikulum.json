@@ -1,0 +1,250 @@
+{
+  "2025": [
+    {
+      "group_name": "SEMESTER 1",
+      "courses": [
+        { "no": "1", "code": "MWU 00101001", "name": "Pendidikan Agama (Islam/Kristen/Katolik/Buddha/Hindu)", "sks": "2" },
+        { "no": "2", "code": "MWU 00101007", "name": "Pendidikan Kewarganegaraan", "sks": "2" },
+        { "no": "3", "code": "UNR 00101001", "name": "Literasi Digital", "sks": "1" },
+        { "no": "4", "code": "UNR 00101002", "name": "Bahasa Inggris", "sks": "1" },
+        { "no": "5", "code": "UNR 00101003", "name": "Budaya Melayu", "sks": "2" },
+        { "no": "6", "code": "TIK 07111001", "name": "Pengenalan Pemrograman", "sks": "3" },
+        { "no": "7", "code": "TIK 07111002", "name": "Kalkulus", "sks": "3" },
+        { "no": "8", "code": "TIK 07111003", "name": "Statistika", "sks": "3" },
+        { "no": "9", "code": "TIK 07111004", "name": "Logika Matematika", "sks": "4" }
+      ],
+      "total_sks": "20"
+    },
+    {
+      "group_name": "SEMESTER 2",
+      "courses": [
+        { "no": "1", "code": "MWU 00102006", "name": "Pendidikan Pancasila", "sks": "2" },
+        { "no": "2", "code": "MWU 00102008", "name": "Bahasa Indonesia", "sks": "2" },
+        { "no": "3", "code": "UNR 00102004", "name": "Ilmu Lingkungan dan Mitigasi Bencana", "sks": "2" },
+        { "no": "4", "code": "UNR 00102005", "name": "Kewirausahaan", "sks": "2" },
+        { "no": "5", "code": "TIK 07122005", "name": "Algoritma Pemrograman", "sks": "2" },
+        { "no": "6", "code": "TIK 07122006", "name": "Praktikum Algoritma Pemrograman", "sks": "1" },
+        { "no": "7", "code": "TIK 07122007", "name": "Organisasi dan Arsitektur Komputer", "sks": "3" },
+        { "no": "8", "code": "TIK 07122008", "name": "Aljabar Linear", "sks": "3" },
+        { "no": "9", "code": "TIK 07122009", "name": "Struktur Data", "sks": "2" },
+        { "no": "10", "code": "TIK 07122010", "name": "Praktikum Struktur Data", "sks": "1" }
+      ],
+      "total_sks": "20"
+    },
+    {
+      "group_name": "SEMESTER 3",
+      "courses": [
+        { "no": "1", "code": "TIK 07113011", "name": "Basis Data", "sks": "2" },
+        { "no": "2", "code": "TIK 07113012", "name": "Praktikum Basis Data", "sks": "1" },
+        { "no": "3", "code": "TIK 07113013", "name": "Jaringan Komputer", "sks": "2" },
+        { "no": "4", "code": "TIK 07113014", "name": "Praktikum Jaringan Komputer", "sks": "1" },
+        { "no": "5", "code": "TIK 07113015", "name": "Matematika Diskrit", "sks": "3" },
+        { "no": "6", "code": "TIK 07113016", "name": "Sistem Operasi", "sks": "2" },
+        { "no": "7", "code": "TIK 07113017", "name": "Kompleksitas Algoritma", "sks": "3" },
+        { "no": "8", "code": "TIK 07113018", "name": "Desain dan Pemrograman Web", "sks": "2" },
+        { "no": "9", "code": "TIK 07113019", "name": "Praktikum Desain dan Pemrograman Web", "sks": "1" },
+        { "no": "10", "code": "TIK 07113020", "name": "Pemrograman Berorientasi Obyek", "sks": "2" },
+        { "no": "11", "code": "TIK 07113021", "name": "Praktikum Pemrograman Berorientasi Obyek", "sks": "1" }
+      ],
+      "total_sks": "20"
+    },
+    {
+      "group_name": "SEMESTER 4",
+      "courses": [
+        { "no": "1", "code": "TIK 07124022", "name": "Pemrograman Mobile", "sks": "2" },
+        { "no": "2", "code": "TIK 07124023", "name": "Praktikum Pemrograman Mobile", "sks": "1" },
+        { "no": "3", "code": "TIK 07124024", "name": "Animasi dan Pemodelan 3D", "sks": "2" },
+        { "no": "4", "code": "TIK 07124025", "name": "Praktikum Animasi dan Pemodelan 3D", "sks": "1" },
+        { "no": "5", "code": "TIK 07124026", "name": "Rekayasa Perangkat Lunak", "sks": "2" },
+        { "no": "6", "code": "TIK 07124027", "name": "Kecerdasan Buatan", "sks": "2" },
+        { "no": "7", "code": "TIK 07124028", "name": "Praktikum Kecerdasan Buatan", "sks": "1" },
+        { "no": "8", "code": "TIK 07124029", "name": "Interaksi Manusia dan Komputer", "sks": "2" },
+        { "no": "9", "code": "TIK 07124030", "name": "Pengolahan Citra Digital", "sks": "2" },
+        { "no": "10", "code": "TIK 07124031", "name": "Praktikum Pengolahan Citra Digital", "sks": "1" },
+        { "no": "11", "code": "TIK 07124032", "name": "Pemrograman Berbasis Platform", "sks": "2" },
+        { "no": "12", "code": "TIK 07124033", "name": "Pembelajaran Mesin", "sks": "2" }
+      ],
+      "total_sks": "22"
+    },
+    {
+      "group_name": "SEMESTER 5",
+      "courses": [
+        { "no": "1", "code": "TIK 07115034", "name": "Keamanan Data dan Informasi", "sks": "3" },
+        { "no": "2", "code": "TIK 07115035", "name": "Visi Komputer", "sks": "3" },
+        { "no": "3", "code": "TIK 07115036", "name": "Analisis dan Desain Perangkat Lunak", "sks": "3" },
+        { "no": "4", "code": "TIK 07115037", "name": "Manajemen Proyek Teknologi Informasi", "sks": "2" },
+        { "no": "5", "code": "TIK 07115038", "name": "Komputasi Paralel dan Terdistribusi", "sks": "3" },
+        { "no": "6", "code": "TIK 07115039", "name": "Internet Of Things", "sks": "3" },
+        { "no": "7", "code": "TIK 07115040", "name": "Penambangan Data", "sks": "3" },
+        { "no": "8", "code": "TIK 07115041", "name": "Kerja Praktek / Magang", "sks": "3" }
+      ],
+      "total_sks": "23"
+    },
+    {
+      "group_name": "SEMESTER 6",
+      "courses": [
+        { "no": "1", "code": "TIK 07126042", "name": "Pemrosesan Bahasa Alami", "sks": "2" },
+        { "no": "2", "code": "TIK 07126043", "name": "Metodologi Penelitian", "sks": "2" },
+        { "no": "3", "code": "TIK 07126044", "name": "Pengembangan AR dan VR", "sks": "3" },
+        { "no": "4", "code": "TIK 07126045", "name": "Komputasi Awan", "sks": "3" },
+        { "no": "5", "code": "TIK 07126046", "name": "Big Data", "sks": "3" },
+        { "no": "6", "code": "TIK 07126047", "name": "Antar Muka dan Pengalaman Pengguna", "sks": "3" },
+        { "no": "7", "code": "TIK 07126048", "name": "Ilmu Data", "sks": "3" },
+        { "no": "8", "code": "TIK 07126049", "name": "Robotika", "sks": "3" }
+      ],
+      "total_sks": "23"
+    },
+    {
+      "group_name": "SEMESTER 7",
+      "courses": [
+        { "no": "1", "code": "UNR 00107006", "name": "Kuliah Kerja Nyata (KKN)", "sks": "4" },
+        { "no": "2", "code": "TIK 07117050", "name": "Etika dan Profesi", "sks": "2" },
+        { "no": "3", "code": "TIK 07117051", "name": "Proyek Perangkat Lunak (Capstone Project)", "sks": "3" },
+        { "no": "4", "code": "", "name": "Seminar Proposal", "sks": "1" }
+      ],
+      "total_sks": "10"
+    },
+    {
+      "group_name": "SEMESTER 8",
+      "courses": [
+        { "no": "1", "code": "TIK 07128053", "name": "Tugas Akhir", "sks": "6" }
+      ],
+      "total_sks": "6"
+    }
+  ],
+  "2018": [
+    {
+        "group_name": "SEMESTER 1",
+        "courses": [
+            { "no": "1", "code": "UXN 11034 UXN 11076 UXN 11118 UXN 11160 UXN 11311", "name": "Agama (Islam, Kristen, Katolik, Buddha, Hindu)", "sks": "2" },
+            { "no": "2", "code": "UXN 11194", "name": "Pendidikan Pancasila", "sks": "2" },
+            { "no": "3", "code": "UXN 12106", "name": "Bahasa Indonesia", "sks": "2" },
+            { "no": "4", "code": "UXN 11269", "name": "PKN", "sks": "2" },
+            { "no": "5", "code": "FTS 11023", "name": "Matematika Dasaar", "sks": "2" },
+            { "no": "6", "code": "FTS 11013", "name": "Fisika Dasar", "sks": "2" },
+            { "no": "7", "code": "FTS 11033", "name": "Pengantar Teknik", "sks": "2" },
+            { "no": "8", "code": "TIS 11013", "name": "Sistem dan Teknologi Informasi", "sks": "3" },
+            { "no": "9", "code": "TIS 11023", "name": "Dasar Pemrograman T/P", "sks": "4" }
+        ],
+        "total_sks": "21"
+    },
+    {
+        "group_name": "SEMESTER 2",
+        "courses": [
+            { "no": "1", "code": "TIS 12033", "name": "Arsitektur dan Organisasi Komputer", "sks": "3" },
+            { "no": "2", "code": "TIS 12043", "name": "Bahasa Inggris", "sks": "2" },
+            { "no": "3", "code": "TIS 12053", "name": "Algoritma dan Struktur Data T/P", "sks": "4" },
+            { "no": "4", "code": "TIS 12063", "name": "Matematika Diskrit", "sks": "4" },
+            { "no": "5", "code": "TIS 12073", "name": "Sistem Multimedia", "sks": "3" },
+            { "no": "6", "code": "TIS 12083", "name": "Interaksi Manusia dan Komputer", "sks": "2" },
+            { "no": "7", "code": "TIS 12093", "name": "Sistem Digital T/P", "sks": "3" }
+        ],
+        "total_sks": "21"
+    },
+    {
+        "group_name": "SEMESTER 3",
+        "courses": [
+            { "no": "1", "code": "TIS 21103", "name": "Sistem Operasi", "sks": "3" },
+            { "no": "2", "code": "TIS 21113", "name": "Aljabar Linier dan Matrik", "sks": "3" },
+            { "no": "3", "code": "TIS 21123", "name": "Dasar Pengembangan Perangkat Lunak", "sks": "3" },
+            { "no": "4", "code": "TIS 21133", "name": "Komputer dan Masyarakat", "sks": "2" },
+            { "no": "5", "code": "TIS 21143", "name": "Pemrograman Berorientasi Objek T/P", "sks": "4" },
+            { "no": "6", "code": "TIS 21153", "name": "Teori Bahasa Automata", "sks": "3" },
+            { "no": "7", "code": "TIS 21163", "name": "Basis Data", "sks": "3" }
+        ],
+        "total_sks": "21"
+    },
+    {
+        "group_name": "SEMESTER 4",
+        "courses": [
+            { "no": "1", "code": "TIS 22173", "name": "Probabilitas dan Statistik", "sks": "3" },
+            { "no": "2", "code": "TIS 22183", "name": "Jaringan Komputer T/P", "sks": "4" },
+            { "no": "3", "code": "TIS 22193", "name": "Komputer Grafis", "sks": "3" },
+            { "no": "4", "code": "TIS 22203", "name": "Desain dan Pemrograman Web T/P", "sks": "4" },
+            { "no": "5", "code": "TIS 22213", "name": "Pengembangan Berbasis Platform", "sks": "3" },
+            { "no": "6", "code": "TIS 22223", "name": "Basis Data Lanjut T/P", "sks": "4" }
+        ],
+        "total_sks": "21"
+    },
+    {
+        "group_name": "SEMESTER 5",
+        "courses": [
+            { "no": "1", "code": "TIS 31233", "name": "Kecerdasan Buatan T/P", "sks": "4" },
+            { "no": "2", "code": "TIS 31243", "name": "Pengolahan Citra Digital T/P", "sks": "4" },
+            { "no": "3", "code": "TIS 31253", "name": "Manajemen Proyek", "sks": "2" },
+            { "no": "4", "code": "TIS 31263", "name": "Pemrograman Jaringan T/P", "sks": "4" },
+            { "no": "5", "code": "TIS 31273", "name": "Simulasi dan Pemodelan", "sks": "3" },
+            { "no": "6", "code": "", "name": "Keahlian I", "sks": "4" }
+        ],
+        "total_sks": "21"
+    },
+    {
+        "group_name": "SEMESTER 6",
+        "courses": [
+            { "no": "1", "code": "FTS 32053", "name": "Metodologi Penelitian", "sks": "2" },
+            { "no": "2", "code": "TIS 32453", "name": "Kerja Praktek", "sks": "2" },
+            { "no": "3", "code": "TIS 32283", "name": "Keamanan Sistem Komputer", "sks": "3" },
+            { "no": "4", "code": "TIS 32293", "name": "Etika Profesi", "sks": "3" },
+            { "no": "5", "code": "", "name": "Keahlian II", "sks": "4" },
+            { "no": "6", "code": "", "name": "Keahlian III", "sks": "4" }
+        ],
+        "total_sks": "18"
+    },
+    {
+        "group_name": "SEMESTER 7",
+        "courses": [
+            { "no": "1", "code": "UXN 41036", "name": "Kuliah Kerja Nyata", "sks": "4" },
+            { "no": "2", "code": "FTS 41043", "name": "Kewirausahaan", "sks": "2" },
+            { "no": "3", "code": "TIS 41463", "name": "Seminar Proposal", "sks": "1" },
+            { "no": "4", "code": "", "name": "Keahlian IV", "sks": "4" },
+            { "no": "5", "code": "", "name": "Keahlian V", "sks": "4" }
+        ],
+        "total_sks": "15"
+    },
+    {
+        "group_name": "SEMESTER 8",
+        "courses": [
+            { "no": "1", "code": "TIS 42473", "name": "Skripsi", "sks": "6" }
+        ],
+        "total_sks": "6"
+    },
+    {
+        "group_name": "Komputasi Cerdas dan Visualisasi",
+        "courses": [
+            { "no": "Keahlian I", "code": "TIS 31303", "name": "Pengenalan Pola", "sks": "4" },
+            { "no": "Keahlian II", "code": "TIS 32313", "name": "Data Mining", "sks": "4" },
+            { "no": "Keahlian III", "code": "TIS 32323", "name": "Mixed Reality (AR dan VR)", "sks": "4" },
+            { "no": "Keahlian IV", "code": "TIS 41333", "name": "Informatika Robotika", "sks": "4" },
+            { "no": "Keahlian V", "code": "TIS 41343", "name": "Simulasi dan Game Komputer", "sks": "4" }
+        ],
+        "total_sks": "20"
+    },
+    {
+        "group_name": "Rekayasa Perangkat Lunak",
+        "courses": [
+            { "no": "Keahlian I", "code": "TIS 31353", "name": "Animasi dan Pemodelan", "sks": "4" },
+            { "no": "Keahlian II", "code": "TIS 32363", "name": "Pemrograman Perangkat Lunak", "sks": "4" },
+            { "no": "Keahlian III", "code": "TIS 32373", "name": "Audit Teknologi Informasi", "sks": "4" },
+            { "no": "Keahlian IV", "code": "TIS 41383", "name": "Teknik Pengujian Perangkat Lunak", "sks": "4" },
+            { "no": "Keahlian V", "code": "TIS 41393", "name": "Rekayasa Web", "sks": "4" }
+        ],
+        "total_sks": "20"
+    },
+    {
+        "group_name": "Komputasi Berbasis Jaringan",
+        "courses": [
+            { "no": "Keahlian I", "code": "TIS 31403", "name": "Jaringan Sensor Nirkabel", "sks": "4" },
+            { "no": "Keahlian II", "code": "TIS 32413", "name": "Teknologi Antar Jaringan", "sks": "4" },
+            { "no": "Keahlian III", "code": "TIS 32423", "name": "Perancangan dan Manajemen Jaringan", "sks": "4" },
+            { "no": "Keahlian IV", "code": "TIS 41433", "name": "Digital Forensic", "sks": "4" },
+            { "no": "Keahlian V", "code": "TIS 41443", "name": "Sistem Administrasi Jaringan", "sks": "4" }
+        ],
+        "total_sks": "20"
+    },
+    {
+        "group_name": "Total SKS Keseluruhan",
+        "courses": [        ],
+        "total_sks": "144"
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+[
+  {
+    "intent": "pendaftaran_pascasarjana_gel_1",
+    "keywords": [
+      "daftar s2",
+      "pendaftaran s2",
+      "pendaftaran s2 gelombang satu",
+      "registrasi pascasarjana",
+      "registrasi s2 gelombang",
+      "jadwal pendaftaran s2",
+      "jadwal pendaftaran s2 gelombang"
+    ],
+    "response": "Pendaftaran Pascasarjana Gelombang 1 dilaksanakan secara online pada 1 Agustus sampai 26 September 2025."
+  },
+  {
+    "intent": "ujian_tulis_pascasarjana_gel_1",
+    "keywords": [
+      "ujian tulis",
+      "ujian tulis s2",
+      "ujian tulis pascasarjana",
+      "tes tertulis s2",
+      "tes seleksi s2",
+      "jadwal ujian s2",
+      "ujian masuk pascasarjana"
+    ],
+    "response": "Ujian tulis berbasis komputer Pascasarjana dilaksanakan pada 2 Oktober 2025."
+  },
+  {
+    "intent": "tes_bidang_pascasarjana_gel_1",
+    "keywords": [
+      "tes bidang",
+      "tes bidang s2",
+      "tes bidang pascasarjana",
+      "ujian bidang s2",
+      "ujian bidang pascasarjana",
+      "tes prodi pascasarjana"
+    ],
+    "response": "Tes bidang Pascasarjana di masing-masing program studi dilaksanakan pada 3 Oktober 2025."
+  },
+  {
+    "intent": "rapat_kelulusan_pascasarjana_gel_1",
+    "keywords": [
+      "rapat kelulusan",
+      "rapat kelulusan s2",
+      "penentuan kelulusan s2",
+      "rapat hasil seleksi",
+      "penetapan kelulusan pascasarjana"
+    ],
+    "response": "Rapat penentuan kelulusan Pascasarjana dilaksanakan pada 8 Oktober 2025."
+  },
+  {
+    "intent": "pengumuman_pascasarjana_gel_1",
+    "keywords": [
+      "pengumuman kelulusan",
+      "pengumuman kelulusan s2",
+      "hasil seleksi s2",
+      "hasil seleksi pascasarjana",
+      "pengumuman hasil seleksi"
+    ],
+    "response": "Pengumuman kelulusan Pascasarjana Gelombang 1 dilakukan pada 13 Oktober 2025."
+  },
+  {
+    "intent": "pendaftaran_pascasarjana_gel_2",
+    "keywords": [
+      "daftar s2 gelombang",
+      "pendaftaran s2 gelombang dua",
+      "registrasi s2 gelombang dua",
+      "jadwal pendaftaran s2 gelombang dua"
+    ],
+    "response": "Pendaftaran Pascasarjana Gelombang 2 dilaksanakan secara online pada 9 Oktober sampai 5 Desember 2025."
+  },
+  {
+    "intent": "ujian_tulis_pascasarjana_gel_2",
+    "keywords": [
+      "ujian tulis gelombang",
+      "ujian tulis s2 gelombang dua",
+      "tes tertulis s2 gelombang dua",
+      "jadwal ujian s2 gelombang dua"
+    ],
+    "response": "Ujian tulis berbasis komputer Pascasarjana Gelombang 2 dilaksanakan pada 11 Desember 2025."
+  },
+  {
+    "intent": "tes_bidang_pascasarjana_gel_2",
+    "keywords": [
+      "tes bidang gelombang",
+      "tes bidang s2 gelombang dua",
+      "ujian bidang pascasarjana gelombang dua"
+    ],
+    "response": "Tes bidang Pascasarjana Gelombang 2 dilaksanakan pada 12 Desember 2025."
+  },
+  {
+    "intent": "rapat_kelulusan_pascasarjana_gel_2",
+    "keywords": [
+      "rapat kelulusan gelombang",
+      "rapat kelulusan s2 gelombang dua",
+      "penentuan kelulusan s2 gelombang dua"
+    ],
+    "response": "Rapat penentuan kelulusan Pascasarjana dilaksanakan pada 18 Desember 2025."
+  },
+  {
+    "intent": "pengumuman_pascasarjana_gel_2",
+    "keywords": [
+      "pengumuman kelulusan gelombang",
+      "pengumuman s2 gelombang dua",
+      "hasil seleksi s2 gelombang dua"
+    ],
+    "response": "Pengumuman kelulusan Pascasarjana Gelombang 2 dilakukan pada 24 Desember 2025."
+  },
+  {
+    "intent": "daftar_ulang_pascasarjana",
+    "keywords": [
+      "daftar ulang s2",
+      "registrasi ulang s2",
+      "pendaftaran ulang pascasarjana",
+      "jadwal daftar ulang s2"
+    ],
+    "response": "Pendaftaran ulang Pascasarjana dilaksanakan pada 30 Desember 2025 sampai 12 Januari 2026."
+  },
+  {
+    "intent": "pembayaran_spp_pascasarjana",
+    "keywords": [
+      "pembayaran spp s2",
+      "bayar spp pascasarjana",
+      "pembayaran biaya kuliah s2",
+      "update biodata pascasarjana"
+    ],
+    "response": "Update biodata dan pembayaran SPP Pascasarjana dilakukan pada 30 Desember 2025 sampai 12 Januari 2026."
+  },
+  
+
+  {
+    "intent": "pendaftaran_profesi_gel_1",
+    "keywords": [
+      "pendaftaran profesi",
+      "daftar profesi",
+      "daftar mahasiswa profesi",
+      "pendaftaran profesi online",
+      "pendaftaran profesi gelombang satu",
+      "daftar profesi gelombang satu",
+      "jadwal pendaftaran profesi",
+      "penerimaan mahasiswa profesi"
+    ],
+    "response": "Pendaftaran Mahasiswa Baru Profesi Gelombang 1 dilaksanakan secara online pada 01 Agustus 2025 sampai 26 September 2025."
+  },
+  {
+    "intent": "ujian_tulis_profesi_gel_1",
+    "keywords": [
+      "ujian tulis profesi",
+      "ujian masuk profesi",
+      "tes masuk profesi",
+      "ujian seleksi profesi",
+      "ujian berbasis komputer",
+      "ujian komputer profesi",
+      "jadwal ujian profesi"
+    ],
+    "response": "Ujian Tulis Berbasis Komputer Mahasiswa Baru Profesi dilaksanakan pada 02 Oktober 2025."
+  },
+  {
+    "intent": "tes_bidang_profesi_gel_1",
+    "keywords": [
+      "tes bidang profesi",
+      "tes bidang prodi",
+      "ujian bidang profesi",
+      "ujian program studi",
+      "tes kompetensi profesi",
+      "tes keilmuan profesi"
+    ],
+    "response": "Tes Bidang di Program Studi masing-masing untuk Mahasiswa Baru Profesi dilaksanakan pada 03 Oktober 2025."
+  },
+  {
+    "intent": "rapat_kelulusan_profesi_gel_1",
+    "keywords": [
+      "rapat kelulusan profesi",
+      "penentuan kelulusan profesi",
+      "rapat hasil seleksi",
+      "penetapan kelulusan profesi",
+      "rapat kelulusan mahasiswa"
+    ],
+    "response": "Rapat Penentuan Kelulusan Mahasiswa Baru Profesi dilaksanakan pada 08 Oktober 2025."
+  },
+  {
+    "intent": "pengumuman_profesi_gel_1",
+    "keywords": [
+      "pengumuman kelulusan profesi",
+      "hasil seleksi profesi",
+      "pengumuman hasil seleksi",
+      "hasil penerimaan profesi",
+      "pengumuman mahasiswa profesi"
+    ],
+    "response": "Pengumuman Kelulusan Mahasiswa Baru Profesi Gelombang 1 dilakukan pada 13 Oktober 2025."
+  },
+  {
+    "intent": "pendaftaran_profesi_gel_2",
+    "keywords": [
+      "pendaftaran profesi gelombang dua",
+      "daftar profesi gelombang dua",
+      "pendaftaran profesi tahap dua",
+      "jadwal pendaftaran profesi gelombang dua",
+      "penerimaan profesi gelombang dua"
+    ],
+    "response": "Pendaftaran Mahasiswa Baru Profesi Gelombang 2 dilaksanakan secara online pada 09 Oktober 2025 sampai 05 Desember 2025."
+  },
+  {
+    "intent": "ujian_tulis_profesi_gel_2",
+    "keywords": [
+      "ujian tulis profesi gelombang dua",
+      "ujian masuk profesi gelombang dua",
+      "tes seleksi profesi gelombang dua",
+      "ujian komputer profesi gelombang dua"
+    ],
+    "response": "Ujian Tulis Berbasis Komputer Mahasiswa Baru Profesi Gelombang 2 dilaksanakan pada 11 Desember 2025."
+  },
+  {
+    "intent": "tes_bidang_profesi_gel_2",
+    "keywords": [
+      "tes bidang profesi gelombang dua",
+      "ujian bidang profesi gelombang dua",
+      "tes kompetensi profesi gelombang dua"
+    ],
+    "response": "Tes Bidang di Program Studi masing-masing untuk Mahasiswa Baru Profesi Gelombang 2 dilaksanakan pada 12 Desember 2025."
+  },
+  {
+    "intent": "rapat_kelulusan_profesi_gel_2",
+    "keywords": [
+      "rapat kelulusan profesi gelombang dua",
+      "penentuan kelulusan profesi gelombang dua",
+      "rapat hasil seleksi gelombang dua"
+    ],
+    "response": "Rapat Penentuan Kelulusan Mahasiswa Baru Profesi Gelombang 2 dilaksanakan pada 18 Desember 2025."
+  },
+  {
+    "intent": "pengumuman_profesi_gel_2",
+    "keywords": [
+      "pengumuman kelulusan profesi gelombang dua",
+      "hasil seleksi profesi gelombang dua",
+      "pengumuman penerimaan profesi"
+    ],
+    "response": "Pengumuman Kelulusan Mahasiswa Baru Profesi Gelombang 2 dilakukan pada 24 Desember 2025."
+  },
+  {
+    "intent": "daftar_ulang_profesi",
+    "keywords": [
+      "pendaftaran ulang profesi",
+      "daftar ulang mahasiswa profesi",
+      "registrasi ulang profesi",
+      "jadwal daftar ulang profesi",
+      "her registrasi profesi"
+    ],
+    "response": "Pendaftaran Ulang Mahasiswa Baru Profesi dilaksanakan pada 30 Desember 2025 sampai 12 Januari 2026."
+  },
+  {
+    "intent": "pembayaran_spp_profesi",
+    "keywords": [
+      "pembayaran spp profesi",
+      "bayar spp profesi",
+      "pembayaran biaya profesi",
+      "biaya pendidikan profesi",
+      "update biodata profesi"
+    ],
+    "response": "Update biodata dan pembayaran SPP Mahasiswa Baru Profesi dilakukan pada 30 Desember 2025 sampai 12 Januari 2026."
+  },
+
+
+  {
+    "intent": "pendaftaran_ppds",
+    "keywords": [
+      "pendaftaran ppds",
+      "daftar dokter spesialis",
+      "pendaftaran dokter spesialis",
+      "daftar program spesialis",
+      "pendaftaran pendidikan dokter",
+      "jadwal pendaftaran ppds",
+      "penerimaan ppds"
+    ],
+    "response": "Pendaftaran Program Pendidikan Dokter Spesialis dilaksanakan pada 21 Oktober 2025 sampai 1 Desember 2025."
+  },
+  {
+    "intent": "pengumuman_administrasi_ppds",
+    "keywords": [
+      "pengumuman administrasi ppds",
+      "hasil seleksi administrasi",
+      "hasil administrasi ppds",
+      "pengumuman berkas ppds",
+      "hasil seleksi berkas"
+    ],
+    "response": "Pengumuman hasil seleksi administrasi Program Pendidikan Dokter Spesialis dilaksanakan pada 07 Desember 2025."
+  },
+  {
+    "intent": "tes_mmpi_psikotes_ppds",
+    "keywords": [
+      "tes mmpi ppds",
+      "psikotes ppds",
+      "tes psikologi ppds",
+      "tes mmpi psikotes",
+      "ujian psikotes ppds",
+      "jadwal tes ppds"
+    ],
+    "response": "Tes MMPI dan Psikotes Program Pendidikan Dokter Spesialis dilaksanakan pada 09 Desember 2025 sampai 14 Desember 2025."
+  },
+  {
+    "intent": "rapat_kelulusan_ppds",
+    "keywords": [
+      "rapat kelulusan ppds",
+      "penentuan kelulusan ppds",
+      "rapat hasil seleksi ppds",
+      "penetapan kelulusan ppds"
+    ],
+    "response": "Rapat Penentuan Kelulusan Program Pendidikan Dokter Spesialis dilaksanakan pada 18 Desember 2025."
+  },
+  {
+    "intent": "pengumuman_kelulusan_ppds",
+    "keywords": [
+      "pengumuman kelulusan ppds",
+      "hasil seleksi ppds",
+      "pengumuman hasil ppds",
+      "hasil penerimaan ppds"
+    ],
+    "response": "Pengumuman Kelulusan Program Pendidikan Dokter Spesialis dilaksanakan pada 24 Desember 2025."
+  },
+  {
+    "intent": "daftar_ulang_ppds",
+    "keywords": [
+      "pendaftaran ulang ppds",
+      "daftar ulang dokter spesialis",
+      "registrasi ulang ppds",
+      "jadwal daftar ulang ppds"
+    ],
+    "response": "Pendaftaran Ulang Program Pendidikan Dokter Spesialis dilaksanakan pada 30 Desember 2025 sampai 12 Januari 2026."
+  },
+  {
+    "intent": "pembayaran_spp_ppds",
+    "keywords": [
+      "pembayaran spp ppds",
+      "bayar spp dokter spesialis",
+      "pembayaran biaya ppds",
+      "update biodata ppds",
+      "biaya pendidikan ppds"
+    ],
+    "response": "Update biodata dan pembayaran SPP Program Pendidikan Dokter Spesialis dilakukan pada 30 Desember 2025 sampai 12 Januari 2026."
+  },
+
+
+  {
+    "intent": "pembayaran_spp_ukt",
+    "keywords": [
+      "pembayaran spp ukt",
+      "bayar spp ukt",
+      "masa pembayaran kuliah",
+      "pembayaran biaya kuliah",
+      "jadwal bayar ukt"
+    ],
+    "response": "Masa Pembayaran SPP/UKT dilaksanakan pada 22 Desember 2025 sampai 15 Januari 2026."
+  },
+  {
+    "intent": "pengajuan_cuti_akademik",
+    "keywords": [
+      "pengajuan cuti akademik",
+      "permohonan cuti kuliah",
+      "cuti akademik mahasiswa",
+      "jadwal cuti akademik",
+      "pengajuan cuti kuliah"
+    ],
+    "response": "Masa Pengajuan Permohonan Cuti Akademik dilaksanakan pada 22 Desember 2025 sampai 28 Februari 2026."
+  },
+  {
+    "intent": "pengisian_krs",
+    "keywords": [
+      "pengisian krs",
+      "isi kartu rencana studi",
+      "isi krs",
+      "pengisian krs online",
+      "jadwal pengisian krs",
+      "krs mahasiswa aktif"
+    ],
+    "response": "Pengisian Kartu Rencana Studi (KRS) mahasiswa dilaksanakan pada 12 Januari 2026 sampai 23 Januari 2026."
+  },
+  {
+    "intent": "pembatalan_krs",
+    "keywords": [
+      "pembatalan krs",
+      "batal krs tanpa penggantian",
+      "pembatalan mata kuliah",
+      "hapus krs mahasiswa",
+      "jadwal pembatalan krs"
+    ],
+    "response": "Pembatalan KRS tanpa penggantian mata kuliah dilaksanakan pada 02 Februari 2026 sampai 13 Februari 2026."
+  },
+  {
+    "intent": "pelaksanaan_perkuliahan",
+    "keywords": [
+      "pelaksanaan perkuliahan",
+      "jadwal perkuliahan semester",
+      "kegiatan perkuliahan",
+      "perkuliahan dan praktikum",
+      "masa perkuliahan aktif",
+      "kuliah"
+    ],
+    "response": "Pelaksanaan Perkuliahan dan Praktikum dilaksanakan pada 26 Januari 2026 sampai 05 Juni 2026."
+  },
+  {
+    "intent": "uts_semester_genap",
+    "keywords": [
+      "ujian tengah semester",
+      "uts semester genap",
+      "jadwal uts mahasiswa",
+      "ujian pertengahan semester",
+      "uts perkuliahan",
+      "uts"
+    ],
+    "response": "Ujian Tengah Semester (UTS) dilaksanakan pada 25 Maret 2026 sampai 31 Maret 2026."
+  },
+  {
+    "intent": "minggu_tenang",
+    "keywords": [
+      "minggu tenang",
+      "masa persiapan ujian",
+      "libur sebelum uas",
+      "minggu tanpa perkuliahan"
+    ],
+    "response": "Minggu Tenang dilaksanakan pada 18 Mei 2026 sampai 22 Mei 2026."
+  },
+  {
+    "intent": "uas_semester_genap",
+    "keywords": [
+      "ujian akhir semester",
+      "uas semester genap",
+      "jadwal uas mahasiswa",
+      "ujian akhir perkuliahan",
+      "uas perkuliahan",
+      "uas"
+    ],
+    "response": "Ujian Akhir Semester (UAS) dilaksanakan pada 25 Mei 2026 sampai 02 Juni 2026."
+  },
+  {
+    "intent": "input_nilai_uas",
+    "keywords": [
+      "input nilai uas",
+      "input nilai",
+      "pengisian nilai akhir",
+      "input nilai semester",
+      "entry nilai uas",
+      "jadwal input nilai"
+    ],
+    "response": "Input Nilai Ujian Akhir Semester (UAS) dilaksanakan pada 28 Mei 2026 sampai 15 Juni 2026."
+  },
+  {
+    "intent": "verifikasi_status_mahasiswa",
+    "keywords": [
+      "verifikasi status",
+      "verifikasi data",
+      "validasi status akademik",
+      "cek status mahasiswa",
+      "verifikasi data akademik"
+    ],
+    "response": "Verifikasi Data Status Mahasiswa dilaksanakan pada 10 Februari 2026 sampai 14 Februari 2026."
+  },
+
+  
+  {
+    "intent": "pelaksanaan_kukerta",
+    "keywords": [
+      "pelaksanaan kukerta",
+      "kuliah kerja nyata",
+      "kkn",
+      "kukerta",
+      "kegiatan kukerta",
+      "jadwal kukerta mahasiswa",
+      "program kukerta universitas"
+    ],
+    "response": "Pelaksanaan Kuliah Kerja Nyata (KUKERTA) dilaksanakan pada 26 Agustus 2026."
+  },
+  {
+    "intent": "pendaftaran_wisuda_januari",
+    "keywords": [
+      "pendaftaran wisuda",
+      "daftar wisuda",
+      "daftar wisuda januari",
+      "pendaftaran wisuda mahasiswa",
+      "jadwal daftar wisuda",
+      "registrasi wisuda januari"
+    ],
+    "response": "Pendaftaran Wisuda Januari dilaksanakan pada 26 Desember 2026."
+  },
+  {
+    "intent": "wisuda_ke_125",
+    "keywords": [
+      "wisuda ke 125",
+      "wisuda februari",
+      "wisuda",
+      "pelaksanaan wisuda 125",
+      "jadwal wisuda februari",
+      "wisuda periode februari"
+    ],
+    "response": "Wisuda ke-125 dilaksanakan pada 24 Februari 2026 sampai 25 Februari 2026."
+  },
+  {
+    "intent": "wisuda_ke_126",
+    "keywords": [
+      "wisuda ke 126",
+      "wisuda mei",
+      "wisuda",
+      "pelaksanaan wisuda 126",
+      "jadwal wisuda mei",
+      "wisuda periode mei"
+    ],
+    "response": "Wisuda ke-126 dilaksanakan pada 19 Mei 2026 sampai 20 Mei 2026."
+  },
+  {
+    "intent": "evaluasi_mahasiswa_fakultas",
+    "keywords": [
+      "evaluasi mahasiswa fakultas",
+      "evaluasi mahasiswa semester",
+      "penilaian mahasiswa fakultas",
+      "evaluasi akademik mahasiswa",
+      "evaluasi mahasiswa"
+    ],
+    "response": "Evaluasi Mahasiswa semester 4, 8, dan 14 oleh Fakultas dilaksanakan pada 18 Juni 2026 sampai 30 Juni 2026."
+  },
+  {
+    "intent": "sk_rektor_evaluasi_mahasiswa",
+    "keywords": [
+      "sk rektor evaluasi mahasiswa",
+      "penerbitan sk rektor",
+      "surat keputusan evaluasi",
+      "sk evaluasi"
+    ],
+    "response": "Penerbitan SK Rektor tentang Evaluasi Mahasiswa dilaksanakan pada 01 Juli 2026."
+  },
+  {
+    "intent": "dies_natalis",
+    "keywords": [
+      "dies natalis",
+      "kegiatan dies natalis",
+      "peringatan dies natalis",
+      "acara ulang tahun universitas",
+      "dies natalis universitas"
+    ],
+    "response": "Kegiatan Dies Natalis dilaksanakan pada 03 Oktober 2026."
+  },
+  {
+    "intent": "pengukuhan_guru_besar",
+    "keywords": [
+      "pengukuhan guru besar",
+      "pengukuhan",
+      "pelantikan guru besar",
+      "acara pengukuhan profesor",
+      "pengukuhan profesor universitas"
+    ],
+    "response": "Pengukuhan Guru Besar dilaksanakan pada 26 Desember 2026."
+  },
+  {
+    "intent": "pelaporan_pddikti_ganjil",
+    "keywords": [
+      "pelaporan pddikti ganjil",
+      "finalisasi pddikti ganjil",
+      "lapor pddikti semester ganjil",
+      "pelaporan data akademik ganjil"
+    ],
+    "response": "Finalisasi Pelaporan Data PDDIKTI Semester Ganjil dilaksanakan pada 10 April 2026."
+  },
+  {
+    "intent": "pelaporan_pddikti_genap",
+    "keywords": [
+      "pelaporan pddikti genap",
+      "finalisasi pddikti genap",
+      "lapor pddikti semester genap",
+      "pelaporan data akademik genap"
+    ],
+    "response": "Finalisasi Pelaporan Data PDDIKTI Semester Genap dilaksanakan pada 10 Oktober 2026."
+  }
+]
