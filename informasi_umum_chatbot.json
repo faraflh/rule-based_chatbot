@@ -130,7 +130,15 @@
         "alur kp mbkm",
         "laporan kp mbkm",
         "nilai kp mbkm",
-        "pembebasan seminar kp mbkm"
+        "pembebasan seminar kp mbkm",
+        "kp mbkm",
+        "mbkm kp",
+        "kerja praktik mbkm",
+        "kerja praktek mbkm",
+        "kp jalur mbkm",
+        "mbkm ke kp",
+        "konversi mbkm",
+        "kp merdeka belajar"
       ],
       "response": "Prosedur pelaksanaan KP bagi mahasiswa yang akan mengonversi kegiatan MBKM ke KP:\n\n1. Mahasiswa sudah mendapatkan lokasi MBKM dan calon pembimbing KP\n2. Mahasiswa mengajukan KPTI-1 dan KPTI-2, lalu mengisi Form Pengajuan Kerja Praktik sehingga status menjadi **Usulan**\n3. Upload surat diterima dari pihak MBKM pada form upload surat balasan perusahaan sehingga status berubah menjadi **KP Disetujui**\n4. Mahasiswa melaksanakan MBKM dan membuat laporan KP dengan format KP Prodi Teknik Informatika UNRI\n5. Mahasiswa **tidak perlu melaksanakan seminar KP**\n6. Mahasiswa menyelesaikan kewajiban KP dengan mengumpulkan laporan dan administrasi serta mengisi Form Upload KPTI-10\n7. **Batas pengumpulan laporan** ke admin adalah akhir semester berjalan saat UAS, jika lewat maka KP dianggap gagal\n8. Konversi nilai MBKM ke KP hanya bisa dilakukan di semester berjalan"
     },

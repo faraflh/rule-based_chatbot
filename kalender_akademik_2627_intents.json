@@ -1339,7 +1339,7 @@
       "jadwal wisuda 2026 2027",
       "wisuda tahun ini"
     ],
-    "response": "Jadwal Wisuda:\n\n🎓 Wisuda ke-125: 24-25 Februari 2026 (TA 2025/2026)\n🎓 Wisuda ke-126: 19-20 Mei 2026 (TA 2025/2026)\n🎓 Wisuda ke-127: 19-20 Agustus 2026 (TA 2026/2027)\n🎓 Wisuda ke-128: 3-4 November 2026 (TA 2026/2027)\n🎓 Wisuda ke-129: 3-4 Februari 2027 (TA 2026/2027)\n🎓 Wisuda ke-130: 18-19 Mei 2027 (TA 2026/2027)\n\nUntuk informasi lebih spesifik, tanyakan dengan menyebutkan nomor wisuda (contoh: 'wisuda 125' atau 'wisuda ke-128')."
+    "response": "Jadwal Wisuda:\n\n🎓 Wisuda ke-125: 24-25 Februari 2026 (TA 2025/2026)\n\n🎓 Wisuda ke-126: 19-20 Mei 2026 (TA 2025/2026)\n\n🎓 Wisuda ke-127: 19-20 Agustus 2026 (TA 2026/2027)\n\n🎓 Wisuda ke-128: 3-4 November 2026 (TA 2026/2027)\n\n🎓 Wisuda ke-129: 3-4 Februari 2027 (TA 2026/2027)\n\n🎓 Wisuda ke-130: 18-19 Mei 2027 (TA 2026/2027)\n\nUntuk informasi lebih spesifik, tanyakan dengan menyebutkan nomor wisuda (contoh: 'wisuda 125' atau 'wisuda ke-128')."
   },
   {
     "intent": "pendaftaran_wisuda_127",

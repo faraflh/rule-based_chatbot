@@ -351,37 +351,39 @@ class MasterRuleBasedChatbot:
             elif misi_item:
                 return f"ℹ️ **Informasi:**\n\n{misi_item['response']}"
         
-        # Deteksi khusus untuk KPTI (harus dicek SEBELUM STI karena KPTI mengandung "TI")
-        # Cek apakah user menanyakan KPTI spesifik (dengan nomor) atau overview
-        kpti_specific_match = re.search(r'kpti[-\s]?(\d+)', cleaned_input)
-        if kpti_specific_match or (re.search(r'\bkpti\b', cleaned_input) and not re.search(r'\bsti\b', cleaned_input)):
-            if kpti_specific_match:
-                # User menanyakan KPTI spesifik dengan nomor
-                kpti_num = kpti_specific_match.group(1)
-                for item in self.informasi_umum_data:
-                    if item.get("intent") == f"info_surat_kpti_{kpti_num}":
-                        return f"ℹ️ **Informasi:**\n\n{item['response']}"
-            else:
-                # User hanya mengetik "kpti" saja - tampilkan overview
-                for item in self.informasi_umum_data:
-                    if item.get("intent") == "info_overview_kpti":
-                        return f"📋 **Daftar Form KPTI:**\n\n{item['response']}"
+        # Deteksi khusus untuk KPTI (HANYA jika user eksplisit mengetik "kpti")
+        # Gunakan cleaned_input (bukan expanded) untuk menghindari false positive dari ekspansi "kp"
+        kpti_specific_match = re.search(r'\bkpti[-\s]?(\d+)\b', cleaned_input)
+        kpti_general_match = re.search(r'\bkpti\b', cleaned_input)
         
-        # Deteksi khusus untuk STI (setelah KPTI dicek)
-        # Cek apakah user menanyakan STI spesifik (dengan nomor) atau overview
-        sti_specific_match = re.search(r'sti[-\s]?(\d+)', cleaned_input)
-        if sti_specific_match or (re.search(r'\bsti\b', cleaned_input) and not re.search(r'\bkpti\b', cleaned_input)):
-            if sti_specific_match:
-                # User menanyakan STI spesifik dengan nomor
-                sti_num = sti_specific_match.group(1)
-                for item in self.informasi_umum_data:
-                    if item.get("intent") == f"info_surat_sti_{sti_num}":
-                        return f"ℹ️ **Informasi:**\n\n{item['response']}"
-            else:
-                # User hanya mengetik "sti" saja - tampilkan overview
-                for item in self.informasi_umum_data:
-                    if item.get("intent") == "info_overview_sti":
-                        return f"📋 **Daftar Form STI:**\n\n{item['response']}"
+        if kpti_specific_match:
+            # User menanyakan KPTI spesifik dengan nomor (contoh: "kpti-1", "kpti 10")
+            kpti_num = kpti_specific_match.group(1)
+            for item in self.informasi_umum_data:
+                if item.get("intent") == f"info_surat_kpti_{kpti_num}":
+                    return f"ℹ️ **Informasi:**\n\n{item['response']}"
+        elif kpti_general_match and not re.search(r'\b(syarat|prosedur|cara|alur|tata cara|ketentuan)\b', cleaned_input):
+            # User hanya mengetik "kpti" saja tanpa konteks prosedur - tampilkan overview
+            for item in self.informasi_umum_data:
+                if item.get("intent") == "info_overview_kpti":
+                    return f"📋 **Daftar Form KPTI:**\n\n{item['response']}"
+        
+        # Deteksi khusus untuk STI (HANYA jika user eksplisit mengetik "sti")
+        # Pastikan bukan bagian dari kata lain (seperti "prestasi", "investasi")
+        sti_specific_match = re.search(r'\bsti[-\s]?(\d+)\b', cleaned_input)
+        sti_general_match = re.search(r'\bsti\b', cleaned_input) and not re.search(r'\bkpti\b', cleaned_input)
+        
+        if sti_specific_match:
+            # User menanyakan STI spesifik dengan nomor
+            sti_num = sti_specific_match.group(1)
+            for item in self.informasi_umum_data:
+                if item.get("intent") == f"info_surat_sti_{sti_num}":
+                    return f"ℹ️ **Informasi:**\n\n{item['response']}"
+        elif sti_general_match and not re.search(r'\b(syarat|prosedur|cara|alur|tata cara|ketentuan)\b', cleaned_input):
+            # User hanya mengetik "sti" saja tanpa konteks prosedur - tampilkan overview
+            for item in self.informasi_umum_data:
+                if item.get("intent") == "info_overview_sti":
+                    return f"📋 **Daftar Form STI:**\n\n{item['response']}"
         
         best_info = self.fuzzy_search_intent(expanded_input, self.informasi_umum_data, threshold=80)
         if best_info:
