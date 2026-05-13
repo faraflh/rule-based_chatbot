@@ -256,28 +256,61 @@ class MasterRuleBasedChatbot:
         return response
 
     # ------------------------------------------
+    # PREPROCESSING SINGKATAN
+    # ------------------------------------------
+    def expand_abbreviations(self, text):
+        """Ekspansi singkatan umum ke bentuk lengkap untuk matching lebih baik"""
+        abbreviations = {
+            r'\bsempro\b': 'seminar proposal',
+            r'\bsemhas\b': 'seminar hasil sidang skripsi ujian skripsi',
+            r'\bkp\b': 'kerja praktik kerja praktek',
+            r'\bta\b': 'tugas akhir skripsi',
+            r'\buts\b': 'ujian tengah semester',
+            r'\buas\b': 'ujian akhir semester',
+            r'\bkrs\b': 'kartu rencana studi',
+            r'\bukt\b': 'uang kuliah tunggal',
+            r'\bspp\b': 'sumbangan pembinaan pendidikan',
+            r'\bmbkm\b': 'merdeka belajar kampus merdeka',
+            r'\bpmb\b': 'penerimaan mahasiswa baru',
+            r'\bsnbp\b': 'seleksi nasional berdasarkan prestasi',
+            r'\bsnbt\b': 'seleksi nasional berdasarkan tes',
+            r'\butbk\b': 'ujian tulis berbasis komputer',
+            r'\bkkn\b': 'kuliah kerja nyata kukerta',
+            r'\bsti\b': 'surat tugas ilmiah',
+            r'\bkpti\b': 'kartu peserta tugas ilmiah',
+        }
+        
+        expanded = text.lower()
+        for pattern, replacement in abbreviations.items():
+            expanded = re.sub(pattern, replacement, expanded, flags=re.IGNORECASE)
+        
+        return expanded
+
+    # ------------------------------------------
     # ROUTER UTAMA
     # ------------------------------------------
     def get_response(self, user_input):
         cleaned_input = user_input.lower().strip()
+        # Ekspansi singkatan untuk matching yang lebih baik
+        expanded_input = self.expand_abbreviations(cleaned_input)
 
         # 1. Perintah Sistem
-        if "ganti" in cleaned_input:
-            if "2018" in cleaned_input:
+        if "ganti" in expanded_input:
+            if "2018" in expanded_input:
                 return "✅ Berhasil beralih ke Kurikulum 2018." if self.load_curriculum("2018") else "❌ Data Kurikulum 2018 tidak ada."
-            elif "2025" in cleaned_input:
+            elif "2025" in expanded_input:
                 return "✅ Berhasil beralih ke Kurikulum 2025." if self.load_curriculum("2025") else "❌ Data Kurikulum 2025 tidak ada."
 
-        if "total" in cleaned_input and "sks" in cleaned_input:
+        if "total" in expanded_input and "sks" in expanded_input:
             return f"🤖 Total SKS yang harus ditempuh berdasarkan Kurikulum {self.kurikulum_year} adalah 144 SKS."
 
-        sem_match = re.search(r"(?:sem|semester)\s*(\d+)", cleaned_input)
+        sem_match = re.search(r"(?:sem|semester)\s*(\d+)", expanded_input)
         if sem_match:
             return self.get_semester_info(sem_match.group(1))
 
         # 2. Informasi Umum
         # Deteksi khusus untuk "visi misi" atau "visi dan misi"
-        if any(keyword in cleaned_input for keyword in ["visi misi", "visi dan misi", "visi & misi"]):
+        if any(keyword in expanded_input for keyword in ["visi misi", "visi dan misi", "visi & misi"]):
             visi_item = None
             misi_item = None
             for item in self.informasi_umum_data:
@@ -293,30 +326,36 @@ class MasterRuleBasedChatbot:
             elif misi_item:
                 return f"ℹ️ **Informasi:**\n\n{misi_item['response']}"
         
-        best_info = self.fuzzy_search_intent(cleaned_input, self.informasi_umum_data, threshold=80)
+        best_info = self.fuzzy_search_intent(expanded_input, self.informasi_umum_data, threshold=80)
         if best_info:
             return f"ℹ️ **Informasi:**\n\n{best_info['response']}"
 
         # 3. Dosen
-        best_dosen = self.fuzzy_search_intent(cleaned_input, self.dosen_data, threshold=80)
+        best_dosen = self.fuzzy_search_intent(expanded_input, self.dosen_data, threshold=80)
         if best_dosen:
             return f"👨‍🏫 **Informasi Dosen:**\n\n{best_dosen['response']}"
 
         # 4. Kalender Akademik
-        best_kalender = self.fuzzy_search_intent(cleaned_input, self.kalender_data, threshold=80)
+        # Prioritaskan intent jadwal_wisuda_semua untuk query umum tentang wisuda
+        if any(keyword in expanded_input for keyword in ["kapan wisuda", "jadwal wisuda", "wisuda kapan", "semua jadwal wisuda", "jadwal wisuda 2026", "jadwal wisuda 2027", "wisuda tahun ini"]) and not re.search(r"wisuda\s*(ke-?)?\s*\d+", expanded_input):
+            for item in self.kalender_data:
+                if item.get("intent") == "jadwal_wisuda_semua":
+                    return f"📅 **Jadwal Wisuda:**\n\n{item['response']}"
+        
+        best_kalender = self.fuzzy_search_intent(expanded_input, self.kalender_data, threshold=80)
         if best_kalender:
             ta = best_kalender.get("tahun_ajaran", "")
             header = f"📅 **Informasi Akademik (TA {ta}):**" if ta else "📅 **Informasi Akademik:**"
             return f"{header}\n\n{best_kalender['response']}"
 
         # 5. Setelah Sidang
-        best_setelah = self.fuzzy_search_intent(cleaned_input, self.setelah_sidang_data, threshold=80)
+        best_setelah = self.fuzzy_search_intent(expanded_input, self.setelah_sidang_data, threshold=80)
         if best_setelah:
             return f"📂 **Setelah Sidang:**\n\n{best_setelah['response']}"
 
         # 6. Pedoman Penulisan Skripsi (dicek lebih dulu karena lebih spesifik untuk aturan penulisan)
         # Deteksi query umum tentang pedoman/aturan penulisan skripsi
-        if any(keyword in cleaned_input for keyword in ["aturan penulisan", "pedoman penulisan", "format penulisan", "cara menulis skripsi", "panduan penulisan"]):
+        if any(keyword in expanded_input for keyword in ["aturan penulisan", "pedoman penulisan", "format penulisan", "cara menulis skripsi", "panduan penulisan"]):
             overview_chunks = []
             for chunk in self.skripsi_data:
                 if chunk.get("sub_topik") == "Umum" and chunk.get("topik_utama") in ["Kertas", "Pengetikan", "Penomoran", "Bahasa"]:
@@ -327,7 +366,7 @@ class MasterRuleBasedChatbot:
             if overview_chunks:
                 return "📖 **Pedoman Penulisan Skripsi:**\n\n" + "\n\n---\n\n".join(overview_chunks[:4]) + "\n\n💡 *Tanyakan lebih spesifik untuk detail (contoh: 'aturan margin', 'format tabel', 'daftar pustaka')*"
         
-        matched_skripsi_cat = self.fuzzy_search_skripsi_category(cleaned_input, threshold=75)
+        matched_skripsi_cat = self.fuzzy_search_skripsi_category(expanded_input, threshold=75)
         if matched_skripsi_cat:
             responses = []
             for chunk in self.skripsi_data:
@@ -341,8 +380,8 @@ class MasterRuleBasedChatbot:
 
         # 7. SOP Skripsi & SOP JTE (dicek setelah Pedoman Skripsi)
         sop_results = []
-        sop_skripsi_hits = self.fuzzy_search_sop(cleaned_input, self.sop_skripsi_data, threshold=70, limit=2)
-        sop_jte_hits = self.fuzzy_search_sop(cleaned_input, self.sop_jte_data, threshold=70, limit=2)
+        sop_skripsi_hits = self.fuzzy_search_sop(expanded_input, self.sop_skripsi_data, threshold=70, limit=2)
+        sop_jte_hits = self.fuzzy_search_sop(expanded_input, self.sop_jte_data, threshold=70, limit=2)
         for chunk in sop_skripsi_hits:
             konten = chunk.get('konten', '')
             if isinstance(konten, list):
@@ -357,7 +396,7 @@ class MasterRuleBasedChatbot:
             return "\n\n---\n\n".join(sop_results)
 
         # 8. Kurikulum Matkul
-        fuzzy_kurikulum = self.fuzzy_search_curriculum(cleaned_input)
+        fuzzy_kurikulum = self.fuzzy_search_curriculum(expanded_input)
         if fuzzy_kurikulum:
             return fuzzy_kurikulum
 
@@ -410,7 +449,8 @@ with st.sidebar:
         "Kapan wisuda 128?",
         "Semester 3",
         "Isi map biru apa saja?",
-        "Prosedur seminar proposal skripsi",
+        "Prosedur sempro",
+        "Syarat semhas",
         "Syarat pengajuan KP",
         "Aturan margin skripsi",
         "Jumlah dosen TI",
@@ -463,6 +503,13 @@ if "messages" not in st.session_state:
                 "- Prosedur skripsi & KP\n"
                 "- Alur setelah sidang\n"
                 "- Informasi umum (pendaftaran, UKT, beasiswa, form STI/KPTI, publikasi)\n\n"
+                "💡 **Tips:** Kamu bisa pakai singkatan seperti:\n"
+                "• **sempro** = seminar proposal\n"
+                "• **semhas** = seminar hasil / sidang skripsi\n"
+                "• **KP** = kerja praktik\n"
+                "• **TA** = tugas akhir / skripsi\n"
+                "• **UTS/UAS** = ujian tengah/akhir semester\n"
+                "• **KRS** = kartu rencana studi\n\n"
                 "Kamu juga bisa klik contoh pertanyaan di sidebar."
             ),
         }
