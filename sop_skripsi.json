@@ -3,126 +3,364 @@
     "id": "1.1",
     "topik_utama": "Bab 1 Pendahuluan",
     "sub_topik": "1.1 Latar Belakang",
-    "full_context": "Bab 1 Pendahuluan - 1.1 Latar Belakang",
-    "konten": "Terkait peningkatan mutu pelayanan administrasi akademik, Skripsi mahasiswa Jurusan Teknik Elektro Fakultas Teknik Universitas Riau sangat diperlukan suatu prosedur untuk menjamin semua proses dijalankan dengan baik oleh pihak terkait. [cite: 1, 2, 3]"
+    "full_context": "1.1 Latar Belakang",
+    "konten": "Terkait peningkatan mutu pelayanan administrasi akademik, Skripsi mahasiswa Jurusan Teknik Elektro Fakultas Teknik Universitas Riau sangat diperlukan suatu prosedur untuk menjamin semua proses dijalankan dengan baik oleh pihak terkait.]"
   },
   {
     "id": "1.2",
     "topik_utama": "Bab 1 Pendahuluan",
     "sub_topik": "1.2 Maksud dan Tujuan",
-    "full_context": "Bab 1 Pendahuluan - 1.2 Maksud dan Tujuan",
-    "konten": "Buku pedoman ini bertujuan memberikan prosedur yang jelas kepada mahasiswa dan Dosen di lingkungan Jurusan Teknik Elektro Fakultas Teknik Universitas Riau sehingga dapat menyelesaikan studinya tepat waktu. [cite: 4, 5]"
+    "full_context": "Maksud dan Tujuan",
+    "konten": "Buku pedoman ini bertujuan memberikan prosedur yang jelas kepada mahasiswa dan Dosen di lingkungan Jurusan Teknik Elektro Fakultas Teknik Universitas Riau sehingga dapat menyelesaikan studinya tepat waktu.]"
   },
   {
     "id": "1.3",
     "topik_utama": "Bab 1 Pendahuluan",
     "sub_topik": "1.3 Pengertian Skripsi",
-    "full_context": "Bab 1 Pendahuluan - 1.3 Pengertian Skripsi",
-    "konten": "A. Skripsi adalah tugas akhir mahasiswa Program Sarjana berupa karya tulis ilmiah berdasarkan hasil penelitian lapangan, penelitian laboratorium, dan/atau penelitian kepustakaan. [cite: 6, 7] B. Topik atau judul skripsi dapat diusulkan oleh dosen atau mahasiswa. [cite: 8] C. Sebelum melakukan penelitian, mahasiswa harus menyusun proposal Skripsi dengan penuh tanggung jawab yang memenuhi etika akademik, baik atas isinya, maupun tata cara penulisannya. [cite: 9] D. Tahapan penyelesaian skripsi adalah: a. Seminar proposal skripsi; b. Ujian skripsi. [cite: 10, 11] E. Penulisan skripsi harus disesuaikan dengan format penulisan yang berlaku di Jurusan Teknik Elektro Fakultas Teknik Universitas Riau, dengan mengikuti template penulisan laporan Jurusan Teknik Elektro. [cite: 12] F. Hal yang terkait plagiat skripsi adalah sepenuhnya menjadi tanggungjawab mahasiswa yang bersangkutan, sanksi terkait pelanggaran ini disesuaikan dengan peraturan yang berlaku. [cite: 13]"
+    "full_context": "Pengertian Skripsi",
+    "konten": [
+      "A. Skripsi adalah tugas akhir mahasiswa Program Sarjana berupa karya tulis ilmiah berdasarkan hasil penelitian lapangan, penelitian laboratorium, dan/atau penelitian kepustakaan.",
+      "B. Topik atau judul skripsi dapat diusulkan oleh dosen atau mahasiswa. ",
+      "C. Sebelum melakukan penelitian, mahasiswa harus menyusun proposal Skripsi dengan penuh tanggung jawab yang memenuhi etika akademik, baik atas isinya, maupun tata cara penulisannya.",
+      "D. Tahapan penyelesaian skripsi adalah:",
+      "   a. Seminar proposal skripsi",
+      "   b. Ujian skripsi",
+      "E. Penulisan skripsi harus disesuaikan dengan format penulisan yang berlaku di Jurusan Teknik Elektro Fakultas Teknik Universitas Riau, dengan mengikuti template penulisan laporan Jurusan Teknik Elektro.",
+      "F. Hal yang terkait plagiat skripsi adalah sepenuhnya menjadi tanggungjawab mahasiswa yang bersangkutan, sanksi terkait pelanggaran ini disesuaikan dengan peraturan yang berlaku.]"
+    ]
   },
   {
     "id": "1.4",
     "topik_utama": "Bab 1 Pendahuluan",
     "sub_topik": "1.4 Mahasisiswa Skripsi",
-    "full_context": "Bab 1 Pendahuluan - 1.4 Mahasisiswa Skripsi",
-    "konten": "A. Mahasiswa skripsi adalah mahasiswa program studi di lingkungan Jurusan Teknik Elektro yang telah memenuhi persyaratan untuk melakukan penelitian dalam menyelesaikan studinya dan mengambil Mata Kuliah Seminar Proposal dan atau Skripsi. [cite: 14, 15] B. Mahasiswa yang mengambil Mata Kuliah Proposal Skripsi telah lulus minimal 75 (tujuh puluh lima) SKS dan telah lulus Mata Kuliah Metode Penelitian ata sejenisnya. [cite: 16] C. Mahasiswa yang akan melaksanakan seminar proposal skripsi atau ujian skripsi diwajibkan menggunakan pakaian sebagai berikut: a) Berpakaian dan berpenampilan rapi [cite: 17, 18] b) Baju putih lengan panjang berdasi hitam. [cite: 19] c) Celana/rok panjang warna hitam. [cite: 20] d) Berjilbab warna hitam bagi yang memakai jilbab. [cite: 21]"
+    "full_context": "Mahasisiswa Skripsi",
+    "konten": [
+      "A. Mahasiswa skripsi adalah mahasiswa program studi di lingkungan Jurusan Teknik Elektro yang telah memenuhi persyaratan untuk melakukan penelitian dalam menyelesaikan studinya dan mengambil Mata Kuliah Seminar Proposal dan atau Skripsi.",
+      "B. Mahasiswa yang mengambil Mata Kuliah Proposal Skripsi telah lulus minimal 75 (tujuh puluh lima) SKS dan telah lulus Mata Kuliah Metode Penelitian ata sejenisnya.",
+      "C. Mahasiswa yang akan melaksanakan seminar proposal skripsi atau ujian skripsi diwajibkan menggunakan pakaian sebagai berikut:",
+      "   a) Berpakaian dan berpenampilan rapi",
+      "   b) Baju putih lengan panjang berdasi hitam",
+      "   c) Celana/rok panjang warna hitam",
+      "   d) Berjilbab warna hitam bagi yang memakai jilbab"
+    ]
   },
   {
     "id": "1.5",
     "topik_utama": "Bab 1 Pendahuluan",
     "sub_topik": "1.5 Pembimbing Skripsi",
-    "full_context": "Bab 1 Pendahuluan - 1.5 Pembimbing Skripsi",
-    "konten": "A. Dalam melakukan penelitian, seorang mahasiswa dibimbing oleh dosen pembimbing Skripsi. [cite: 23, 24] B. Dosen Jurusan Teknik Elektro (JTE) yang menjadi dosen pembimbing skripsi harus memenuhi persyaratan: a. Profesional, jujur dan adil; b. Bergelar Magister dengan jabatan fungsional minimal Asisten Ahli; c. Memiliki disiplin ilmu atau bidang keahlian maupun jejak rekam penelitian yang sesuai dengan topik skripsi; d. Dosen yang memberikan topik/judul skripsi secara otomatis menjadi Dosen Pembimbing Utama. [cite: 25, 26, 27, 28, 29, 30] C. Dosen pembimbing skripsi bertugas: membimbing penyusunan rencana, memeriksa konsep, memonitor pelaksanaan, membimbing penulisan laporan, dan memeriksa serta menyetujui tugas akhir. [cite: 31, 32, 33, 34, 35, 36] D. Dosen Pembimbing utama dapat meminta Dosen Pembimbing Pendamping dari luar program studi maupun praktisi. [cite: 37] E. Dosen luar Jurusan Teknik Elektro UR hanya boleh menjadi Dosen Pembimbing Pendamping dengan persetujuan Ketua Jurusan. [cite: 38] F. Dosen Pembimbing Pendamping luar harus dari prodi berakreditasi A atau B dengan akreditasi institusi A. [cite: 39] G. Jika pembimbing utama bukan dari prodi asal, pembimbing pendamping harus dari prodi asal mahasiswa. [cite: 40] H. Dosen wajib menyediakan waktu konsultasi minimal 2 (dua) kali seminggu. [cite: 41] I. Setiap dosen tetap maksimal menjadi pembimbing 10 mahasiswa; penambahan dilakukan setelah ada yang lulus. [cite: 42, 43] J. Pembimbing Skripsi dapat diganti apabila: meninggal dunia, sakit (6 bulan), tugas belajar, mengundurkan diri, mahasiswa ganti judul, atau pembimbing lalai 6 bulan. [cite: 44, 45, 46, 47, 48, 49, 50, 51] K. Mahasiswa dapat mengajukan penggantian jika pembimbing lalai 6 bulan. [cite: 52] L. Pengangkatan/penggantian ditetapkan keputusan dekan atas usul ketua jurusan. [cite: 53] M. Dosen pembimbing dapat mempublikasikan hasil penelitian mahasiswa. [cite: 54]"
+    "full_context": "Pembimbing Skripsi",
+    "konten": [
+      "A. Dalam melakukan penelitian, seorang mahasiswa dibimbing oleh dosen pembimbing Skripsi.",
+      "B. Dosen Jurusan Teknik Elektro (JTE) yang menjadi dosen pembimbing skripsi harus memenuhi persyaratan:",
+      "   a. Profesional, jujur dan adil",
+      "   b. Bergelar Magister dengan jabatan fungsional minimal Asisten Ahli",
+      "   c. Memiliki disiplin ilmu atau bidang keahlian maupun jejak rekam penelitian yang sesuai dengan topik skripsi",
+      "   d. Dosen yang memberikan topik/judul skripsi secara otomatis menjadi Dosen Pembimbing Utama",
+      "C. Dosen pembimbing skripsi bertugas: membimbing penyusunan rencana, memeriksa konsep, memonitor pelaksanaan, membimbing penulisan laporan, dan memeriksa serta menyetujui tugas akhir.",
+      "D. Dosen Pembimbing utama dapat meminta Dosen Pembimbing Pendamping dari luar program studi maupun praktisi.",
+      "E. Dosen luar Jurusan Teknik Elektro UR hanya boleh menjadi Dosen Pembimbing Pendamping dengan persetujuan Ketua Jurusan.",
+      "F. Dosen Pembimbing Pendamping luar harus dari prodi berakreditasi A atau B dengan akreditasi institusi A.",
+      "G. Jika pembimbing utama bukan dari prodi asal, pembimbing pendamping harus dari prodi asal mahasiswa.",
+      "H. Dosen wajib menyediakan waktu konsultasi minimal 2 (dua) kali seminggu.",
+      "I. Setiap dosen tetap maksimal menjadi pembimbing 10 mahasiswa; penambahan dilakukan setelah ada yang lulus.",
+      "J. Pembimbing Skripsi dapat diganti apabila: meninggal dunia, sakit (6 bulan), tugas belajar, mengundurkan diri, mahasiswa ganti judul, atau pembimbing lalai 6 bulan.",
+      "K. Mahasiswa dapat mengajukan penggantian jika pembimbing lalai 6 bulan.",
+      "L. Pengangkatan/penggantian ditetapkan keputusan dekan atas usul ketua jurusan.",
+      "M. Dosen pembimbing dapat mempublikasikan hasil penelitian mahasiswa."
+    ]
   },
   {
     "id": "1.6",
     "topik_utama": "Bab 1 Pendahuluan",
     "sub_topik": "1.6 Tim Penguji Seminar Proposal Skripsi dan Ujian Skripsi",
-    "full_context": "Bab 1 Pendahuluan - 1.6 Tim Penguji Seminar Proposal Skripsi dan Ujian Skripsi",
-    "konten": "A. Pembimbing dapat mengusulkan maksimal 2 dosen Tim Penguji seminar proposal atas persetujuan Koordinator Skripsi dan Koprodi. [cite: 55, 56] B. Tim Penguji seminar proposal menjadi tim penguji ujian skripsi. [cite: 57] C. Tim Penguji harus adil, jujur dan profesional. [cite: 58] D. Tim Penguji terdiri dari tiga orang. [cite: 59] E. Ketua tim penguji dipilih oleh Koordinator Skripsi. [cite: 60] F. Tim Penguji yang berhalangan harus memberitahu Koordinator Skripsi sebelum 24 jam. [cite: 61] G. Seminar/ujian dimulai paling lambat 15 menit dari jadwal. [cite: 62] H. Ketua tim membagi 4 sesi: Sesi I (Presentasi) 15 menit, Sesi II (Tanya jawab) 45 menit, Sesi III (Rapat) 10 menit, Sesi IV (Pengumuman) 5 menit. [cite: 63] I. Ketua tim harus menjaga ketepatan waktu. [cite: 64] J. Ketua tim berwenang menegur anggota jika melewati batas waktu. [cite: 65] K. Ketua tim wajib menegur anggota yang melanggar norma/etika. [cite: 66] L. Seminar/ujian dapat dilanjutkan jika dihadiri minimal 2 orang Tim Penguji. [cite: 67] M. Tim Penguji dapat berasal dari lintas Program Studi dalam JTE FT UNRI. [cite: 68, 69] N. Tim Penguji dari luar harus dari prodi akreditasi A atau B (institusi A) dan disetujui Ketua Jurusan. [cite: 70]"
+    "full_context": "Tim Penguji Seminar Proposal Skripsi dan Ujian Skripsi",
+    "konten": [
+      "A. Pembimbing dapat mengusulkan maksimal 2 dosen Tim Penguji seminar proposal atas persetujuan Koordinator Skripsi dan Koprodi.",
+      "B. Tim Penguji seminar proposal menjadi tim penguji ujian skripsi.",
+      "C. Tim Penguji harus adil, jujur dan profesional.",
+      "D. Tim Penguji terdiri dari tiga orang.",
+      "E. Ketua tim penguji dipilih oleh Koordinator Skripsi.",
+      "F. Tim Penguji yang berhalangan harus memberitahu Koordinator Skripsi sebelum 24 jam.",
+      "G. Seminar/ujian dimulai paling lambat 15 menit dari jadwal.",
+      "H. Ketua tim membagi 4 sesi:",
+      "   - Sesi I (Presentasi): 15 menit",
+      "   - Sesi II (Tanya jawab): 45 menit",
+      "   - Sesi III (Rapat): 10 menit",
+      "   - Sesi IV (Pengumuman): 5 menit",
+      "I. Ketua tim harus menjaga ketepatan waktu.",
+      "J. Ketua tim berwenang menegur anggota jika melewati batas waktu.",
+      "K. Ketua tim wajib menegur anggota yang melanggar norma/etika.",
+      "L. Seminar/ujian dapat dilanjutkan jika dihadiri minimal 2 orang Tim Penguji.",
+      "M. Tim Penguji dapat berasal dari lintas Program Studi dalam JTE FT UNRI.",
+      "N. Tim Penguji dari luar harus dari prodi akreditasi A atau B (institusi A) dan disetujui Ketua Jurusan."
+    ]
   },
   {
     "id": "1.7",
     "topik_utama": "Bab 1 Pendahuluan",
     "sub_topik": "1.7 Waktu Pengerjaan Skripsi",
-    "full_context": "Bab 1 Pendahuluan - 1.7 Waktu Pengerjaan Skripsi",
-    "konten": "A. Jangka waktu penyusunan proposal sampai seminar adalah 6 bulan dan tidak dapat diperpanjang. [cite: 71, 72] B. Jangka waktu penyusunan skripsi sampai ujian adalah 6 bulan dan dapat diperpanjang menjadi 1 tahun dengan persetujuan pembimbing. [cite: 73] C. Mahasiswa mengajukan perpanjangan ke koordinator skripsi sebelum batas akhir (selama 2 kali 3 bulan). [cite: 74] D. Apabila tidak selesai sesuai ketentuan B, koordinator skripsi melapor ke Koprodi. [cite: 75] E. Koprodi membuat surat tugas kepada dosen pembimbing untuk pelaksanaan ujian skripsi. [cite: 76] F. Jika batal judul, mahasiswa wajib mengusulkan judul baru dari proses semula. [cite: 77] G. Mahasiswa yang tidak menyelesaikan pada batas akhir masa studi, judul skripsinya batal otomatis dan dinyatakan putus studi/drop out. [cite: 78]"
+    "full_context": "Waktu Pengerjaan Skripsi",
+    "konten": [
+      "A. Jangka waktu penyusunan proposal sampai seminar adalah 6 bulan dan tidak dapat diperpanjang.",
+      "B. Jangka waktu penyusunan skripsi sampai ujian adalah 6 bulan dan dapat diperpanjang menjadi 1 tahun dengan persetujuan pembimbing.",
+      "C. Mahasiswa mengajukan perpanjangan ke koordinator skripsi sebelum batas akhir (selama 2 kali 3 bulan).",
+      "D. Apabila tidak selesai sesuai ketentuan B, koordinator skripsi melapor ke Koprodi.",
+      "E. Koprodi membuat surat tugas kepada dosen pembimbing untuk pelaksanaan ujian skripsi.",
+      "F. Jika batal judul, mahasiswa wajib mengusulkan judul baru dari proses semula.",
+      "G. Mahasiswa yang tidak menyelesaikan pada batas akhir masa studi, judul skripsinya batal otomatis dan dinyatakan putus studi/drop out."
+    ]
   },
   {
     "id": "2.1.1",
     "topik_utama": "Bab 2 Pelaksanaan Skripsi",
     "sub_topik": "2.1.1 Prosedur Pengusulan Judul Skripsi",
-    "full_context": "Bab 2 Pelaksanaan Skripsi - 2.1.1 Prosedur Pengusulan Judul Skripsi",
-    "konten": "A. Syarat Pengajuan: 1) Telah mengambil SKS Seminar Proposal di KRS. 2) Lulus minimal 75 SKS. 3) Lulus MK Metodologi Penelitian dan MKU. [cite: 80, 81, 82, 83, 84, 85, 86] B. Tata Cara: 1) Memilih topik sesuai bidang peminatan. 2) Diskusi dengan calon pembimbing. 3) Mengajukan di SITEI dengan mengunggah KRS (ditandatangani Dosen PA) dan Transkrip Nilai. 4-9) Calon Pembimbing, Admin, Koordinator Skripsi, dan Koprodi memverifikasi pengajuan di SITEI (batas waktu persetujuan masing-masing 3 hari, jika lewat otomatis ditolak). 10) Judul diterima jika disetujui Koprodi. 11) Mahasiswa mengunduh dokumen (STI/E-1 dan STI/E-2) dari SITEI. [cite: 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101]"
+    "full_context": "Prosedur Pengusulan Judul Skripsi",
+    "konten": [
+      "A. Syarat-syarat Pengajuan Topik atau Judul Skripsi:",
+      "   1) Mahasiswa telah mengambil SKS Seminar Proposal yang dibuktikan dengan KRS semester berjalan.",
+      "   2) Dapat mengajukan topik skripsi dengan syarat telah lulus minimal 75 (tujuh puluh lima) SKS.",
+      "   3) Lulus Mata Kuliah Metodologi Penelitian atau sejenisnya dan MKU.",
+      "B. Tata Cara Pengajuan Topik atau Judul Skripsi:",
+      "   1) Mahasiswa memilih topik atau judul yang sesuai dengan konsentrasi (bidang peminatan).",
+      "   2) Mahasiswa berdiskusi kepada dosen calon pembimbing untuk pengajuan topik atau judul skripsi.",
+      "   3) Mahasiswa melakukan pengajuan topik atau judul skripsi di SITEI dengan mengunggah persyaratan yaitu sebagai berikut:",
+      "   4) KRS yang ditandatangani Dosen PA.",
+      "   5) Transkip Nilai yang ditandatangani pejabat terkait.",
+      "   6) Calon Dosen Pembimbing memverifikasi dan menyetujui Pendaftaran Seminar Proposal Skripsi Mahasiswa di SITEI.",
+      "   7) Admin memverifikasi dan menyetujui Pengajuan topik atau judul skripsi Mahasiswa di SITEI.",
+      "   8) Koordinator Skripsi memverifikasi dan menyetujui Pengajuan topik atau judul skripsi Mahasiswa di SITEI.",
+      "   9) Koordinator Program Studi memverifikasi dan menyetujui Pengajuan topik atau judul skripsi Mahasiswa di SITEI.",
+      "   10) Batas waktu persetujuan dari Calon Dosen Pembimbing, Admin, Koordinator Skripsi dan Koordinator Program Studi masing masing adalah selama 3 (tiga) hari. Pengajuan yang melewati batas waktu otomatis akan ditolak.",
+      "   11) Judul atau topik skripsi diterima jika telah disetujui oleh Koordinator Program Studi di SITEI.",
+      "   12) Mahasiswa dapat mengunduh dokumen Surat Pengajuan Permohonan Topik Skripsi (STI/E-1) dan Form Pengajuan Topik Skripsi (STI/E-2) dari SITEI jika topik atau judul skripsi telah disetujui."
+    ]
   },
   {
     "id": "2.1.2",
     "topik_utama": "Bab 2 Pelaksanaan Skripsi",
     "sub_topik": "2.1.2 Prosedur Seminar Proposal Skripsi",
-    "full_context": "Bab 2 Pelaksanaan Skripsi - 2.1.2 Prosedur Seminar Proposal Skripsi",
-    "konten": "A. Syarat Pendaftaran: 1) Mengajukan Judul di SITEI. 2) Melaporkan progress report (Logbook) di SITEI minimal 4 kali. [cite: 103, 104, 105, 106, 107] B. Tata Cara Pendaftaran: 1) Isi Log Book di SITEI minimal 4 kali (hanya bisa 1 kali/hari). 2) Melengkapi Surat Persetujuan (STI/E-31). 3) Mengumpulkan dokumen ke admin prodi (STI/E-30). 4) Daftar di SITEI dengan mengunggah KRS, KHS, Log Book, Naskah proposal, STI/E 30, dan STI/E 31. 5-10) Persetujuan bertahap di SITEI (Dosen, Admin, Koordinator Skripsi, Koprodi) dengan batas 3 hari. 11) Koordinator Skripsi membuat jadwal paling lambat 2 hari sebelum seminar. 12) Admin mengirim undangan. 13) Mahasiswa mengingatkan jadwal ke penguji/pembimbing minimal 3 kali (saat jadwal dibuat, H-1, dan hari H). 14) Staf menyediakan proposal dalam map. [cite: 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 130, 131, 132]"
+    "full_context": "Prosedur Seminar Proposal Skripsi",
+    "konten": [
+      "A. Syarat-syarat Pendaftaran Seminar Proposal:",
+      "   1) Mahasiswa telah tercatat mengajukan Judul atau Topik Skripsi yang terlampir di SITEI.",
+      "   2) Mahasiswa telah melakukan bimbingan proposal dan melaporkan progress report dengan pengisian logbook bimbingan yang terlampir di SITEI minimal 4 kali.",
+      "B. Tata Cara Pendaftaran Seminar Proposal Skripsi:",
+      "   1) Mahasiswa melakukan Pengisian Log Book di SITEI minimum 4 (empat) kali. Log Book hanya dapat diajukan sebanyak 1 (satu) kali dalam sehari.",
+      "   2) Mahasiswa melengkapi Surat Persetujuan Sertifikat Pendamping Ijazah (STI/E-31) yang ditanda tangani oleh Mahasiswa, Pembimbing dan Koordinator Program Studi.",
+      "   3) Mahasiswa mengumpulkan dokumen pendaftaran seminar Proposal ke admin prodi (STI/E-30) untuk dilakukan pengecekan dan ditandatangan oleh admin prodi.",
+      "   4) Mahasiswa melakukan pendaftaran seminar proposal di SITEI dengan mengunggah persyaratan yaitu sebagai berikut:",
+      "      a. KRS Semester Berjalan yang telah ditandatangani Dosen PA",
+      "      b. Kartu Hasil Studi yang telah ditandatangani oleh pejabat terkait",
+      "      c. Log Book Bimbingan minimal 4 kali",
+      "      d. Naskah proposal",
+      "      e. STI/E 30",
+      "      f. STI/E 31",
+      "   5) Dosen Pembimbing memverifikasi dan menyetujui Pendaftaran Seminar Proposal Skripsi Mahasiswa di SITEI.",
+      "   6) Admin memverifikasi dan menyetujui Pendaftaran Seminar Proposal Skripsi Mahasiswa di SITEI.",
+      "   7) Koordinator Skripsi memverifikasi dan menyetujui Pendaftaran Seminar Proposal Skripsi Mahasiswa di SITEI.",
+      "   8) Koordinator Program Studi memverifikasi dan menyetujui Pendaftaran Seminar Proposal Skripsi Mahasiswa di SITEI.",
+      "   9) Batas waktu persetujuan dari Calon Dosen Pembimbing, Admin, Koordinator Skripsi dan Koordinator Program Studi masing masing adalah selama 3 (tiga) hari. Pengajuan yang melewati batas waktu otomatis akan ditolak.",
+      "   10) Pendaftaran seminar Proposal Skripsi diterima jika telah disetujui oleh Koordinator Program Studi di SITEI.",
+      "   11) Koordinator Skripsi membuat jadwal seminar proposal skripsi di SITEI paling lambat 2 (dua) hari sebelum seminar Proposal Skripsi dilaksanakan.",
+      "   12) Admin mengirimkan undangan seminar proposal skripsi kepada tim pembimbing dan penguji sebelum seminar Proposal Skripsi dilaksanakan.",
+      "   13) Mahasiswa memberitahu jadwal kepada Dosen Pembimbing dan Penguji minimal 3 (tiga) kali. Pada saat jadwal dibuat, 1 hari sebelum seminar skripsi dan pada hari H seminar skripsi dilaksanakan.",
+      "   14) Staf administrasi menyediakan proposal seminar proposal skripsi dalam Map sebelum pelaksanaan seminar skripsi."
+    ]
   },
   {
     "id": "2.1.3",
     "topik_utama": "Bab 2 Pelaksanaan Skripsi",
     "sub_topik": "2.1.3 Prosedur Pelaksanaan Seminar Proposal Skripsi",
-    "full_context": "Bab 2 Pelaksanaan Skripsi - 2.1.3 Prosedur Pelaksanaan Seminar Proposal Skripsi",
-    "konten": "A. Tata Cara Pelaksanaan: 1) Mulai paling lambat 15 menit dari jadwal. 2-3) Dibagi 4 sesi selama 75 menit: Sesi I Presentasi (15 mnt), Sesi II Tanya jawab (45 mnt), Sesi III Rapat (10 mnt), Sesi IV Pengumuman (5 mnt). 4-6) Ketua penguji menjaga waktu dan etika. 7) Alasan TIDAK LULUS harus ditulis cermat dan ilmiah; jika tidak, berita acara ditolak Koordinator Skripsi. 8) Jika TIDAK LULUS, wajib ganti judul. 9) Form Nilai & Berita Acara disetujui paling lambat 3 hari setelah seminar. 10) Mahasiswa mengunduh Lembar Kontrol (STI-9). 11-12) Nilai diinput admin ke portal akademik dan dapat dicetak mahasiswa. [cite: 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149]"
+    "full_context": "Prosedur Pelaksanaan Seminar Proposal Skripsi",
+    "konten": [
+      "A. Tata Cara Pelaksanaan Seminar Proposal Skripsi:",
+      "   1) Seminar Proposal Skripsi harus dimulai paling lambat 15 (lima belas) menit sesuai jadwal yang ditetapkan.",
+      "   2) Ketua tim penguji seminar membuka acara seminar proposal skripsi dengan membagi 4 (empat) sesi yaitu Sesi I (Presentasi mahasiswa), Sesi II (Tanya jawab), Sesi III (Rapat tim penguji) dan Sesi IV (Pengumuman Kelulusan).",
+      "   3) Pelaksanaan seminar proposal skripsi dilakukan dalam waktu 75 menit dengan pembagian waktu setiap sesi yaitu Sesi I (15 menit), Sesi II (45 Menit), Sesi III (10 Menit) dan Sesi IV (5 Menit).",
+      "   4) Ketua tim penguji harus menjaga ketepatan waktu agar pelaksanaan seminar proposal skripsi tidak melebihi waktu yang ditetapkan.",
+      "   5) Ketua tim penguji memiliki kewenangan mengingatkan anggota tim penguji apabila alokasi waktu pelaksanaan seminar proposal skripsi sudah melewati batas waktu yang telah ditetapkan.",
+      "   6) Ketua tim penguji wajib mengingatkan anggota tim penguji apabila berucap dan bertindak di luar norma/etika maupun pelanggaran ketentuan perundang-undangan yang berlaku.",
+      "   7) Tim penguji harus menuliskan secara cermat dan rinci alasan TIDAK LULUS mahasiswa seminar proposal skripsi dan dapat dipertanggungjawabkan secara ilmiah. Apabila tidak dituliskan secara rinci Koordinator Skripsi berhak menolak berita acara tersebut.",
+      "   8) Mahasiswa yang TIDAK LULUS seminar proposal skripsi harus mengganti judul/topik proposal skripsi dengan yang baru dan melakukan proses pengajuan judul/topik skripsi mulai semula sepanjang belum habis masa studi mahasiswa yang bersangkutan.",
+      "   9) Ketua tim penguji menutup seminar proposal skripsi. Form Nilai dan Berita Acara Seminar Proposal Skripsi disetujui oleh Koordinator Skripsi dan Koordinator Program Studi paling lambat 3 (tiga) hari setelah seminar proposal skripsi dilaksanakan.",
+      "   10) Mahasiswa dapat mengunduh Lembar Kontrol Perbaikan Proposal Skripsi (STI-9) setelah berita acara disetujui oleh Koordinator Program Studi.",
+      "   11) Form Nilai dan Berita acara dapat diakses oleh Admin untuk dimasukkan ke portal akademik.",
+      "   12) Mahasiswa dapat melihat dan mencetak nilai seminar proposal skripsi melalui akun masing masing pada portal/satu-unri."
+    ]
   },
   {
     "id": "2.2.1",
     "topik_utama": "Bab 2 Pelaksanaan Skripsi",
     "sub_topik": "2.2.1 Prosedur Penelitian Skripsi",
-    "full_context": "Bab 2 Pelaksanaan Skripsi - 2.2.1 Prosedur Penelitian Skripsi",
-    "konten": "A. Tata Cara Penelitian Skripsi: 1) Mahasiswa mengunggah surat permohonan penelitian skripsi Google Form (STE-27). 2) Admin mengecek usulan permohonan. 3) Mahasiswa melakukan bimbingan dengan mengisi log book di SITEI minimal 8 kali. 4) Dosen memberikan arahan selama penelitian. [cite: 152, 153, 154, 155, 156, 157]"
+    "full_context": "Prosedur Penelitian Skripsi",
+    "konten": [
+      "A. Tata Cara Penelitian Skripsi:",
+      "   1) Mahasiswa memulai penelitian skripsi dengan mengunggah surat permohonan penelitian skripsi Google Form (STI-27).",
+      "   2) Admin mengecek usulan permohonan penelitian skripsi.",
+      "   3) Mahasiswa melakukan bimbingan skripsi dengan mengisi log book bimbingan di sitei sebanyak minimal 8 kali bimbingan.",
+      "   4) Dosen memberikan arahan dan masukan selama melakukan penelitian skripsi.",
+      "   5) Selesai."
+    ]
   },
   {
     "id": "2.2.2",
     "topik_utama": "Bab 2 Pelaksanaan Skripsi",
     "sub_topik": "2.2.2 Prosedur Perpanjangan Skripsi I",
-    "full_context": "Bab 2 Pelaksanaan Skripsi - 2.2.2 Prosedur Perpanjangan Skripsi I",
-    "konten": "A. Tata Cara Perpanjangan Skripsi I: 1) Dilakukan jika skripsi tidak selesai dalam 6 bulan sejak seminar proposal. 2) Diharapkan memiliki progress report >50%. 3) Melengkapi Surat Pernyataan Perpanjangan (STI/E-22) yang ditandatangani Pembimbing dan Koprodi. 4) Mengajukan di SITEI. 5-7) Verifikasi berjenjang dengan batas 3 hari (otomatis ditolak jika lewat batas). 8-9) Jika disetujui, mendapat perpanjangan waktu selama 3 bulan. [cite: 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181]"
+    "full_context": "Prosedur Perpanjangan Skripsi I",
+    "konten": [
+      "A. Tata Cara Perpanjangan Skripsi:",
+      "   1) Perpanjangan Waktu Skripsi dilakukan jika Mahasiswa tidak dapat menyelesaikan skripsi dalam waktu 6 (enam) bulan sejak dilaksanakan seminar proposal skripsi.",
+      "   2) Mahasiswa yang melakukan pengajuan perpanjang waktu skripsi 1 (satu) diharapkan memiliki progress report >50%.",
+      "   3) Mahasiswa melengkapi Surat Pernyataan Perpanjangan Waktu Skripsi (STI/E-22) yang ditandatangani oleh Dosen Pembimbing dan Koordinator Program Studi.",
+      "   4) Mahasiswa melakukan pengajuan perpanjang waktu skripsi di SITEI.",
+      "   5) Dosen Pembimbing memverifikasi dan menyetujui Pengajuan perpanjang waktu skripsi Mahasiswa.",
+      "   6) Koordinator Program Studi memverifikasi dan menyetujui Pengajuan perpanjang waktu skripsi Mahasiswa.",
+      "   7) Batas waktu persetujuan dari Dosen Pembimbing dan Koordinator Program Studi masing masing adalah selama 3 (tiga) hari. Pengajuan yang melewati batas waktu otomatis akan ditolak.",
+      "   8) Pengajuan perpanjang waktu skripsi diterima jika telah disetujui oleh Koordinator Program Studi di SITEI.",
+      "   9) Mahasiswa mendapatkan perpanjangan waktu skripsi selama 3 (tiga) bulan jika pengajuan telah disetujui."
+    ]
   },
   {
     "id": "2.2.3",
     "topik_utama": "Bab 2 Pelaksanaan Skripsi",
     "sub_topik": "2.2.3 Prosedur Perpanjangan Skripsi II",
-    "full_context": "Bab 2 Pelaksanaan Skripsi - 2.2.3 Prosedur Perpanjangan Skripsi II",
-    "konten": "A. Tata Cara Perpanjangan Skripsi II: 1) Dilakukan jika tidak selesai dalam 3 bulan sejak disetujui perpanjangan pertama. 2) Diharapkan progress report >75%. 3) Melengkapi Surat (STI/E-22). 4) Mengajukan di SITEI. 5-7) Verifikasi berjenjang dengan batas 3 hari. 8) Diterima jika disetujui Koprodi di SITEI. [cite: 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214]"
+    "full_context": "Prosedur Perpanjangan Skripsi II",
+    "konten": [
+      "A. Tata Cara Perpanjangan Skripsi II:",
+      "   1) Perpanjangan Waktu Skripsi dilakukan jika Mahasiswa tidak dapat menyelesaikan skripsi dalam waktu 3 (tiga) bulan sejak disetujui perpanjangan waktu skripsi 1 (satu).",
+      "   2) Mahasiswa yang melakukan pengajuan perpanjang waktu skripsi 2 (dua) diharapkan memiliki progress report >75%.",
+      "   3) Mahasiswa melengkapi Surat Pernyataan Perpanjangan Waktu Skripsi (STI/E-22) yang ditandatangani oleh Dosen Pembimbing dan Koordinator Program Studi.",
+      "   4) Mahasiswa melakukan pengajuan perpanjang waktu skripsi di SITEI.",
+      "   5) Dosen Pembimbing memverifikasi dan menyetujui Pengajuan perpanjang waktu skripsi Mahasiswa.",
+      "   6) Koordinator Program Studi memverifikasi dan menyetujui Pengajuan perpanjang waktu skripsi Mahasiswa.",
+      "   7) Batas waktu persetujuan dari Dosen Pembimbing dan Koordinator Program Studi masing masing adalah selama 3 (tiga) hari. Pengajuan yang melewati batas waktu otomatis akan ditolak.",
+      "   8) Pengajuan perpanjang waktu skripsi diterima jika telah disetujui oleh Koordinator Program Studi di SITEI."
+    ]
   },
   {
     "id": "2.2.4",
     "topik_utama": "Bab 2 Pelaksanaan Skripsi",
     "sub_topik": "2.2.4 Prosedur Pendaftaran Ujian Skripsi",
-    "full_context": "Bab 2 Pelaksanaan Skripsi - 2.2.4 Prosedur Pendaftaran Ujian Skripsi",
-    "konten": "A. Syarat Pengajuan: 1) Menyelesaikan STE-9. 2) IPK minimal 2,00. 3) Nilai D tidak lebih dari 10% total SKS. 4) Tidak memiliki nilai E. 5) Lulus TOEFL skor minimal 450. 6) Laporan skripsi disetujui pembimbing. 7) Memenuhi administrasi. 8) Skor Turnitin maksimal 20%. 9) Pendaftaran sebelum tanggal 1 setiap bulan. 10) Pelaksanaan ujian di minggu ke-2, 3, dan 4. 11) Pendaftaran paling cepat 1 bulan setelah seminar, paling lambat 1 tahun. 12) Logbook minimal 8 kali. [cite: 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231] B. Tata Cara: Mahasiswa mengunggah dokumen di SITEI (draft, Turnitin, lembar konsultasi, transkrip, KHS, TOEFL, logbook, lembar perbaikan). Staf admin memeriksa, lalu Koordinator Skripsi menyetujui dan membuat jadwal paling lambat 7 hari sebelum ujian. Mahasiswa menyerahkan buku laporan ke staf. [cite: 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251]"
+    "full_context": "Prosedur Pendaftaran Ujian Skripsi",
+    "konten": [
+      "A. Syarat Pengajuan Sidang Skripsi:",
+      "   1) Menyelesaikan STI-9 yang telah diunggah di SITEI.",
+      "   2) Mempunyai indeks prestasi komulatif (IPK) minimal 2,00.",
+      "   3) Lulus semua mata kuliah sesuai dengan kurikulum dengan nilai D tidak lebih dari 10% dari jumlah SKS total.",
+      "   4) Tidak memiliki nilai E.",
+      "   5) Lulus TOEFL dari UP2B UR atau lembaga lain yang diakui oleh Universitas Riau dengan skor minimal 450.",
+      "   6) Menyelesaikan laporan skripsi yang disetujui dan ditandatangani oleh pembimbing skripsi.",
+      "   7) Mengikuti prosedur dan memenuhi persyaratan administrasi yang telah ditetapkan.",
+      "   8) Hasil skor Turnitin tidak lebih dari 20%.",
+      "   9) Pendaftaran ujian skripsi dilakukan sebelum tanggal 1 setiap bulannya.",
+      "   10) Pelaksanaan ujian skripsi dilakukan setiap hari di minggu ke 2, 3 dan 4.",
+      "   11) Pendaftaran ujian skripsi dapat dilakukan paling cepat 1 (satu) bulan setelah seminar proposal dan paling lambat 1 (satu) tahun.",
+      "   12) Mengisi Logbook sebanyak minimal 8 kali yang terdapat di SITEI.",
+      "B. Tata Cara Pendaftaran Sidang Skripsi:",
+      "   1) Mahasiswa telah melaksanakan seminar proposal dengan mengunggah STI-9 di SITEI.",
+      "   2) Mahasiswa mengajukan permohonan ujian skripsi ke staf administrasi dengan melampirkan syarat-syarat ujian skripsi.",
+      "   3) Mahasiswa mengunggah dokumen syarat-syarat ujian skripsi di SITEI seperti:",
+      "      a. draft skripsi",
+      "      b. nilai hasil kemiripan (similiarity index)",
+      "      c. lembar konsultasi dosen pembimbing akademik (sudah di TTD lengkap)",
+      "      d. transkip nilai yang sudah ditanda tangani oleh pejabat terkait.",
+      "      e. kartu hasil studi (KHS) ditanda tangani oleh pejabat terkait",
+      "      f. sertifikat toefl",
+      "      g. logbook bimbingan",
+      "      h. lembar kontrol perbaikan proposal",
+      "      i. bukti mengumpulkan syarat daftar ujian.",
+      "   4) Staf administrasi memeriksa berkas permohonan ujian skripsi mahasiswa yang telah diunggah di SITEI untuk disetujui.",
+      "   5) Koordinator Skripsi memeriksa kelengkapan persyaratan ujian skripsi mahasiswa di SITEI dan menyetujui permohonan ujian skripsi mahasiswa dengan mengklik button hijau pada permohonan ujian skripsi mahasiswa.",
+      "   6) Koordinator skripsi membuat dan mengumumkan jadwal ujian skripsi paling lambat 7 (tujuh) hari sebelum ujian skripsi dilaksanakan di SITEI, berkoordinasi dengan pembimbing dan penguji.",
+      "   7) Staf administrasi membuat undangan pelaksanaan ujian skripsi.",
+      "   8) Mahasiswa menyerahkan buku laporan skripsi sebanyak jumlah pembimbing dan penguji ke staf administrasi.",
+      "   9) Staf administrasi menyediakan buku laporan skripsi dan undangan paling lambat 5 (lima) hari sebelum pelaksanaan ujian skripsi."
+    ]
   },
   {
     "id": "2.2.4b",
     "topik_utama": "Bab 2 Pelaksanaan Skripsi",
-    "sub_topik": "2.2.4 Prosedur Ujian Skripsi",
-    "full_context": "Bab 2 Pelaksanaan Skripsi - 2.2.4 Prosedur Ujian Skripsi",
-    "konten": "A. Tata Cara Ujian: 1) Menggunakan pakaian sesuai ketentuan. 2) Tepat waktu. 3) Pembimbing wajib hadir (minimal 1 jika lebih dari satu). 4-7) Dibagi 4 sesi selama 75 menit (Presentasi 15 mnt, Tanya Jawab 45 mnt, Rapat 10 mnt, Pengumuman 5 mnt). 8) Penilaian menggunakan SITEI. 10) Hasil hanya LULUS atau TIDAK LULUS. 11) Lulus minimal nilai C. 12) Masa revisi 30 hari, bisa diperpanjang 30 hari. 13) Jika lewat masa revisi, ada rapat internal penentuan status. 14) Jika lewat masa studi dinyatakan DO. 15-16) Ujian ulangan maksimal 2 kali (jarak 30-60 hari dari ujian sebelumnya). 17) Gagal ujian ulang kedua berakibat DO (jika masa studi habis) atau wajib ganti judul. 18) Alasan tidak lulus wajib ditulis ilmiah. 19) Nilai diinput di SITEI. [cite: 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 282, 283]"
+    "sub_topik": "2.2.5 Prosedur Ujian Skripsi",
+    "full_context": "Prosedur Ujian Skripsi",
+    "konten": [
+      "A. Tata Cara Ujian Skripsi:",
+      "   1) Mahasiswa yang ujian skripsi diwajibkan menggunakan pakaian seperti yang telah ditentukan pada Bab 1.",
+      "   2) Ujian dimulai tepat waktu sesuai dengan jadwal yang sudah ditetapkan. Apabila ujian ditunda, maka jadwal penggantinya ditentukan oleh kesepakatan tim penguji dan pembimbing ujian.",
+      "   3) Pembimbing skripsi diwajibkan hadir pada saat ujian skripsi, apabila pembimbing skripsi lebih dari satu pembimbing maka dapat diwakili oleh satu pembimbing saja.",
+      "   4) Ketua tim penguji membuka acara ujian skripsi dengan membagi 4 (empat) sesi yaitu Sesi I (Presentasi mahasiswa), Sesi II (Tanya jawab), Sesi III (Rapat tim penguji) dan Sesi IV (Pengumuman Kelulusan).",
+      "   5) Pelaksanaan ujian skripsi dilakukan dalam waktu 75 menit dengan pembagian waktu setiap sesi yaitu Sesi I (15 menit), Sesi II (45 Menit), Sesi III (10 Menit) dan Sesi IV (5 Menit).",
+      "   6) Ketua tim penguji harus menjaga ketepatan waktu agar pelaksanaan ujian skripsi tidak melebihi waktu yang ditetapkan.",
+      "   7) Ketua tim penguji harus mengingatkan alokasi waktu yang telah ditetapkan apabila pelaksanaan ujian skripsi sudah melewati batas waktu yang telah ditetapkan.",
+      "   8) Ketua tim penguji wajib memberikan teguran kepada anggota tim penguji apabila berucap dan bertindak di luar norma/etika maupun pelanggaran ketentuan perundang-undangan.",
+      "   9) Penilaian ujian skripsi dilakukan menggunakan SITEI dengan mengikuti format yang telah disediakan.",
+      "   10) Ketua penguji mengumumkan hasil ujian skripsi, hanya dengan dua kondisi yaitu LULUS atau TIDAK LULUS saja.",
+      "   11) Mahasiswa dinyatakan LULUS ujian skripsi dengan nilai minimal C.",
+      "   12) Masa revisi pertama skripsi diberikan dalam waktu 30 (tiga puluh) hari sejak tanggal ujian skripsi, dan dapat diperpanjang selama dalam waktu 30 hari.",
+      "   13) Apabila mahasiswa tidak dapat menyelesaikan revisi skripsi sesuai Poin 12 maka diadakan rapat internal antara tim pembimbing dan tim penguji yang dipimpin oleh Koordinator Prodi paling lambat 3 (tiga) hari setelah batas waktu masa revisi yang pertama untuk menentukan status skripsi mahasiswa yang bersangkutan.",
+      "   14) Mahasiswa semester akhir/habis masa studi yang perbaikan skripsi melewati masa studinya dinyatakan putus studi/drop out.",
+      "   15) Mahasiswa yang dinyatakan TIDAK LULUS pada kesempatan ujian pertama, masih diberikan kesempatan untuk menempuh ujian ulangan tidak lebih dari 2 (dua) kali, selama masa studi mahasiswa belum berakhir.",
+      "   16) Pendaftaran masing-masing ujian ulang dapat dilakukan paling cepat 30 (tiga puluh) hari dan selambat-lambatnya 60 (enam puluh) hari dari tanggal ujian sebelumnya.",
+      "   17) Apabila mahasiswa dalam ujian ulang kedua TIDAK LULUS kembali, maka mahasiswa tersebut dinyatakan putus studi/drop out bagi mahasiswa yang masa studinya sudah habis, namun bagi mahasiswa yang masih memiliki masa studi diwajibkan mengajukan topik atau judul skripsi yang baru.",
+      "   18) Tim penguji harus menuliskan secara cermat dan rinci alasan TIDAK LULUS mahasiswa ujian skripsi pada SITEI dan dapat dipertanggungjawabkan secara ilmiah, apabila tidak dituliskan secara rinci Koordinator Skripsi berhak menolak berita acara tersebut.",
+      "   19) Ketua ujian menyelesaikan nilai yang telah diinput dari dosen penguji pada SITEI."
+    ]
   },
   {
-    "id": "2.2.5",
+    "id": "2.2.6",
     "topik_utama": "Bab 2 Pelaksanaan Skripsi",
-    "sub_topik": "2.2.5 Prosedur Penyerahan Buku Skripsi",
-    "full_context": "Bab 2 Pelaksanaan Skripsi - 2.2.5 Prosedur Penyerahan Buku Skripsi",
-    "konten": "A. Tata Cara Penyerahan: 1) Buku dicetak dan ditandatangani diserahkan ke Perpustakaan, Fakultas, Jurusan, Pembimbing untuk mengisi STE-17. 2) Melengkapi dokumen: Berita acara, SK tutup teori (STE-24), SK bebas administrasi (STE-20), SK bebas pustaka, Biodata Alumni (STE-18), Form penyerahan (STE-17), Lembar kontrol (STE-16), Prestasi, Halaman pengesahan, Hasil Turnitin (<20%). 3-6) Menyerahkan dokumen ke Admin, mengunggah STE-17 ke SITEI, disetujui Koordinator skripsi, dan mengunduh berita acara. [cite: 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333]"
+    "sub_topik": "2.2.6 Prosedur Penyerahan Buku Skripsi",
+    "full_context": "Prosedur Penyerahan Buku Skripsi",
+    "konten": [
+      "A. Tata Cara Penyerahan Laporan Skripsi:",
+      "   1) Buku yang telah dicetak dan ditanda tangani oleh pembimbing dan ketua program studi di serahkan ke Perpustakaan UNRI, Fakultas, Jurusan dan Pembimbing untuk mengisi (STI-17).",
+      "   2) Mahasiswa melengkapi dokumen seperti:",
+      "      a. Berita acara yang dapat diunggah di SITEI",
+      "      b. Surat keterangan tutup teori (STI-24)",
+      "      c. Surat keterangan bebas administrasi program studi (STI-20)",
+      "      d. Surat keterangan bebas pustaka",
+      "      e. Biodata Alumni Teknik Elektro Universitas Riau (STI-18)",
+      "      f. Form penyerahan buku skripsi (STI-17)",
+      "      g. Lembar kontrol perbaikan skripsi (STI-16)",
+      "      h. Prestasi Akademik Mahasiswa",
+      "      i. Halaman pengesahan",
+      "      j. Hasil skor Turnitin tidak lebih dari 20% yang sudah ditanda tangani.",
+      "   3) Mahasiswa menyerahkan dokumen yang telah dilengkapi ke Admin dan admin mengisi STI-17.",
+      "   4) Mahasiswa mengunggah STI-17 yang telah di isi oleh admin.",
+      "   5) Koordinator skripsi menyetujui pengumpulan berkas.",
+      "   6) Mahasiswa mengunduh berita acara yang ada di SITEI."
+    ]
   },
   {
     "id": "3.1",
     "topik_utama": "Bab 3 Penilaian Skripsi",
     "sub_topik": "3.1 Penilaian Proposal Skripsi",
-    "full_context": "Bab 3 Penilaian Skripsi - 3.1 Penilaian Proposal Skripsi",
-    "konten": "A. Penilaian melalui laman SITEI. B. Skala angka 0-100 dikonversi ke huruf. C. Pengumuman hanya LULUS atau TIDAK LULUS. D. Bobot penilaian: Dosen Pembimbing 45%, Tim Penguji 55%. E. Keputusan tim penguji mutlak. [cite: 336, 337, 338, 339, 340, 341, 342]"
+    "full_context": "Penilaian Proposal Skripsi",
+    "konten": [
+      "A. Penilaian melalui laman SITEI",
+      "B. Skala angka 0-100 dikonversi ke huruf",
+      "C. Pengumuman hanya LULUS atau TIDAK LULUS",
+      "D. Bobot penilaian: Dosen Pembimbing 45%, Tim Penguji 55%",
+      "E. Keputusan tim penguji mutlak"
+    ]
   },
   {
     "id": "3.2",
     "topik_utama": "Bab 3 Penilaian Skripsi",
     "sub_topik": "3.2 Penilaian Ujian Skripsi",
-    "full_context": "Bab 3 Penilaian Skripsi - 3.2 Penilaian Ujian Skripsi",
-    "konten": "F-H. Penilaian di SITEI, skala 0-100, hasil LULUS/TIDAK LULUS. I. Bobot penilaian akhir ujian: Dosen Pembimbing 55%, Tim Penguji 45%. J-M. Nilai tambah publikasi: Sinta 4-6 (Maks 5), Sinta 2-3/Scopus Proceeding (Maks 10), Jurnal Scopus (Maks 20); dengan mengunggah bukti penerimaan jurnal/proceeding ke SITEI. N. Keputusan tim penguji mutlak. [cite: 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356]"
+    "full_context": "Penilaian Ujian Skripsi",
+    "konten": [
+      "A. Penilaian ujian skripsi mengikuti format yang telah disediakan melalui laman sitei.ft.unri.ac.id",
+      "B. Nilai yang diberikan oleh tim penguji dalam bentuk angka 0-100 yang dikonversi dalam nilai huruf sesuai ketentuan yang berlaku.",
+      "C. Ketua penguji ujian skripsi mengumumkan hasil ujian skripsi, hanya dengan dua kondisi yaitu LULUS atau TIDAK LULUS.",
+      "D. Ketua tim ujian skripsi mengumpulkan Form Nilai dari dosen penguji dan menghitung nilai akhir, dimana bobot penilaian dari dosen pembimbing sebesar 55% sedangkan bobot penilaian dari dosen tim penguji adalah sebesar 45%.",
+      "E. Publikasi mahasiswa terkait skripsinya yang telah diunggah ke sitei.ft.unri.ac.id dapat menjadi nilai tambah dalam penilaian.",
+      "F. Publikasi berupa jurnal harus mengunggah naskah jurnal yang telah diterima yang dibuktikan dengan bukti penerimaan jurnal.",
+      "G. Publikasi berupa proceeding harus mengunggah naskah proceeding yang telah diterima yang dibuktikan dengan bukti penerimaan proceeding.",
+      "H. Ketentuan nilai publikasi tersebut adalah:",
+      "   a. Untuk publikasi yang terindeks sinta 4 hingga 6 dapat diberi nilai maksimal 5.",
+      "   b. Untuk publikasi yang terindeks sinta 2 hingga 3 atau proceeding terindeks Scopus atau pengindeks lain yang setara dapat diberi nilai maksimal 10.",
+      "   c. Untuk publikasi berupa jurnal yang terindeks Scopus dapat diberi nilai maksimal 20.",
+      "I. Keputusan tim penguji mutlak dan tidak dapat diganggu gugat oleh pihak manapun."
+    ]
   }
 ]

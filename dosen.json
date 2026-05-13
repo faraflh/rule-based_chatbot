@@ -96,7 +96,7 @@
   },
   {
     "intent": "daftar_nama_dosen_ti",
-    "keywords": ["siapa aja dosen", "siapa saja dosen", "daftar dosen", "nama dosen", "dosen ti siapa aja", "dosen teknik informatika siapa saja", "list dosen", "semua dosen", "nama-nama dosen"],
+    "keywords": ["siapa aja dosen", "siapa saja dosen", "daftar dosen", "semua nama dosen", "nama dosen", "dosen ti siapa aja", "dosen teknik informatika siapa saja", "list dosen", "semua dosen", "nama-nama dosen"],
     "response": "Daftar Nama Dosen Program Studi Teknik Informatika:\n\n1. Dr. Irsan Taufik Ali, S.T., M.T.\n2. Dr. Dahliyusmanto, S.Kom., M.Sc\n3. Noveri Lysbetti Marpaung, S.T., M.Sc\n4. Dr. Feri Candra, S.T., M.T.\n5. Linna Oktaviana Sari, S.T., M.T.\n6. Rahyul Amri, S.T., M.T.\n7. Salhazan Nasution, S.Kom., MIT.\n8. T. Yudi Hadiwandra, S.Kom., M.Kom\n9. Edi Susilo, S.Pd., M.Kom., M.Eng\n10. Rahmat Rizal Andhi, S.T., M.T.\n11. Dian Ramadhani, S.T., M.T.\n12. Aisha Gemala Jondya, S.Kom., M.T.I.\n13. Khairul Umam Syaliman, S.T., M.Kom.\n14. Nanda Dwi Putra, S.Kom., M.Kom.\n15. Reny Fitri Yani, S.T., M.T.\n16. Radinal Dwiki Novendra, S.T., M.T.\n17. Ririn Violina, M.Kom\n\nTotal: 17 dosen"
   }
 ]
