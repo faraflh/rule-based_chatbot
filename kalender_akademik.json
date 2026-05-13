@@ -472,11 +472,11 @@
   {
     "intent": "pendaftaran_wisuda_januari",
     "keywords": [
-      "pendaftaran wisuda",
-      "daftar wisuda",
+      "pendaftaran ,
+      "daftar ,
       "daftar wisuda januari",
       "pendaftaran wisuda mahasiswa",
-      "jadwal daftar wisuda",
+      "jadwal daftar ,
       "registrasi wisuda januari"
     ],
     "response": "Pendaftaran Wisuda Januari dilaksanakan pada 26 Desember 2026."
@@ -485,6 +485,7 @@
     "intent": "wisuda_ke_125",
     "keywords": [
       "wisuda ke 125",
+      "wisuda ke-125",
       "wisuda ke-125",
       "wisuda februari",
       "pelaksanaan wisuda 125",
