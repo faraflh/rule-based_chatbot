@@ -74,7 +74,7 @@ class MasterRuleBasedChatbot:
             "Tabel": ["tabel", "format tabel", "judul tabel", "kolom tabel", "sumber tabel"],
             "Gambar": ["gambar", "ilustrasi", "grafik", "format gambar", "judul gambar"],
             "Abstrak": ["abstrak", "ringkasan", "kata kunci", "keyword"],
-            "Penulisan": ["penulisan skripsi", "aturan penulisan", "format penulisan", "pedoman penulisan", "cara menulis skripsi"],
+            "Penulisan": ["penulisan skripsi", "aturan penulisan", "format penulisan", "pedoman penulisan", "cara menulis skripsi"]
         }
 
         # 3. Variabel & Konfigurasi Kurikulum
