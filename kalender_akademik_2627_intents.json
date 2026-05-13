@@ -1346,6 +1346,7 @@
     "intent": "pendaftaran_wisuda_127",
     "keywords": [
       "daftar wisuda 127",
+      "daftar wisuda ke-127",
       "pendaftaran wisuda 127",
       "daftar wisuda agustus",
       "pendaftaran wisuda agustus 2026"
@@ -1356,7 +1357,9 @@
     "intent": "pendaftaran_wisuda_128",
     "keywords": [
       "daftar wisuda 128",
+      "daftar wisuda ke-128",
       "pendaftaran wisuda 128",
+      "pendaftaran wisuda ke-128",
       "daftar wisuda november",
       "pendaftaran wisuda november 2026"
     ],
@@ -1366,7 +1369,9 @@
     "intent": "pendaftaran_wisuda_129",
     "keywords": [
       "daftar wisuda 129",
+      "daftar wisuda ke-129",
       "pendaftaran wisuda 129",
+      "pendaftaran wisuda ke-129",
       "daftar wisuda februari",
       "pendaftaran wisuda februari 2027"
     ],
@@ -1375,8 +1380,9 @@
   {
     "intent": "pendaftaran_wisuda_130",
     "keywords": [
-      "daftar wisuda 130",
       "pendaftaran wisuda 130",
+      "pendaftaran wisuda ke-130",
+      "daftar wisuda ke-130",
       "daftar wisuda mei",
       "pendaftaran wisuda mei 2027"
     ],
