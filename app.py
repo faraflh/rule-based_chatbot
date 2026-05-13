@@ -182,10 +182,18 @@ class MasterRuleBasedChatbot:
     # ------------------------------------------
     # FUZZY SEARCH HELPERS
     # ------------------------------------------
-    def fuzzy_search_intent(self, user_query, data_list, threshold=80):
+    def fuzzy_search_intent(self, user_query, data_list, threshold=80, exclude_prefixes=None):
+        """
+        exclude_prefixes: list of intent prefix strings to skip (e.g. ['info_surat_kpti_', 'info_surat_sti_'])
+        """
         best_item = None
         highest_score = 0
         for item in data_list:
+            # Skip intent yang dikecualikan (ditangani secara khusus)
+            if exclude_prefixes:
+                intent_name = item.get("intent", "")
+                if any(intent_name.startswith(prefix) for prefix in exclude_prefixes):
+                    continue
             keywords = item.get("keywords", []) or item.get("keyword", [])
             if not keywords:
                 continue
@@ -289,7 +297,8 @@ class MasterRuleBasedChatbot:
         abbreviations = {
             r'\bsempro\b': 'seminar proposal',
             r'\bsemhas\b': 'seminar hasil sidang skripsi ujian skripsi',
-            r'\bkp\b': 'kerja praktik kerja praktek',
+            # \bkp\b TIDAK diekspansi — menyebabkan false positive ke keyword KPTI
+            # fuzzy search langsung dengan "kp" sudah cukup untuk SOP JTE
             r'\bta\b': 'tugas akhir skripsi',
             r'\buts\b': 'ujian tengah semester',
             r'\buas\b': 'ujian akhir semester',
@@ -385,7 +394,12 @@ class MasterRuleBasedChatbot:
                 if item.get("intent") == "info_overview_sti":
                     return f"📋 **Daftar Form STI:**\n\n{item['response']}"
         
-        best_info = self.fuzzy_search_intent(expanded_input, self.informasi_umum_data, threshold=80)
+        best_info = self.fuzzy_search_intent(
+            expanded_input,
+            self.informasi_umum_data,
+            threshold=80,
+            exclude_prefixes=["info_surat_kpti_", "info_surat_sti_", "info_overview_kpti", "info_overview_sti"]
+        )
         if best_info:
             return f"ℹ️ **Informasi:**\n\n{best_info['response']}"
 
