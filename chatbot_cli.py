@@ -1,6 +1,6 @@
 """
-Streamlit UI untuk Chatbot Rule-Based Teknik Informatika UNRI.
-Jalankan dengan: streamlit run app.py
+CLI Version - Chatbot Rule-Based Teknik Informatika UNRI.
+Jalankan dengan: python chatbot_cli.py
 """
 
 import json
@@ -8,20 +8,12 @@ import os
 import re
 from pathlib import Path
 
-import streamlit as st
 from thefuzz import fuzz, process
 
 # ==========================================
 # KONFIGURASI
 # ==========================================
-BASE_PATH = Path(__file__).parent  # folder tempat app.py berada
-
-st.set_page_config(
-    page_title="Chatbot TI UNRI",
-    page_icon="🤖",
-    layout="centered",
-    initial_sidebar_state="expanded",
-)
+BASE_PATH = Path(__file__).parent  # folder tempat file ini berada
 
 
 # ==========================================
@@ -107,7 +99,7 @@ class MasterRuleBasedChatbot:
         except FileNotFoundError:
             return default_value
         except json.JSONDecodeError as e:
-            st.warning(f"⚠️ File {filepath.name} rusak formatnya: {e}")
+            print(f"⚠️ File {filepath.name} rusak formatnya: {e}")
             return default_value
 
     def _extract_intents(self, raw):
@@ -168,10 +160,10 @@ class MasterRuleBasedChatbot:
         for group in self.kurikulum_data.get(self.kurikulum_year, []):
             if group["group_name"].upper() == target:
                 total_sks = group.get("total_sks", "0")
-                response = f"📚 **{target} (Kurikulum {self.kurikulum_year})**\n\nTotal Beban: {total_sks} SKS\n\n"
+                response = f"📚 {target} (Kurikulum {self.kurikulum_year})\n\nTotal Beban: {total_sks} SKS\n\n"
                 for c in group["courses"]:
                     if self.kurikulum_year == "2018" and c["name"] in self.spec_map:
-                        response += f"🔻 **{c['name']} ({c['sks']} SKS) → Pilih Konsentrasi:**\n"
+                        response += f"🔻 {c['name']} ({c['sks']} SKS) → Pilih Konsentrasi:\n"
                         for opt in self.spec_map[c["name"]]:
                             response += f"   - {opt['course_name']} ({opt['concentration']})\n"
                     else:
@@ -235,7 +227,7 @@ class MasterRuleBasedChatbot:
         if group_score > 75 and "SEMESTER" not in best_group:
             for group in self.kurikulum_data.get(self.kurikulum_year, []):
                 if group["group_name"] == best_group:
-                    resp = f"📂 **Peminatan: {best_group} ({self.kurikulum_year})**\n\n"
+                    resp = f"📂 Peminatan: {best_group} ({self.kurikulum_year})\n\n"
                     for c in group["courses"]:
                         resp += f"- {c['name']} ({c['sks']} SKS)\n"
                     return resp
@@ -245,10 +237,10 @@ class MasterRuleBasedChatbot:
         if not valid_matches:
             return None
 
-        response = f"🔍 **Hasil Pencarian Mata Kuliah ({self.kurikulum_year}):**\n"
+        response = f"🔍 Hasil Pencarian Mata Kuliah ({self.kurikulum_year}):\n"
         for name, _ in valid_matches:
             details = self.course_details[name]
-            response += f"\n📖 **{name}**\n   • Kode : {details['code']}\n   • SKS  : {details['sks']}\n"
+            response += f"\n📖 {name}\n   • Kode : {details['code']}\n   • SKS  : {details['sks']}\n"
             if "Keahlian" in str(details["no_label"]) and self.kurikulum_year == "2018":
                 response += f"   • Kategori : {details['no_label']} ({details['semester_info']})\n   • Grup     : {details['group']}\n"
             else:
@@ -302,7 +294,6 @@ class MasterRuleBasedChatbot:
             r'\bsnbt\b': 'seleksi nasional berdasarkan tes',
             r'\butbk\b': 'ujian tulis berbasis komputer',
             r'\bkkn\b': 'kuliah kerja nyata kukerta',
-            # STI dan KPTI TIDAK diekspansi karena ditangani secara khusus
         }
         
         expanded = text.lower()
@@ -345,81 +336,73 @@ class MasterRuleBasedChatbot:
                     misi_item = item
             
             if visi_item and misi_item:
-                return f"ℹ️ **Visi & Misi Program Studi:**\n\n{visi_item['response']}\n\n---\n\n{misi_item['response']}"
+                return f"ℹ️ Visi & Misi Program Studi:\n\n{visi_item['response']}\n\n---\n\n{misi_item['response']}"
             elif visi_item:
-                return f"ℹ️ **Informasi:**\n\n{visi_item['response']}"
+                return f"ℹ️ Informasi:\n\n{visi_item['response']}"
             elif misi_item:
-                return f"ℹ️ **Informasi:**\n\n{misi_item['response']}"
+                return f"ℹ️ Informasi:\n\n{misi_item['response']}"
         
-        # Deteksi khusus untuk KPTI (harus dicek SEBELUM STI karena KPTI mengandung "TI")
-        # Cek apakah user menanyakan KPTI spesifik (dengan nomor) atau overview
+        # Deteksi khusus untuk KPTI
         kpti_specific_match = re.search(r'kpti[-\s]?(\d+)', cleaned_input)
         if kpti_specific_match or (re.search(r'\bkpti\b', cleaned_input) and not re.search(r'\bsti\b', cleaned_input)):
             if kpti_specific_match:
-                # User menanyakan KPTI spesifik dengan nomor
                 kpti_num = kpti_specific_match.group(1)
                 for item in self.informasi_umum_data:
                     if item.get("intent") == f"info_surat_kpti_{kpti_num}":
-                        return f"ℹ️ **Informasi:**\n\n{item['response']}"
+                        return f"ℹ️ Informasi:\n\n{item['response']}"
             else:
-                # User hanya mengetik "kpti" saja - tampilkan overview
                 for item in self.informasi_umum_data:
                     if item.get("intent") == "info_overview_kpti":
-                        return f"📋 **Daftar Form KPTI:**\n\n{item['response']}"
+                        return f"📋 Daftar Form KPTI:\n\n{item['response']}"
         
-        # Deteksi khusus untuk STI (setelah KPTI dicek)
-        # Cek apakah user menanyakan STI spesifik (dengan nomor) atau overview
+        # Deteksi khusus untuk STI
         sti_specific_match = re.search(r'sti[-\s]?(\d+)', cleaned_input)
         if sti_specific_match or (re.search(r'\bsti\b', cleaned_input) and not re.search(r'\bkpti\b', cleaned_input)):
             if sti_specific_match:
-                # User menanyakan STI spesifik dengan nomor
                 sti_num = sti_specific_match.group(1)
                 for item in self.informasi_umum_data:
                     if item.get("intent") == f"info_surat_sti_{sti_num}":
-                        return f"ℹ️ **Informasi:**\n\n{item['response']}"
+                        return f"ℹ️ Informasi:\n\n{item['response']}"
             else:
-                # User hanya mengetik "sti" saja - tampilkan overview
                 for item in self.informasi_umum_data:
                     if item.get("intent") == "info_overview_sti":
-                        return f"📋 **Daftar Form STI:**\n\n{item['response']}"
+                        return f"📋 Daftar Form STI:\n\n{item['response']}"
         
         best_info = self.fuzzy_search_intent(expanded_input, self.informasi_umum_data, threshold=80)
         if best_info:
-            return f"ℹ️ **Informasi:**\n\n{best_info['response']}"
+            return f"ℹ️ Informasi:\n\n{best_info['response']}"
 
         # 3. Dosen
         best_dosen = self.fuzzy_search_intent(expanded_input, self.dosen_data, threshold=80)
         if best_dosen:
-            return f"👨‍🏫 **Informasi Dosen:**\n\n{best_dosen['response']}"
+            return f"👨‍🏫 Informasi Dosen:\n\n{best_dosen['response']}"
 
         # 4. Kalender Akademik
-        # Prioritaskan intent jadwal_wisuda_semua untuk query umum tentang wisuda
         if any(keyword in expanded_input for keyword in ["kapan wisuda", "jadwal wisuda", "wisuda kapan", "semua jadwal wisuda", "jadwal wisuda 2026", "jadwal wisuda 2027", "wisuda tahun ini"]) and not re.search(r"wisuda\s*(ke-?)?\s*\d+", expanded_input):
             for item in self.kalender_data:
                 if item.get("intent") == "jadwal_wisuda_semua":
-                    return f"📅 **Jadwal Wisuda:**\n\n{item['response']}"
+                    return f"📅 Jadwal Wisuda:\n\n{item['response']}"
         
         best_kalender = self.fuzzy_search_intent(expanded_input, self.kalender_data, threshold=80)
         if best_kalender:
             ta = best_kalender.get("tahun_ajaran", "")
-            header = f"📅 **Informasi Akademik (TA {ta}):**" if ta else "📅 **Informasi Akademik:**"
+            header = f"📅 Informasi Akademik (TA {ta}):" if ta else "📅 Informasi Akademik:"
             return f"{header}\n\n{best_kalender['response']}"
 
         # 5. Setelah Sidang
         best_setelah = self.fuzzy_search_intent(expanded_input, self.setelah_sidang_data, threshold=80)
         if best_setelah:
-            return f"📂 **Setelah Sidang:**\n\n{best_setelah['response']}"
+            return f"📂 Setelah Sidang:\n\n{best_setelah['response']}"
 
-        # 6. Pedoman Penulisan Skripsi (dicek lebih dulu karena lebih spesifik untuk aturan penulisan)
-        # Deteksi query umum tentang pedoman/aturan penulisan skripsi
+        # 6. Pedoman Penulisan Skripsi
         if any(keyword in expanded_input for keyword in ["aturan penulisan", "pedoman penulisan", "format penulisan", "cara menulis skripsi", "panduan penulisan"]):
             overview_chunks = []
             for chunk in self.skripsi_data:
                 if chunk.get("sub_topik") == "Umum" and chunk.get("topik_utama") in ["Kertas", "Pengetikan", "Penomoran", "Bahasa"]:
                     konten = self.format_konten(chunk.get('konten', ''))
-                    overview_chunks.append(f"📌 **{chunk.get('full_context', 'Info')}**\n\n{konten}")
+                    overview_chunks.append(f"📌 {chunk.get('full_context', 'Info')}\n\n{konten}")
             if overview_chunks:
-                return "📖 **Pedoman Penulisan Skripsi:**\n\n" + "\n\n---\n\n".join(overview_chunks[:4]) + "\n\n💡 *Tanyakan lebih spesifik untuk detail (contoh: 'aturan margin', 'format tabel', 'daftar pustaka')*"
+                return "📖 Pedoman Penulisan Skripsi:\n\n" + "\n\n---\n\n".join(overview_chunks[:4]) + "\n\n💡 Tanyakan lebih spesifik untuk detail (contoh: 'aturan margin', 'format tabel', 'daftar pustaka')"
         
         matched_skripsi_cat = self.fuzzy_search_skripsi_category(expanded_input, threshold=75)
         if matched_skripsi_cat:
@@ -427,20 +410,20 @@ class MasterRuleBasedChatbot:
             for chunk in self.skripsi_data:
                 if matched_skripsi_cat.lower() in chunk.get("sub_topik", "").lower() or matched_skripsi_cat.lower() in chunk.get("topik_utama", "").lower():
                     konten = self.format_konten(chunk.get('konten', ''))
-                    responses.append(f"📌 **{chunk.get('full_context', 'Info')}**\n\n{konten}")
+                    responses.append(f"📌 {chunk.get('full_context', 'Info')}\n\n{konten}")
             if responses:
                 return "\n\n---\n\n".join(responses)
 
-        # 7. SOP Skripsi & SOP JTE (dicek setelah Pedoman Skripsi)
+        # 7. SOP Skripsi & SOP JTE
         sop_results = []
         sop_skripsi_hits = self.fuzzy_search_sop(expanded_input, self.sop_skripsi_data, threshold=70, limit=2)
         sop_jte_hits = self.fuzzy_search_sop(expanded_input, self.sop_jte_data, threshold=70, limit=2)
         for chunk in sop_skripsi_hits:
             konten = self.format_konten(chunk.get('konten', ''))
-            sop_results.append(f"📘 **SOP Skripsi — {chunk.get('full_context', 'Info')}**\n\n{konten}")
+            sop_results.append(f"📘 SOP Skripsi — {chunk.get('full_context', 'Info')}\n\n{konten}")
         for chunk in sop_jte_hits:
             konten = self.format_konten(chunk.get('konten', ''))
-            sop_results.append(f"📗 **SOP JTE — {chunk.get('full_context', 'Info')}**\n\n{konten}")
+            sop_results.append(f"📗 SOP JTE — {chunk.get('full_context', 'Info')}\n\n{konten}")
         if sop_results:
             return "\n\n---\n\n".join(sop_results)
 
@@ -451,47 +434,45 @@ class MasterRuleBasedChatbot:
 
         # 9. Fallback
         return (
-            "Maaf, saya tidak menemukan jawaban yang relevan. Coba contoh pertanyaan di sidebar, "
-            "atau gunakan kategori berikut:\n\n"
-            "- **Kurikulum** — `semester 5`, `matkul algoritma`\n"
-            "- **Kalender** — `kapan wisuda 128`, `jadwal uts`\n"
-            "- **Dosen** — `dosen pak irsan`, `kaprodi ti`\n"
-            "- **Pedoman Skripsi** — `aturan margin skripsi`\n"
-            "- **Setelah Sidang** — `map biru`, `alur bebas lab`\n"
-            "- **SOP** — `prosedur seminar proposal`, `pendaftaran KP`\n"
-            "- **Informasi Umum** — `alur pendaftaran`, `beasiswa`, `biaya ukt`, `form sti-1`, `kontak admin`\n"
+            "Maaf, saya tidak menemukan jawaban yang relevan. Coba contoh pertanyaan berikut:\n\n"
+            "- Kurikulum — `semester 5`, `matkul algoritma`\n"
+            "- Kalender — `kapan wisuda 128`, `jadwal uts`\n"
+            "- Dosen — `dosen pak irsan`, `kaprodi ti`\n"
+            "- Pedoman Skripsi — `aturan margin skripsi`\n"
+            "- Setelah Sidang — `map biru`, `alur bebas lab`\n"
+            "- SOP — `prosedur seminar proposal`, `pendaftaran KP`\n"
+            "- Informasi Umum — `alur pendaftaran`, `beasiswa`, `biaya ukt`, `form sti-1`, `kontak admin`\n"
             f"- `ganti 2018` (Ubah versi kurikulum, saat ini: {self.kurikulum_year})"
         )
 
 
 # ==========================================
-# CACHE BOT (biar gak reload file tiap rerun)
+# MAIN CLI
 # ==========================================
-@st.cache_resource
-def load_bot(default_year: str = "2025"):
-    return MasterRuleBasedChatbot(default_year=default_year)
+def print_welcome():
+    print("=" * 60)
+    print("🤖 Chatbot Teknik Informatika UNRI (CLI Version)")
+    print("=" * 60)
+    print()
+    print("Silakan tanyakan apa saja seputar:")
+    print("- Kurikulum & mata kuliah")
+    print("- Jadwal akademik (UTS/UAS/wisuda)")
+    print("- Info dosen")
+    print("- Prosedur skripsi & KP")
+    print("- Alur setelah sidang")
+    print("- Informasi umum (pendaftaran, UKT, beasiswa, form STI/KPTI)")
+    print()
+    print("💡 Tips singkatan: sempro, semhas, KP, TA, UTS, UAS, KRS")
+    print()
+    print("Ketik 'quit' atau 'exit' untuk keluar.")
+    print("Ketik 'help' untuk melihat contoh pertanyaan.")
+    print("-" * 60)
 
 
-# ==========================================
-# UI
-# ==========================================
-bot = load_bot(default_year="2025")
-
-# ---- Sidebar ----
-with st.sidebar:
-    st.markdown("## 🤖 Chatbot TI UNRI")
-    st.caption("Rule-Based + Fuzzy Search")
-
-    st.markdown("### ⚙️ Pengaturan")
-    kur_options = list(bot.kurikulum_data.keys()) if bot.kurikulum_data else [bot.kurikulum_year]
-    if kur_options:
-        current_idx = kur_options.index(bot.kurikulum_year) if bot.kurikulum_year in kur_options else 0
-        selected_year = st.selectbox("Versi Kurikulum Aktif", kur_options, index=current_idx)
-        if selected_year != bot.kurikulum_year:
-            bot.load_curriculum(selected_year)
-            st.rerun()
-
-    st.markdown("### 💡 Contoh Pertanyaan")
+def print_help():
+    print()
+    print("📋 Contoh Pertanyaan:")
+    print("-" * 40)
     examples = [
         "Siapa kaprodi TI?",
         "Visi dan Misi",
@@ -509,81 +490,54 @@ with st.sidebar:
         "Download form STI-1",
         "Kontak admin prodi",
         "Prosedur KP MBKM",
+        "ganti 2018 (ubah kurikulum)",
     ]
-    for q in examples:
-        if st.button(q, use_container_width=True, key=f"ex_{q}"):
-            st.session_state["pending_input"] = q
-            st.rerun()
+    for ex in examples:
+        print(f"  • {ex}")
+    print("-" * 40)
+    print()
 
-    st.markdown("### 📂 Sumber Data")
-    st.caption(
-        "- Kurikulum (2018 & 2025)\n"
-        "- Kalender Akademik TA 25/26 & 26/27\n"
-        "- Data Dosen\n"
-        "- Pedoman Penulisan Skripsi\n"
-        "- SOP JTE & SOP Skripsi\n"
-        "- Setelah Sidang (Map Biru/Merah & SITEI)\n"
-        "- Informasi Umum (Pendaftaran, UKT, Beasiswa,\n"
-        "  Form STI/KPTI, Publikasi, KP MBKM, dll.)"
-    )
 
-    if st.button("🗑️ Bersihkan Chat", use_container_width=True):
-        st.session_state["messages"] = []
-        st.rerun()
+def main():
+    print_welcome()
+    
+    # Inisialisasi chatbot
+    print("⏳ Memuat data...")
+    bot = MasterRuleBasedChatbot(default_year="2025")
+    print(f"✅ Chatbot siap! Kurikulum aktif: {bot.kurikulum_year}")
+    print()
+    
+    while True:
+        try:
+            user_input = input("Anda: ").strip()
+        except (KeyboardInterrupt, EOFError):
+            print("\n\n👋 Sampai jumpa!")
+            break
+        
+        if not user_input:
+            continue
+        
+        if user_input.lower() in ['quit', 'exit', 'keluar', 'q']:
+            print("\n👋 Sampai jumpa!")
+            break
+        
+        if user_input.lower() == 'help':
+            print_help()
+            continue
+        
+        if user_input.lower() == 'clear':
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print_welcome()
+            print(f"Kurikulum aktif: {bot.kurikulum_year}")
+            print()
+            continue
+        
+        # Dapatkan respons dari chatbot
+        response = bot.get_response(user_input)
+        print()
+        print(f"Bot: {response}")
+        print()
 
-# ---- Main Area ----
-st.title("🤖 Chatbot Teknik Informatika UNRI")
-st.caption(
-    f"Kurikulum aktif: **{bot.kurikulum_year}** · "
-    f"Gunakan chatbot ini untuk bertanya seputar kurikulum, dosen, kalender akademik, skripsi, KP, informasi umum, dan administrasi."
-)
 
-# Init chat state
-if "messages" not in st.session_state:
-    st.session_state["messages"] = [
-        {
-            "role": "assistant",
-            "content": (
-                "Halo! 👋 Saya asisten virtual Teknik Informatika UNRI.\n\n"
-                "Silakan tanyakan apa saja seputar:\n"
-                "- Kurikulum & mata kuliah\n"
-                "- Jadwal akademik (UTS/UAS/wisuda)\n"
-                "- Info dosen\n"
-                "- Prosedur skripsi & KP\n"
-                "- Alur setelah sidang\n"
-                "- Informasi umum (pendaftaran, UKT, beasiswa, form STI/KPTI, publikasi)\n\n"
-                "💡 **Tips:** Kamu bisa pakai singkatan seperti:\n"
-                "• **sempro** = seminar proposal\n"
-                "• **semhas** = seminar hasil / sidang skripsi\n"
-                "• **KP** = kerja praktik\n"
-                "• **TA** = tugas akhir / skripsi\n"
-                "• **UTS/UAS** = ujian tengah/akhir semester\n"
-                "• **KRS** = kartu rencana studi\n\n"
-                "Kamu juga bisa klik contoh pertanyaan di sidebar."
-            ),
-        }
-    ]
-
-# Tampilkan riwayat chat
-for msg in st.session_state["messages"]:
-    with st.chat_message(msg["role"]):
-        st.markdown(msg["content"])
-
-# Ambil input user (dari chat_input atau tombol contoh)
-user_input = st.chat_input("Ketik pertanyaanmu di sini...")
-if not user_input and "pending_input" in st.session_state:
-    user_input = st.session_state.pop("pending_input")
-
-if user_input:
-    # Simpan pesan user
-    st.session_state["messages"].append({"role": "user", "content": user_input})
-    with st.chat_message("user"):
-        st.markdown(user_input)
-
-    # Generate response
-    with st.chat_message("assistant"):
-        with st.spinner("Mencari jawaban..."):
-            response = bot.get_response(user_input)
-        st.markdown(response)
-
-    st.session_state["messages"].append({"role": "assistant", "content": response})
+if __name__ == "__main__":
+    main()

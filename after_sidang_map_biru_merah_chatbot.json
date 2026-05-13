@@ -7,9 +7,9 @@
         "isi map biru",
         "dokumen map biru",
         "berkas map biru",
-        "after sidang map biru"
+        "setelah sidang map biru"
       ],
-      "response": "Isi map biru after sidang Informatika mencakup dokumen administrasi utama seperti STI-20 bebas administrasi prodi, STI-16 lembar kontrol perbaikan, STI-18 biodata alumni, STI-17 bukti penyerahan buku skripsi, STI-24 suket tutup teori, transkrip nilai, halaman pengesahan skripsi, surat bebas lab, formulir wisuda, dan hasil Turnitin maksimal 20 persen."
+      "response": "Isi map biru setelah sidang Informatika mencakup dokumen administrasi utama seperti STI-20 bebas administrasi prodi, STI-16 lembar kontrol perbaikan, STI-18 biodata alumni, STI-17 bukti penyerahan buku skripsi, STI-24 suket tutup teori, transkrip nilai, halaman pengesahan skripsi, surat bebas lab, formulir wisuda, dan hasil Turnitin maksimal 20 persen."
     },
     {
       "intent": "sti20_bebas_administrasi_prodi",
@@ -51,7 +51,7 @@
         "bukti penyerahan buku skripsi",
         "form penyerahan skripsi"
       ],
-      "response": "STI-17 Form Bukti Penyerahan Buku Skripsi adalah dokumen yang sudah disiapkan di sheet after sidang. Dokumen ini memerlukan tanda tangan dosen pembimbing, admin perpustakaan teknik atau fakultas, dan admin perpustakaan jurusan yaitu Kak Aisyah."
+      "response": "STI-17 Form Bukti Penyerahan Buku Skripsi adalah dokumen yang sudah disiapkan di sheet setelah sidang. Dokumen ini memerlukan tanda tangan dosen pembimbing, admin perpustakaan teknik atau fakultas, dan admin perpustakaan jurusan yaitu Kak Aisyah."
     },
     {
       "intent": "sti24_tutup_teori",
@@ -92,13 +92,14 @@
         "surat keterangan bebas lab",
         "bebas lab"
       ],
-      "response": "Surat Keterangan Bebas Lab termasuk dokumen yang masuk ke map biru. Dokumen ini juga biasanya menjadi bagian yang perlu dilengkapi dalam alur after sidang."
+      "response": "Surat Keterangan Bebas Lab termasuk dokumen yang masuk ke map biru. Dokumen ini juga biasanya menjadi bagian yang perlu dilengkapi dalam alur setelah sidang."
     },
     {
       "intent": "formulir_wisuda",
       "keywords": [
         "formulir wisuda",
         "ttd pak anhar",
+        "tanda tangan pak anhar",
         "berkas wisuda"
       ],
       "response": "Formulir Wisuda termasuk isi map biru dan memerlukan tanda tangan Pak Anhar."
@@ -131,14 +132,14 @@
         "fotocopy ktm",
         "fotocopy kk",
         "fotocopy ijazah",
-        "berkas fotokopi wisuda"
+        "syarat pas foto"
       ],
       "response": "Dalam map merah perlu disiapkan foto berwarna latar belakang merah ukuran 3x4 sebanyak 2 lembar tanpa bingkai putih, fotocopy KTM dalam satu lembar kertas, fotocopy KTP rangkap 3, fotocopy KK rangkap 2, dan fotocopy ijazah SLTA atau SARMUD rangkap 2."
     },
     {
       "intent": "berkas_perpustakaan_unri_map_merah",
       "keywords": [
-        "surat bebas pustaka unri",
+        "berkas isi map merah",
         "bukti penyerahan skripsi unri",
         "web pustaka unri",
         "berkas perpustakaan unri"
@@ -222,10 +223,10 @@
     {
       "intent": "wisuda_setelah_semua_selesai",
       "keywords": [
-        "setelah selesai",
+        "setelah selesai map",
         "tunggu wisuda",
-        "jadwal wisuda",
-        "selesai after sidang"
+        "tahap akhir setelah sidang",
+        "selesai setelah sidang"
       ],
       "response": "Setelah semua tahapan administrasi selesai dan dokumen portal sudah disetujui, tahap berikutnya adalah menunggu jadwal wisuda sesuai pilihan wisuda yang sudah disetujui di portal."
     }

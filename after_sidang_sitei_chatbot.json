@@ -1,16 +1,16 @@
 {
   "intents": [
     {
-      "intent": "after_sidang_sitei_overview",
+      "intent": "setelah_sidang_sitei_overview",
       "keywords": [
         "setelah sidang skripsi",
         "prosedur setelah sidang",
         "alur nilai sitei",
         "keluar nilai sidang",
-        "langkah after sidang",
+        "langkah setelah sidang",
         "status lulus sitei"
       ],
-      "response": "Alur after sidang untuk keluarnya nilai di SITEI meliputi pengurusan bebas lab, revisi skripsi dan STI-16, bebas pustaka UNRI, cetak pas foto dan materai, cetak skripsi serta STI-17, minta tanda tangan, minta cap dokumen, siapkan folder skripsi, serahkan ke perpustakaan teknik, serahkan ke perpustakaan UNRI, lalu upload dokumen akhir ke SITEI agar status lulus dan keterangan nilai keluar."
+      "response": "Alur setelah sidang untuk keluarnya nilai di SITEI meliputi pengurusan bebas lab, revisi skripsi dan STI-16, bebas pustaka UNRI, cetak pas foto dan materai, cetak skripsi serta STI-17, minta tanda tangan, minta cap dokumen, siapkan folder skripsi, serahkan ke perpustakaan teknik, serahkan ke perpustakaan UNRI, lalu upload dokumen akhir ke SITEI agar status lulus dan keterangan nilai keluar."
     },
     {
       "intent": "bebas_lab_sitei",
@@ -18,6 +18,8 @@
         "bebas lab",
         "surat bebas lab",
         "ttd plp",
+        "tanda tangan plp",
+        "tanda tangan",
         "pak jatwoko",
         "pak ramdani",
         "pak dedi fermana",
@@ -140,14 +142,14 @@
       "intent": "kontak_dan_pihak_terkait_sitei",
       "keywords": [
         "siapa yang dihubungi",
-        "kontak after sidang",
-        "staff after sidang",
+        "kontak setelah sidang",
+        "staff setelah sidang",
         "pak jatwoko nomor",
         "pak ramdani nomor",
         "pak feri",
         "kak aisyah"
       ],
-      "response": "Pihak yang terlibat dalam alur after sidang ini antara lain Pak Jatwoko, Pak Ramdani, Pak Dedi Fermana, Pak Anhar, dosen pembimbing, Pak Feri, Kak Aisyah, admin Perpustakaan Teknik atau Fakultas, dan Perpustakaan UNRI. Nomor yang tercantum dalam dokumen adalah Pak Jatwoko 082112864224 dan Pak Ramdani 085265209642."
+      "response": "Pihak yang terlibat dalam alur setelah sidang ini antara lain Pak Jatwoko, Pak Ramdani, Pak Dedi Fermana, Pak Anhar, dosen pembimbing, Pak Feri, Kak Aisyah, admin Perpustakaan Teknik atau Fakultas, dan Perpustakaan UNRI. Nomor yang tercantum dalam dokumen adalah Pak Jatwoko 082112864224 dan Pak Ramdani 085265209642."
     }
   ]
 }

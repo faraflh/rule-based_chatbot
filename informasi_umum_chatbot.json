@@ -1,6 +1,34 @@
 {
   "intents": [
     {
+      "intent": "info_overview_sti",
+      "keywords": [
+        "daftar sti",
+        "semua sti",
+        "list sti",
+        "form sti",
+        "sti apa saja",
+        "sti lengkap",
+        "download semua sti"
+      ],
+      "response": "Berikut adalah daftar lengkap Form STI Program Studi Teknik Informatika:\n\n📄 **Form STI Skripsi:**\n- [STI-1](https://docs.google.com/document/d/1Fb5aMUr_TeVf1JWDO6kGZA-s2vd1UHub/edit) - Surat Pengajuan Permohonan Topik Skripsi\n- [STI-2](https://docs.google.com/document/d/1Fr5ebCe5xbkqByAqLj7TQquW-xt4ChwA/edit) - Form Pengajuan Topik Skripsi\n- [STI-3](https://docs.google.com/document/d/1G2hRj2lsIhEA6uQELgh1dYW5qUYJJ0h2/edit)\n- [STI-4](https://docs.google.com/document/d/1FeelbfB-Igdc1uj7CFUmCMn2IM4AHe8x/edit)\n- [STI-5](https://docs.google.com/document/d/1FdXYZFTpIr_lH-BpY226cmUuElf06Khv/edit)\n- [STI-6](https://docs.google.com/document/d/1FmX5MAZ6Patx7k4qEuTwNoe_cG36lFtc/edit)\n- [STI-7](https://docs.google.com/document/d/1Ft4eO6L1gjcKeJLMFcxd4Xi5SByKnstV/edit)\n- [STI-8](https://docs.google.com/document/d/1G6XxM5sgw-cstpmOHwiYnrMrGTXrnYav/edit)\n- [STI-9](https://docs.google.com/document/d/1R_X-0qahf2VfqBiBD9_wlqm8Q4XUfK95/edit) - Lembar Kontrol Perbaikan Proposal\n- [STI-10](https://docs.google.com/document/d/1LpCG0J7DvM-IqlvfmLWaUDz_JkR5zWOs/edit) - Form Publikasi\n- [STI-11](https://docs.google.com/document/d/1G4my8ffkV_gVRn3ULxay9Gq2F4SSyC9_/edit)\n- [STI-12](https://docs.google.com/document/d/1RtEWt_kmBo-fFSl8kRL-V_9RUdzv-Rld/edit)\n- [STI-13](https://docs.google.com/document/d/1GlSwFpEmq9-CBX4WY7XC0asq1uG37H2s/edit)\n- [STI-14](https://docs.google.com/document/d/1FgaWfHeBfyG40IVT6Jq_rqYfjgr8mXgG/edit)\n- [STI-15](https://docs.google.com/document/d/1FSAVuNP9bubPYjXtBbPG95ge3bOt1kDf/edit)\n- [STI-16](https://docs.google.com/document/d/1G5wM-i_9NECvOeUdn2j1dGF-YAHUGwOb/edit) - Lembar Kontrol Perbaikan Skripsi\n- [STI-17](https://docs.google.com/document/d/1iOMVYHKYjx9L8kXaA75dylaim62oDMk9/edit) - Form Penyerahan Buku Skripsi\n- [STI-18](https://docs.google.com/document/d/1SOZHCLm6nk2pYjT3dEXyWabHKnQTJrQ1/edit) - Biodata Alumni\n- [STI-19](https://docs.google.com/document/d/1SVlXE-sBStIIUWBHpNJW2u9uduzqX_8v/edit)\n- [STI-20](https://docs.google.com/document/d/1aGqZ4JZd0MnQClaSXGZpVlxahztLXbS3/edit) - Surat Bebas Administrasi Prodi\n- [STI-21](https://docs.google.com/document/d/1T1uuPoelfGlGdC-IBV2ipDsK4Xcnv22t/edit)\n- [STI-22](https://docs.google.com/document/d/1FreNu-dxZqhdEDaA412nBJbghqhwyd9U/edit) - Surat Perpanjangan Waktu Skripsi\n- [STI-23](https://docs.google.com/document/d/1M5osbjbvH3QQaeHH2R93pitdIJCGZ2Qd/edit)\n- [STI-24](https://docs.google.com/document/d/1ebXl2kfqX1LUAtqxEmKidpwjrrfjgdYr/edit) - Surat Keterangan Tutup Teori\n- [STI-25](https://docs.google.com/document/d/1T5AHSJMr3_lHGAQd_LEdUrEbxVNZ-bZx/edit)\n- [STI-26](https://docs.google.com/document/d/1EIklvbP8bvsg9G-BK303KzoUF7A582TQ/edit)\n- [STI-27](https://docs.google.com/document/d/1TACnG0l53CSsZKiDChUEIQKDy05YCMBD/edit) - Surat Permohonan Penelitian\n- [STI-28](https://docs.google.com/document/d/14-TXPVXVyJ_-hQ-6Yr_ZnOYj6cIYD9mQ/edit)\n- [STI-29](https://docs.google.com/document/d/1X50V_hWkg03WWwag4c51Qz7hOeV9qUUB/edit)\n- [STI-30](https://docs.google.com/document/d/1a0oM87BPkpnX7w2oxC27UJdNLE7Deed5/edit) - Checklist Pendaftaran Sempro\n- [STI-31](https://docs.google.com/document/d/1bEhnZH8eMZ6jgCgB6XmY8yEe9MgC7kXT/edit) - Surat Persetujuan SPI\n- [STI-32](https://docs.google.com/document/d/1FNzqDzyCSk6DptjWGSxuSMk2YXUgWk-1/edit)\n- [STI-33](https://docs.google.com/document/d/1m3PvxR4i_VY7jU4NTsLz_Qq5NjYddHhn/edit)\n- [STI-34](https://docs.google.com/document/d/117HQsl8hG5UVKr2wr3K3X_tUq_GCPNkG/edit)\n- [STI-35](https://docs.google.com/document/d/1MtfWTNIEywfcMmgWr9buvy_JV6einAgq/edit)\n\n💡 *Ketik nomor spesifik untuk download (contoh: 'STI-9' atau 'form sti 30')*"
+    },
+    {
+      "intent": "info_overview_kpti",
+      "keywords": [
+        "daftar kpti",
+        "semua kpti",
+        "list kpti",
+        "form kpti",
+        "kpti apa saja",
+        "kpti lengkap",
+        "download semua kpti",
+        "form kerja praktik",
+        "formulir kp"
+      ],
+      "response": "Berikut adalah daftar lengkap Form KPTI:\n\n📄 **Form KPTI Kerja Praktik:**\n- [KPTI-1](https://docs.google.com/document/d/1EpcA-mOSdSdcozHgGc7ATGfAPXN-lFAg/edit) - Surat Permohonan KP\n- [KPTI-2](https://docs.google.com/document/d/1FIJcxS9uvHbsWxIOeTpWLpxhffpLrQ-r/edit) - Form Pengajuan KP\n- [KPTI-3](https://docs.google.com/document/d/1Exi939SY3lCyiq8JCKEAM8gEnJtMN1VG/edit)\n- [KPTI-4](https://docs.google.com/document/d/1EoiZ196VH1Ax1SkvLt2U4Aq2-ZEJ8VRa/edit)\n- [KPTI-5](https://docs.google.com/document/d/1F4gh9FvYinCgwMn1gXtjr9rZgd1a_kJU/edit)\n- [KPTI-6](https://docs.google.com/document/d/1ElJVXIQJzMW2Y_zFGl4NN2SDP7eoPUdH/edit)\n- [KPTI-7](https://docs.google.com/document/d/1FCMzACSRDqct7A9rBjDpTn_SdQSZI-jv/edit)\n- [KPTI-8](https://docs.google.com/document/d/1lSSabhn-iZNSeD9E1lqOa48Ev0-az4XB/edit)\n- [KPTI-9](https://docs.google.com/document/d/1FAr8--kPv8P-q0jo9sPZ72Bs_B4hJRAB/edit)\n- [KPTI-10](https://docs.google.com/document/d/1FA50J7iYhI-4vnoTizW85rj7PLXoM707/edit) - Form Upload Laporan KP\n- [KPTI-11](https://docs.google.com/document/d/1a7xA2i0d-Mq3JBYHvROPEKfyATRqrmt9/edit)\n- [KPTI-12](https://docs.google.com/document/d/1-nYTYSAr5c3VJZFXSEj3sn_bXXb0R3-8/edit)\n\n📋 **Dokumen Pendukung KP:**\n- [Logbook KP](https://docs.google.com/document/d/1ZLNNDkjwkFS75hmA4PJrW7WNpCwsRJrt/edit)\n\n💡 *Ketik nomor spesifik untuk download (contoh: 'KPTI-1' atau 'form kpti 10')*"
+    },
+    {
       "intent": "informasi_alur_pendaftaran",
       "keywords": [
         "alur pendaftaran",
@@ -114,10 +142,9 @@
         "sti-1",
         "surat sti 1",
         "link sti 1",
-        "download sti 1",
-        "syarat skripsi sti 1"
+        "download sti 1"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-1:\n\n[Download STI-1](hhttps://docs.google.com/document/d/1Fb5aMUr_TeVf1JWDO6kGZA-s2vd1UHub/edit?usp=sharing&ouid=116841305558879535225&rtpof=true&sd=true))"
+      "response": "Berikut adalah link untuk mengunduh form STI-1:\n\n[Download STI-1](https://docs.google.com/document/d/1Fb5aMUr_TeVf1JWDO6kGZA-s2vd1UHub/edit?usp=sharing&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_2",
@@ -127,10 +154,9 @@
         "sti-2",
         "surat sti 2",
         "link sti 2",
-        "download sti 2",
-        "syarat skripsi sti 2"
+        "download sti 2"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-2:\n\n[Download STI-2](hhttps://docs.google.com/document/d/1Fr5ebCe5xbkqByAqLj7TQquW-xt4ChwA/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true))"
+      "response": "Berikut adalah link untuk mengunduh form STI-2:\n\n[Download STI-2](https://docs.google.com/document/d/1Fr5ebCe5xbkqByAqLj7TQquW-xt4ChwA/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_3",
@@ -140,10 +166,9 @@
         "sti-3",
         "surat sti 3",
         "link sti 3",
-        "download sti 3",
-        "syarat skripsi sti 3"
+        "download sti 3"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-3:\n\n[Download STI-3](hhttps://docs.google.com/document/d/1G2hRj2lsIhEA6uQELgh1dYW5qUYJJ0h2/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true))"
+      "response": "Berikut adalah link untuk mengunduh form STI-3:\n\n[Download STI-3](https://docs.google.com/document/d/1G2hRj2lsIhEA6uQELgh1dYW5qUYJJ0h2/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_4",
@@ -153,10 +178,9 @@
         "sti-4",
         "surat sti 4",
         "link sti 4",
-        "download sti 4",
-        "syarat skripsi sti 4"
+        "download sti 4"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-4:\n\n[Download STI-4](hhttps://docs.google.com/document/d/1FeelbfB-Igdc1uj7CFUmCMn2IM4AHe8x/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true))"
+      "response": "Berikut adalah link untuk mengunduh form STI-4:\n\n[Download STI-4](https://docs.google.com/document/d/1FeelbfB-Igdc1uj7CFUmCMn2IM4AHe8x/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_5",
@@ -166,10 +190,9 @@
         "sti-5",
         "surat sti 5",
         "link sti 5",
-        "download sti 5",
-        "syarat skripsi sti 5"
+        "download sti 5"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-5:\n\n[Download STI-5](hhttps://docs.google.com/document/d/1FdXYZFTpIr_lH-BpY226cmUuElf06Khv/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true))"
+      "response": "Berikut adalah link untuk mengunduh form STI-5:\n\n[Download STI-5](https://docs.google.com/document/d/1FdXYZFTpIr_lH-BpY226cmUuElf06Khv/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_6",
@@ -179,8 +202,7 @@
         "sti-6",
         "surat sti 6",
         "link sti 6",
-        "download sti 6",
-        "syarat skripsi sti 6"
+        "download sti 6"
       ],
       "response": "Berikut adalah link untuk mengunduh form STI-6: https//docs.google.com/document/d/1FmX5MAZ6Patx7k4qEuTwNoe_cG36lFtc/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true"
     },
@@ -192,8 +214,7 @@
         "sti-7",
         "surat sti 7",
         "link sti 7",
-        "download sti 7",
-        "syarat skripsi sti 7"
+        "download sti 7"
       ],
       "response": "Berikut adalah link untuk mengunduh form STI-7: ttps://docs.google.com/document/d/1Ft4eO6L1gjcKeJLMFcxd4Xi5SByKnstV/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true"
     },
@@ -205,10 +226,9 @@
         "sti-8",
         "surat sti 8",
         "link sti 8",
-        "download sti 8",
-        "syarat skripsi sti 8"
+        "download sti 8"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-8:\n\n[Download STI-8](hhttps://docs.google.com/document/d/1G6XxM5sgw-cstpmOHwiYnrMrGTXrnYav/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-8:\n\n[Download STI-8](https://docs.google.com/document/d/1G6XxM5sgw-cstpmOHwiYnrMrGTXrnYav/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_9",
@@ -218,10 +238,9 @@
         "sti-9",
         "surat sti 9",
         "link sti 9",
-        "download sti 9",
-        "syarat skripsi sti 9"
+        "download sti 9"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-9:\n\n[Download STI-9](hhttps://docs.google.com/document/d/1R_X-0qahf2VfqBiBD9_wlqm8Q4XUfK95/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-9:\n\n[Download STI-9](https://docs.google.com/document/d/1R_X-0qahf2VfqBiBD9_wlqm8Q4XUfK95/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_10",
@@ -231,10 +250,9 @@
         "sti-10",
         "surat sti 10",
         "link sti 10",
-        "download sti 10",
-        "syarat skripsi sti 10"
+        "download sti 10"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-10:\n\n[Download STI-10](hhttps://docs.google.com/document/d/1LpCG0J7DvM-IqlvfmLWaUDz_JkR5zWOs/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-10:\n\n[Download STI-10](https://docs.google.com/document/d/1LpCG0J7DvM-IqlvfmLWaUDz_JkR5zWOs/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_11",
@@ -244,10 +262,9 @@
         "sti-11",
         "surat sti 11",
         "link sti 11",
-        "download sti 11",
-        "syarat skripsi sti 11"
+        "download sti 11"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-11:\n\n[Download STI-11](hhttps://docs.google.com/document/d/1G4my8ffkV_gVRn3ULxay9Gq2F4SSyC9_/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-11:\n\n[Download STI-11](https://docs.google.com/document/d/1G4my8ffkV_gVRn3ULxay9Gq2F4SSyC9_/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_12",
@@ -257,10 +274,9 @@
         "sti-12",
         "surat sti 12",
         "link sti 12",
-        "download sti 12",
-        "syarat skripsi sti 12"
+        "download sti 12"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-12:\n\n[Download STI-12](hhttps://docs.google.com/document/d/1RtEWt_kmBo-fFSl8kRL-V_9RUdzv-Rld/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-12:\n\n[Download STI-12](https://docs.google.com/document/d/1RtEWt_kmBo-fFSl8kRL-V_9RUdzv-Rld/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_13",
@@ -270,10 +286,9 @@
         "sti-13",
         "surat sti 13",
         "link sti 13",
-        "download sti 13",
-        "syarat skripsi sti 13"
+        "download sti 13"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-13:\n\n[Download STI-13](hhttps://docs.google.com/document/d/1GlSwFpEmq9-CBX4WY7XC0asq1uG37H2s/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-13:\n\n[Download STI-13](https://docs.google.com/document/d/1GlSwFpEmq9-CBX4WY7XC0asq1uG37H2s/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_14",
@@ -283,10 +298,9 @@
         "sti-14",
         "surat sti 14",
         "link sti 14",
-        "download sti 14",
-        "syarat skripsi sti 14"
+        "download sti 14"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-14:\n\n[Download STI-14](hhttps://docs.google.com/document/d/1FgaWfHeBfyG40IVT6Jq_rqYfjgr8mXgG/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-14:\n\n[Download STI-14](https://docs.google.com/document/d/1FgaWfHeBfyG40IVT6Jq_rqYfjgr8mXgG/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_15",
@@ -296,10 +310,9 @@
         "sti-15",
         "surat sti 15",
         "link sti 15",
-        "download sti 15",
-        "syarat skripsi sti 15"
+        "download sti 15"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-15:\n\n[Download STI-15](hhttps://docs.google.com/document/d/1FSAVuNP9bubPYjXtBbPG95ge3bOt1kDf/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-15:\n\n[Download STI-15](https://docs.google.com/document/d/1FSAVuNP9bubPYjXtBbPG95ge3bOt1kDf/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_16",
@@ -309,10 +322,9 @@
         "sti-16",
         "surat sti 16",
         "link sti 16",
-        "download sti 16",
-        "syarat skripsi sti 16"
+        "download sti 16"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-16:\n\n[Download STI-16](hhttps://docs.google.com/document/d/1G5wM-i_9NECvOeUdn2j1dGF-YAHUGwOb/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-16:\n\n[Download STI-16](https://docs.google.com/document/d/1G5wM-i_9NECvOeUdn2j1dGF-YAHUGwOb/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_17",
@@ -322,10 +334,9 @@
         "sti-17",
         "surat sti 17",
         "link sti 17",
-        "download sti 17",
-        "syarat skripsi sti 17"
+        "download sti 17"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-17:\n\n[Download STI-17](hhttps://docs.google.com/document/d/1iOMVYHKYjx9L8kXaA75dylaim62oDMk9/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-17:\n\n[Download STI-17](https://docs.google.com/document/d/1iOMVYHKYjx9L8kXaA75dylaim62oDMk9/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_18",
@@ -335,10 +346,9 @@
         "sti-18",
         "surat sti 18",
         "link sti 18",
-        "download sti 18",
-        "syarat skripsi sti 18"
+        "download sti 18"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-18:\n\n[Download STI-18](hhttps://docs.google.com/document/d/1SOZHCLm6nk2pYjT3dEXyWabHKnQTJrQ1/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-18:\n\n[Download STI-18](https://docs.google.com/document/d/1SOZHCLm6nk2pYjT3dEXyWabHKnQTJrQ1/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_19",
@@ -348,10 +358,9 @@
         "sti-19",
         "surat sti 19",
         "link sti 19",
-        "download sti 19",
-        "syarat skripsi sti 19"
+        "download sti 19"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-19:\n\n[Download STI-19](hhttps://docs.google.com/document/d/1SVlXE-sBStIIUWBHpNJW2u9uduzqX_8v/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-19:\n\n[Download STI-19](https://docs.google.com/document/d/1SVlXE-sBStIIUWBHpNJW2u9uduzqX_8v/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_20",
@@ -361,10 +370,9 @@
         "sti-20",
         "surat sti 20",
         "link sti 20",
-        "download sti 20",
-        "syarat skripsi sti 20"
+        "download sti 20"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-20:\n\n[Download STI-20](hhttps://docs.google.com/document/d/1aGqZ4JZd0MnQClaSXGZpVlxahztLXbS3/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-20:\n\n[Download STI-20](https://docs.google.com/document/d/1aGqZ4JZd0MnQClaSXGZpVlxahztLXbS3/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_21",
@@ -374,10 +382,9 @@
         "sti-21",
         "surat sti 21",
         "link sti 21",
-        "download sti 21",
-        "syarat skripsi sti 21"
+        "download sti 21"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-21:\n\n[Download STI-21](hhttps://docs.google.com/document/d/1T1uuPoelfGlGdC-IBV2ipDsK4Xcnv22t/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-21:\n\n[Download STI-21](https://docs.google.com/document/d/1T1uuPoelfGlGdC-IBV2ipDsK4Xcnv22t/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_22",
@@ -387,10 +394,9 @@
         "sti-22",
         "surat sti 22",
         "link sti 22",
-        "download sti 22",
-        "syarat skripsi sti 22"
+        "download sti 22"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-22:\n\n[Download STI-22](hhttps://docs.google.com/document/d/1FreNu-dxZqhdEDaA412nBJbghqhwyd9U/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-22:\n\n[Download STI-22](https://docs.google.com/document/d/1FreNu-dxZqhdEDaA412nBJbghqhwyd9U/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_23",
@@ -400,10 +406,9 @@
         "sti-23",
         "surat sti 23",
         "link sti 23",
-        "download sti 23",
-        "syarat skripsi sti 23"
+        "download sti 23"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-23:\n\n[Download STI-23](hhttps://docs.google.com/document/d/1M5osbjbvH3QQaeHH2R93pitdIJCGZ2Qd/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-23:\n\n[Download STI-23](https://docs.google.com/document/d/1M5osbjbvH3QQaeHH2R93pitdIJCGZ2Qd/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_24",
@@ -413,10 +418,9 @@
         "sti-24",
         "surat sti 24",
         "link sti 24",
-        "download sti 24",
-        "syarat skripsi sti 24"
+        "download sti 24"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-24:\n\n[Download STI-24](hhttps://docs.google.com/document/d/1ebXl2kfqX1LUAtqxEmKidpwjrrfjgdYr/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-24:\n\n[Download STI-24](https://docs.google.com/document/d/1ebXl2kfqX1LUAtqxEmKidpwjrrfjgdYr/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_25",
@@ -426,10 +430,9 @@
         "sti-25",
         "surat sti 25",
         "link sti 25",
-        "download sti 25",
-        "syarat skripsi sti 25"
+        "download sti 25"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-25:\n\n[Download STI-25](hhttps://docs.google.com/document/d/1T5AHSJMr3_lHGAQd_LEdUrEbxVNZ-bZx/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-25:\n\n[Download STI-25](https://docs.google.com/document/d/1T5AHSJMr3_lHGAQd_LEdUrEbxVNZ-bZx/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_26",
@@ -439,10 +442,9 @@
         "sti-26",
         "surat sti 26",
         "link sti 26",
-        "download sti 26",
-        "syarat skripsi sti 26"
+        "download sti 26"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-26:\n\n[Download STI-26](hhttps://docs.google.com/document/d/1EIklvbP8bvsg9G-BK303KzoUF7A582TQ/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-26:\n\n[Download STI-26](https://docs.google.com/document/d/1EIklvbP8bvsg9G-BK303KzoUF7A582TQ/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_27",
@@ -452,10 +454,9 @@
         "sti-27",
         "surat sti 27",
         "link sti 27",
-        "download sti 27",
-        "syarat skripsi sti 27"
+        "download sti 27"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-27:\n\n[Download STI-27](hhttps://docs.google.com/document/d/1TACnG0l53CSsZKiDChUEIQKDy05YCMBD/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-27:\n\n[Download STI-27](https://docs.google.com/document/d/1TACnG0l53CSsZKiDChUEIQKDy05YCMBD/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_28",
@@ -465,10 +466,9 @@
         "sti-28",
         "surat sti 28",
         "link sti 28",
-        "download sti 28",
-        "syarat skripsi sti 28"
+        "download sti 28"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-28:\n\n[Download STI-28](hhttps://docs.google.com/document/d/14-TXPVXVyJ_-hQ-6Yr_ZnOYj6cIYD9mQ/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-28:\n\n[Download STI-28](https://docs.google.com/document/d/14-TXPVXVyJ_-hQ-6Yr_ZnOYj6cIYD9mQ/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_29",
@@ -478,10 +478,9 @@
         "sti-29",
         "surat sti 29",
         "link sti 29",
-        "download sti 29",
-        "syarat skripsi sti 29"
+        "download sti 29"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-29:\n\n[Download STI-29](hhttps://docs.google.com/document/d/1X50V_hWkg03WWwag4c51Qz7hOeV9qUUB/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-29:\n\n[Download STI-29](https://docs.google.com/document/d/1X50V_hWkg03WWwag4c51Qz7hOeV9qUUB/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_30",
@@ -491,10 +490,9 @@
         "sti-30",
         "surat sti 30",
         "link sti 30",
-        "download sti 30",
-        "syarat skripsi sti 30"
+        "download sti 30"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-30:\n\n[Download STI-30](hhttps://docs.google.com/document/d/1a0oM87BPkpnX7w2oxC27UJdNLE7Deed5/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-30:\n\n[Download STI-30](https://docs.google.com/document/d/1a0oM87BPkpnX7w2oxC27UJdNLE7Deed5/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_31",
@@ -504,10 +502,9 @@
         "sti-31",
         "surat sti 31",
         "link sti 31",
-        "download sti 31",
-        "syarat skripsi sti 31"
+        "download sti 31"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-31:\n\n[Download STI-31](hhttps://docs.google.com/document/d/1bEhnZH8eMZ6jgCgB6XmY8yEe9MgC7kXT/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-31:\n\n[Download STI-31](https://docs.google.com/document/d/1bEhnZH8eMZ6jgCgB6XmY8yEe9MgC7kXT/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_32",
@@ -517,10 +514,9 @@
         "sti-32",
         "surat sti 32",
         "link sti 32",
-        "download sti 32",
-        "syarat skripsi sti 32"
+        "download sti 32"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-32:\n\n[Download STI-32](hhttps://docs.google.com/document/d/1FNzqDzyCSk6DptjWGSxuSMk2YXUgWk-1/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-32:\n\n[Download STI-32](https://docs.google.com/document/d/1FNzqDzyCSk6DptjWGSxuSMk2YXUgWk-1/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_33",
@@ -530,10 +526,9 @@
         "sti-33",
         "surat sti 33",
         "link sti 33",
-        "download sti 33",
-        "syarat skripsi sti 33"
+        "download sti 33"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-33:\n\n[Download STI-33](hhttps://docs.google.com/document/d/1m3PvxR4i_VY7jU4NTsLz_Qq5NjYddHhn/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-33:\n\n[Download STI-33](https://docs.google.com/document/d/1m3PvxR4i_VY7jU4NTsLz_Qq5NjYddHhn/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_34",
@@ -543,10 +538,9 @@
         "sti-34",
         "surat sti 34",
         "link sti 34",
-        "download sti 34",
-        "syarat skripsi sti 34"
+        "download sti 34"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-34:\n\n[Download STI-34](hhttps://docs.google.com/document/d/117HQsl8hG5UVKr2wr3K3X_tUq_GCPNkG/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-34:\n\n[Download STI-34](https://docs.google.com/document/d/117HQsl8hG5UVKr2wr3K3X_tUq_GCPNkG/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_sti_35",
@@ -556,10 +550,9 @@
         "sti-35",
         "surat sti 35",
         "link sti 35",
-        "download sti 35",
-        "syarat skripsi sti 35"
+        "download sti 35"
       ],
-      "response": "Berikut adalah link untuk mengunduh form STI-35:\n\n[Download STI-35](hhttps://docs.google.com/document/d/1MtfWTNIEywfcMmgWr9buvy_JV6einAgq/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form STI-35:\n\n[Download STI-35](https://docs.google.com/document/d/1MtfWTNIEywfcMmgWr9buvy_JV6einAgq/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_kpti_1",
@@ -572,7 +565,7 @@
         "download kpti 1",
         "syarat kp kpti 1"
       ],
-      "response": "Berikut adalah link untuk mengunduh form KPTI-1:\n\n[Download KPTI-1](hhttps://docs.google.com/document/d/1EpcA-mOSdSdcozHgGc7ATGfAPXN-lFAg/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true))"
+      "response": "Berikut adalah link untuk mengunduh form KPTI-1:\n\n[Download KPTI-1](https://docs.google.com/document/d/1EpcA-mOSdSdcozHgGc7ATGfAPXN-lFAg/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_kpti_2",
@@ -585,7 +578,7 @@
         "download kpti 2",
         "syarat kp kpti 2"
       ],
-      "response": "Berikut adalah link untuk mengunduh form KPTI-2:\n\n[Download KPTI-2](hhttps://docs.google.com/document/d/1FIJcxS9uvHbsWxIOeTpWLpxhffpLrQ-r/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true))"
+      "response": "Berikut adalah link untuk mengunduh form KPTI-2:\n\n[Download KPTI-2](https://docs.google.com/document/d/1FIJcxS9uvHbsWxIOeTpWLpxhffpLrQ-r/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_kpti_3",
@@ -598,7 +591,7 @@
         "download kpti 3",
         "syarat kp kpti 3"
       ],
-      "response": "Berikut adalah link untuk mengunduh form KPTI-3:\n\n[Download KPTI-3](hhttps://docs.google.com/document/d/1Exi939SY3lCyiq8JCKEAM8gEnJtMN1VG/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form KPTI-3:\n\n[Download KPTI-3](https://docs.google.com/document/d/1Exi939SY3lCyiq8JCKEAM8gEnJtMN1VG/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_kpti_4",
@@ -611,7 +604,7 @@
         "download kpti 4",
         "syarat kp kpti 4"
       ],
-      "response": "Berikut adalah link untuk mengunduh form KPTI-4:\n\n[Download KPTI-4](hhttps://docs.google.com/document/d/1EoiZ196VH1Ax1SkvLt2U4Aq2-ZEJ8VRa/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form KPTI-4:\n\n[Download KPTI-4](https://docs.google.com/document/d/1EoiZ196VH1Ax1SkvLt2U4Aq2-ZEJ8VRa/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_kpti_5",
@@ -624,7 +617,7 @@
         "download kpti 5",
         "syarat kp kpti 5"
       ],
-      "response": "Berikut adalah link untuk mengunduh form KPTI-5:\n\n[Download KPTI-5](hhttps://docs.google.com/document/d/1F4gh9FvYinCgwMn1gXtjr9rZgd1a_kJU/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form KPTI-5:\n\n[Download KPTI-5](https://docs.google.com/document/d/1F4gh9FvYinCgwMn1gXtjr9rZgd1a_kJU/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_kpti_6",
@@ -637,7 +630,7 @@
         "download kpti 6",
         "syarat kp kpti 6"
       ],
-      "response": "Berikut adalah link untuk mengunduh form KPTI-6:\n\n[Download KPTI-6](hhttps://docs.google.com/document/d/1ElJVXIQJzMW2Y_zFGl4NN2SDP7eoPUdH/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form KPTI-6:\n\n[Download KPTI-6](https://docs.google.com/document/d/1ElJVXIQJzMW2Y_zFGl4NN2SDP7eoPUdH/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_kpti_7",
@@ -650,7 +643,7 @@
         "download kpti 7",
         "syarat kp kpti 7"
       ],
-      "response": "Berikut adalah link untuk mengunduh form KPTI-7:\n\n[Download KPTI-7](hhttps://docs.google.com/document/d/1FCMzACSRDqct7A9rBjDpTn_SdQSZI-jv/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form KPTI-7:\n\n[Download KPTI-7](https://docs.google.com/document/d/1FCMzACSRDqct7A9rBjDpTn_SdQSZI-jv/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_kpti_8",
@@ -663,7 +656,7 @@
         "download kpti 8",
         "syarat kp kpti 8"
       ],
-      "response": "Berikut adalah link untuk mengunduh form KPTI-8:\n\n[Download KPTI-8](hhttps://docs.google.com/document/d/1lSSabhn-iZNSeD9E1lqOa48Ev0-az4XB/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form KPTI-8:\n\n[Download KPTI-8](https://docs.google.com/document/d/1lSSabhn-iZNSeD9E1lqOa48Ev0-az4XB/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_kpti_9",
@@ -676,7 +669,7 @@
         "download kpti 9",
         "syarat kp kpti 9"
       ],
-      "response": "Berikut adalah link untuk mengunduh form KPTI-9:\n\n[Download KPTI-9](hhttps://docs.google.com/document/d/1FAr8--kPv8P-q0jo9sPZ72Bs_B4hJRAB/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form KPTI-9:\n\n[Download KPTI-9](https://docs.google.com/document/d/1FAr8--kPv8P-q0jo9sPZ72Bs_B4hJRAB/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_kpti_10",
@@ -689,7 +682,7 @@
         "download kpti 10",
         "syarat kp kpti 10"
       ],
-      "response": "Berikut adalah link untuk mengunduh form KPTI-10:\n\n[Download KPTI-10](hhttps://docs.google.com/document/d/1FA50J7iYhI-4vnoTizW85rj7PLXoM707/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form KPTI-10:\n\n[Download KPTI-10](https://docs.google.com/document/d/1FA50J7iYhI-4vnoTizW85rj7PLXoM707/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_kpti_11",
@@ -702,7 +695,7 @@
         "download kpti 11",
         "syarat kp kpti 11"
       ],
-      "response": "Berikut adalah link untuk mengunduh form KPTI-11:\n\n[Download KPTI-11](hhttps://docs.google.com/document/d/1a7xA2i0d-Mq3JBYHvROPEKfyATRqrmt9/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form KPTI-11:\n\n[Download KPTI-11](https://docs.google.com/document/d/1a7xA2i0d-Mq3JBYHvROPEKfyATRqrmt9/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_surat_kpti_12",
@@ -715,7 +708,7 @@
         "download kpti 12",
         "syarat kp kpti 12"
       ],
-      "response": "Berikut adalah link untuk mengunduh form KPTI-12:\n\n[Download KPTI-12](hhttps://docs.google.com/document/d/1-nYTYSAr5c3VJZFXSEj3sn_bXXb0R3-8/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
+      "response": "Berikut adalah link untuk mengunduh form KPTI-12:\n\n[Download KPTI-12](https://docs.google.com/document/d/1-nYTYSAr5c3VJZFXSEj3sn_bXXb0R3-8/edit?usp=drive_link&ouid=116841305558879535225&rtpof=true&sd=true)"
     },
     {
       "intent": "info_format_poster_skripsi",
