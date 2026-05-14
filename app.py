@@ -344,7 +344,8 @@ class MasterRuleBasedChatbot:
 
         # 2. Informasi Umum
         # Deteksi khusus KP MBKM — hanya jika user eksplisit menyebut "mbkm" atau "merdeka belajar"
-        is_mbkm_query = any(kw in expanded_input for kw in ["mbkm", "merdeka belajar"])
+        # Gunakan cleaned_input (sebelum ekspansi) agar tidak false positive
+        is_mbkm_query = any(kw in cleaned_input for kw in ["mbkm", "merdeka belajar", "merdeka belajar kampus merdeka"])
 
         # Deteksi khusus untuk "visi misi" atau "visi dan misi"
         if any(keyword in expanded_input for keyword in ["visi misi", "visi dan misi", "visi & misi"]):
@@ -414,7 +415,11 @@ class MasterRuleBasedChatbot:
         # 3. Dosen
         best_dosen = self.fuzzy_search_intent(expanded_input, self.dosen_data, threshold=80)
         if best_dosen:
-            return f"👨‍🏫 **Informasi Dosen:**\n\n{best_dosen['response']}"
+            # Pastikan tiap field dosen tampil di baris terpisah (single \n → double \n untuk markdown)
+            raw = best_dosen['response']
+            # Hindari double-spacing jika sudah ada \n\n
+            dosen_response = re.sub(r'\n(?!\n)', '\n\n', raw)
+            return f"👨‍🏫 **Informasi Dosen:**\n\n{dosen_response}"
 
         # 4. Kalender Akademik
         # Prioritaskan intent jadwal_wisuda_semua untuk query umum tentang wisuda
