@@ -343,6 +343,9 @@ class MasterRuleBasedChatbot:
             return self.get_semester_info(sem_match.group(1))
 
         # 2. Informasi Umum
+        # Deteksi khusus KP MBKM — hanya jika user eksplisit menyebut "mbkm" atau "merdeka belajar"
+        is_mbkm_query = any(kw in expanded_input for kw in ["mbkm", "merdeka belajar"])
+
         # Deteksi khusus untuk "visi misi" atau "visi dan misi"
         if any(keyword in expanded_input for keyword in ["visi misi", "visi dan misi", "visi & misi"]):
             visi_item = None
@@ -375,8 +378,7 @@ class MasterRuleBasedChatbot:
             # User hanya mengetik "kpti" saja tanpa konteks prosedur - tampilkan overview
             for item in self.informasi_umum_data:
                 if item.get("intent") == "info_overview_kpti":
-                    return f"📋 **Daftar Form KPTI:**\n\n{item['response']}"
-        
+                    return f"📋 **Daftar Form KPTI:**\n\n{item['response']}"        
         # Deteksi khusus untuk STI (HANYA jika user eksplisit mengetik "sti")
         # Pastikan bukan bagian dari kata lain (seperti "prestasi", "investasi")
         sti_specific_match = re.search(r'\bsti[-\s]?(\d+)\b', cleaned_input)
@@ -394,11 +396,17 @@ class MasterRuleBasedChatbot:
                 if item.get("intent") == "info_overview_sti":
                     return f"📋 **Daftar Form STI:**\n\n{item['response']}"
         
+        # KP MBKM — hanya tampilkan jika user eksplisit menyebut "mbkm" atau "merdeka belajar"
+        if is_mbkm_query:
+            for item in self.informasi_umum_data:
+                if item.get("intent") == "info_prosedur_kp_mbkm":
+                    return f"ℹ️ **Informasi:**\n\n{item['response']}"
+
         best_info = self.fuzzy_search_intent(
             expanded_input,
             self.informasi_umum_data,
             threshold=80,
-            exclude_prefixes=["info_surat_kpti_", "info_surat_sti_", "info_overview_kpti", "info_overview_sti"]
+            exclude_prefixes=["info_surat_kpti_", "info_surat_sti_", "info_overview_kpti", "info_overview_sti", "info_prosedur_kp_mbkm"]
         )
         if best_info:
             return f"ℹ️ **Informasi:**\n\n{best_info['response']}"
