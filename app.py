@@ -267,29 +267,14 @@ class MasterRuleBasedChatbot:
     # HELPER: FORMAT KONTEN
     # ------------------------------------------
     def format_konten(self, konten):
-        """Format konten untuk ditampilkan dengan line break rapat & indentasi tetap terjaga.
-
-        - Pakai '  \\n' (markdown hard line break) supaya antar poin tidak ada paragraph gap.
-        - Pakai non-breaking space (\\u00a0) untuk menjaga indentasi sub-poin
-          (markdown akan collapse leading spasi biasa).
-        """
+        """Format konten: tiap poin di baris baru rapat tanpa gap paragraph."""
         if isinstance(konten, list):
             lines = []
-            for raw in konten:
-                if not raw or not raw.strip():
+            for item in konten:
+                item = item.strip()
+                if not item:
                     continue
-                stripped = raw.lstrip()
-                indent_chars = len(raw) - len(stripped)
-                text = stripped.rstrip()
-
-                # Sub-poin (data sumber pakai 3 spasi per level)
-                if indent_chars >= 2:
-                    level = max(1, indent_chars // 3)
-                    text = ('\u00a0' * 4 * level) + text
-
-                lines.append(text)
-
-            # Hard line break markdown: 2 spasi + newline
+                lines.append(item)
             return '  \n'.join(lines)
         return str(konten)
 
