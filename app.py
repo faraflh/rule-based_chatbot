@@ -267,26 +267,30 @@ class MasterRuleBasedChatbot:
     # HELPER: FORMAT KONTEN
     # ------------------------------------------
     def format_konten(self, konten):
-        """Format konten untuk ditampilkan dengan proper line breaks dan bullet points"""
+        """Format konten untuk ditampilkan dengan line break rapat & indentasi tetap terjaga.
+
+        - Pakai '  \\n' (markdown hard line break) supaya antar poin tidak ada paragraph gap.
+        - Pakai non-breaking space (\\u00a0) untuk menjaga indentasi sub-poin
+          (markdown akan collapse leading spasi biasa).
+        """
         if isinstance(konten, list):
-            formatted = []
-            for item in konten:
-                item = item.strip()
-                if not item:
+            lines = []
+            for raw in konten:
+                if not raw or not raw.strip():
                     continue
-                
-                # Deteksi item yang sudah punya numbering/bullet (A., 1), a), dll)
-                if re.match(r'^[A-Z]\.|^\d+\)|^[a-z]\)|^-|^•', item):
-                    formatted.append(item)
-                # Item dengan indentasi (sub-poin)
-                elif item.startswith('   '):
-                    formatted.append(item)
-                # Item biasa tanpa bullet
-                else:
-                    formatted.append(item)
-            
-            # Gabungkan dengan double newline untuk spacing
-            return '\n\n'.join(formatted)
+                stripped = raw.lstrip()
+                indent_chars = len(raw) - len(stripped)
+                text = stripped.rstrip()
+
+                # Sub-poin (data sumber pakai 3 spasi per level)
+                if indent_chars >= 2:
+                    level = max(1, indent_chars // 3)
+                    text = ('\u00a0' * 4 * level) + text
+
+                lines.append(text)
+
+            # Hard line break markdown: 2 spasi + newline
+            return '  \n'.join(lines)
         return str(konten)
 
     # ------------------------------------------

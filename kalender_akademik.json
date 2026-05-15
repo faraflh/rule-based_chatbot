@@ -479,7 +479,7 @@
       "jadwal daftar wisuda",
       "registrasi wisuda januari"
     ],
-    "response": "Pendaftaran Wisuda Januari dilaksanakan pada 26 Desember 2026."
+    "response": "Pendaftaran Wisuda Januari dilaksanakan pada Januari 2026 sampai Desember 2026."
   },
   {
     "intent": "wisuda_ke_125",
