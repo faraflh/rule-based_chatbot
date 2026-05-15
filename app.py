@@ -269,13 +269,22 @@ class MasterRuleBasedChatbot:
     def format_konten(self, konten):
         """Format konten: tiap poin di baris baru rapat tanpa gap paragraph."""
         if isinstance(konten, list):
-            lines = []
+            formatted = []
             for item in konten:
                 item = item.strip()
                 if not item:
                     continue
-                lines.append(item)
-            return '  \n'.join(lines)
+                
+                # Deteksi item yang sudah punya numbering/bullet (A., 1), a), dll)
+                if re.match(r'^[A-Z]\.|^\d+\)|^[a-z]\)|^-|^•', item):
+                    formatted.append(item)
+                # Item dengan indentasi (sub-poin)
+                elif item.startswith('   '):
+                    formatted.append(item)
+                # Item biasa tanpa bullet
+                else:
+                    formatted.append(item)
+            return '  \n'.join(formatted)
         return str(konten)
 
     # ------------------------------------------
