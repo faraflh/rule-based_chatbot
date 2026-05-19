@@ -763,10 +763,7 @@
     {
       "intent": "info_sejarah_teknik_informatika",
       "keywords": [
-        "sejarah",
-        "sejarah teknik informatika",
-        "sejarah prodi",
-        "sejarah program studi",
+        "sejarah",,
         "kapan didirikan",
         "kapan berdiri",
         "tahun berdiri",
@@ -783,9 +780,6 @@
       "intent": "info_visi_prodi",
       "keywords": [
         "visi",
-        "visi prodi",
-        "visi program studi",
-        "visi teknik informatika",
         "visi ti",
         "apa visi"
       ],
@@ -795,9 +789,6 @@
       "intent": "info_misi_prodi",
       "keywords": [
         "misi",
-        "misi prodi",
-        "misi program studi",
-        "misi teknik informatika",
         "misi ti",
         "apa misi"
       ],
