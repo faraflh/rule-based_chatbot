@@ -66,13 +66,13 @@
     {
       "intent": "info_biaya_kuliah_teknik_informatika",
       "keywords": [
-        "biaya kuliah teknik informatika",
-        "ukt teknik informatika",
-        "ukt informatika",
-        "spp teknik informatika",
-        "biaya s1 teknik informatika",
-        "uang kuliah teknik informatika",
-        "biaya pendaftaran teknik informatika"
+        "biaya kuliah",
+        "ukt",
+        "biaya ukt",
+        "spp",
+        "biaya s1",
+        "uang kuliah",
+        "biaya pendaftaran"
       ],
       "response": "Berikut adalah rincian biaya kuliah untuk jenjang S1 Program Studi Teknik Informatika:\n\n**Biaya Kuliah Tunggal (BKT)**: Rp 9.797.000\n\n**Uang Kuliah Tunggal (UKT) per semester**:\n- Kelompok 1: Rp 500.000\n- Kelompok 2: Rp 1.000.000\n- Kelompok 3: Rp 2.050.000\n- Kelompok 4: Rp 3.175.000\n- Kelompok 5: Rp 4.550.000\n- Kelompok 6: Rp 5.550.000"
     },
