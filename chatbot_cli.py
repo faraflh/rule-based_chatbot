@@ -174,6 +174,55 @@ class MasterRuleBasedChatbot:
     # ------------------------------------------
     # FUZZY SEARCH HELPERS
     # ------------------------------------------
+    def _meaningful_tokens(self, text):
+        stopwords = {
+            "aku", "anda", "atau", "bagaimana", "bagi", "dan", "dengan", "di",
+            "gimana", "ini", "itu", "ke", "mau", "nya", "untuk", "yang",
+        }
+        tokens = re.findall(r"[a-z0-9]+", str(text).lower())
+        return [token for token in tokens if len(token) > 1 and token not in stopwords]
+
+    def _keyword_match_score(self, user_query, keyword):
+        """
+        Gabungkan fuzzy score dengan jumlah token yang benar-benar cocok.
+        Ini membuat keyword multi-kata lebih diprioritaskan daripada keyword generik satu kata.
+        """
+        keyword = str(keyword)
+        fuzzy_score = fuzz.token_set_ratio(user_query, keyword)
+
+        query_tokens = set(self._meaningful_tokens(user_query))
+        keyword_tokens = set(self._meaningful_tokens(keyword))
+        if not keyword_tokens:
+            return fuzzy_score
+
+        matched_tokens = keyword_tokens & query_tokens
+        overlap_score = (len(matched_tokens) / len(keyword_tokens)) * 100
+        combined_score = (fuzzy_score * 0.55) + (overlap_score * 0.45)
+
+        if keyword.lower() in user_query.lower():
+            combined_score += 12
+
+        if len(keyword_tokens) >= 2:
+            combined_score += min(len(keyword_tokens), 4) * 3
+        elif len(query_tokens) >= 3:
+            combined_score -= 25
+
+        min_required_tokens = min(2, len(keyword_tokens))
+        if len(query_tokens) >= 2 and len(matched_tokens) < min_required_tokens:
+            combined_score -= 30
+
+        return max(0, min(100, combined_score))
+
+    def _best_keyword_match(self, user_query, keywords):
+        best_keyword = None
+        highest_score = 0
+        for keyword in keywords:
+            score = self._keyword_match_score(user_query, keyword)
+            if score > highest_score:
+                highest_score = score
+                best_keyword = keyword
+        return best_keyword, highest_score
+
     def fuzzy_search_intent(self, user_query, data_list, threshold=80):
         best_item = None
         highest_score = 0
@@ -181,9 +230,9 @@ class MasterRuleBasedChatbot:
             keywords = item.get("keywords", []) or item.get("keyword", [])
             if not keywords:
                 continue
-            match = process.extractOne(user_query, keywords, scorer=fuzz.token_set_ratio)
-            if match and match[1] > highest_score:
-                highest_score = match[1]
+            _, score = self._best_keyword_match(user_query, keywords)
+            if score > highest_score:
+                highest_score = score
                 best_item = item
         return best_item if highest_score >= threshold else None
 
@@ -211,13 +260,27 @@ class MasterRuleBasedChatbot:
             targets = [t for t in targets if t]
             if not targets:
                 continue
-            match = process.extractOne(user_query, targets, scorer=fuzz.token_set_ratio)
-            if match and match[1] >= threshold:
-                scored.append((match[1], item))
+            _, score = self._best_keyword_match(user_query, targets)
+            if score >= threshold:
+                scored.append((score, item))
         if not scored:
             return []
         scored.sort(key=lambda x: x[0], reverse=True)
         return [item for _, item in scored[:limit]]
+
+    def format_sop_response(self, user_query, threshold=70, limit=2):
+        sop_results = []
+        sop_skripsi_hits = self.fuzzy_search_sop(user_query, self.sop_skripsi_data, threshold=threshold, limit=limit)
+        sop_jte_hits = self.fuzzy_search_sop(user_query, self.sop_jte_data, threshold=threshold, limit=limit)
+        for chunk in sop_skripsi_hits:
+            konten = self.format_konten(chunk.get('konten', ''))
+            sop_results.append(f"ðŸ“˜ SOP Skripsi â€” {chunk.get('full_context', 'Info')}\n\n{konten}")
+        for chunk in sop_jte_hits:
+            konten = self.format_konten(chunk.get('konten', ''))
+            sop_results.append(f"ðŸ“— SOP JTE â€” {chunk.get('full_context', 'Info')}\n\n{konten}")
+        if sop_results:
+            return "\n\n---\n\n".join(sop_results)
+        return None
 
     def fuzzy_search_curriculum(self, user_query):
         if not self.course_names:
@@ -281,6 +344,7 @@ class MasterRuleBasedChatbot:
         abbreviations = {
             r'\bsempro\b': 'seminar proposal',
             r'\bsemhas\b': 'seminar hasil sidang skripsi ujian skripsi',
+            r'\bsidang skripsi\b': 'ujian skripsi sidang skripsi',
             r'\bkp\b': 'kerja praktik kerja praktek',
             r'\bta\b': 'tugas akhir skripsi',
             r'\buts\b': 'ujian tengah semester',
@@ -323,6 +387,34 @@ class MasterRuleBasedChatbot:
         sem_match = re.search(r"(?:sem|semester)\s*(\d+)", expanded_input)
         if sem_match:
             return self.get_semester_info(sem_match.group(1))
+
+        # Query ujian semester harus masuk kalender, bukan intent umum "ujian seleksi".
+        is_semester_exam_query = (
+            re.search(r"\b(uts|uas)\b", cleaned_input)
+            or "ujian tengah semester" in expanded_input
+            or "ujian akhir semester" in expanded_input
+        )
+        if is_semester_exam_query:
+            best_kalender = self.fuzzy_search_intent(expanded_input, self.kalender_data, threshold=70)
+            if best_kalender:
+                ta = best_kalender.get("tahun_ajaran", "")
+                header = f"ðŸ“… Informasi Akademik (TA {ta}):" if ta else "ðŸ“… Informasi Akademik:"
+                return f"{header}\n\n{best_kalender['response']}"
+
+        # Query prosedural perlu minimal 2 konteks: aksi + objek, agar tidak tertabrak keyword umum.
+        is_procedure_query = re.search(r"\b(syarat|prosedur|pendaftaran|daftar|alur|cara|ketentuan)\b", cleaned_input)
+        is_skripsi_event_query = any(
+            keyword in expanded_input
+            for keyword in ["seminar proposal", "ujian skripsi", "sidang skripsi"]
+        )
+        is_kp_event_query = any(
+            keyword in cleaned_input
+            for keyword in ["seminar kp", "seminar kerja praktek", "seminar kerja praktik", "kerja praktek", "kerja praktik"]
+        )
+        if is_procedure_query and (is_skripsi_event_query or is_kp_event_query):
+            sop_response = self.format_sop_response(expanded_input, threshold=65, limit=2)
+            if sop_response:
+                return sop_response
 
         # 2. Informasi Umum
         # Deteksi khusus untuk "visi misi" atau "visi dan misi"
@@ -415,17 +507,9 @@ class MasterRuleBasedChatbot:
                 return "\n\n---\n\n".join(responses)
 
         # 7. SOP Skripsi & SOP JTE
-        sop_results = []
-        sop_skripsi_hits = self.fuzzy_search_sop(expanded_input, self.sop_skripsi_data, threshold=70, limit=2)
-        sop_jte_hits = self.fuzzy_search_sop(expanded_input, self.sop_jte_data, threshold=70, limit=2)
-        for chunk in sop_skripsi_hits:
-            konten = self.format_konten(chunk.get('konten', ''))
-            sop_results.append(f"📘 SOP Skripsi — {chunk.get('full_context', 'Info')}\n\n{konten}")
-        for chunk in sop_jte_hits:
-            konten = self.format_konten(chunk.get('konten', ''))
-            sop_results.append(f"📗 SOP JTE — {chunk.get('full_context', 'Info')}\n\n{konten}")
-        if sop_results:
-            return "\n\n---\n\n".join(sop_results)
+        sop_response = self.format_sop_response(expanded_input, threshold=70, limit=2)
+        if sop_response:
+            return sop_response
 
         # 8. Kurikulum Matkul
         fuzzy_kurikulum = self.fuzzy_search_curriculum(expanded_input)
